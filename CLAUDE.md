@@ -52,10 +52,11 @@ Formato para cada entrada nueva:
 
 Ya resueltas: de qué trata el proyecto, stack técnico, cómo correrlo y cómo testearlo (ver secciones de arriba).
 
+Ya resueltas también: estructura de carpetas (`src/data` para datos y cache TMDB, `src/lib` para utilidades y contexto, `src/components` para UI, `src/types` para tipos), y datos de Avengers: Doomsday (2026) y Avengers: Secret Wars (2027) ya cargados en `src/data/timeline.ts` dentro de la Fase 6 "DOOM".
+
 Todavía sin definir:
 
-- Estructura de carpetas detallada dentro de `src/` (a definir en la Fase 1-3 del plan, cuando se creen los datos y componentes).
-- Datos finales de Avengers: Doomsday (2026) y Avengers: Secret Wars (2027), pendientes de investigar y confirmar antes de cargarlos al catálogo.
+- Nada pendiente de fase conocido a día de hoy (2026-07-16). Fase 1 (modelo de datos), Fase 2 (integración TMDB) y Fase 3 (UI: timeline vertical, nav por fase, filtros, toggle de idioma) ya están implementadas y verificadas en navegador.
 
 ## Convenciones heredadas
 
