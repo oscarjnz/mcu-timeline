@@ -21,7 +21,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "captain-america-first-avenger",
     titleEn: "Captain America: The First Avenger",
-    titleEs: "Capitán América: El Primer Vengador",
+    titleEs: "Capitán América: El Primer Avenger",
     type: "movie",
     phase: 1,
     order: 2,
@@ -181,9 +181,10 @@ export const timeline: TimelineEntry[] = [
     phase: 1,
     order: 12,
     dateLabelEn: "2011 (retconned)",
-    dateLabelEs: "2011 (retcon)",
+    dateLabelEs: "2011 (fecha corregida)",
     justificationEn: "Retconned into 2011; What If confirms the timeline of Fury's Big Week.",
-    justificationEs: "Reubicada en 2011 mediante retcon; What If confirma la línea de tiempo de la gran semana de Fury.",
+    justificationEs:
+      "Reubicada en 2011 mediante un retcon (cuando una historia posterior reescribe o corrige retroactivamente un dato de una historia anterior, en este caso su fecha); What If...? confirma la línea de tiempo de la gran semana de Fury.",
     tmdbSearchTitle: "The Incredible Hulk",
     tmdbMediaType: "movie",
   },
@@ -200,13 +201,13 @@ export const timeline: TimelineEntry[] = [
       "Deals with the aftermath of Iron Man 2 and The Incredible Hulk, with Coulson sending Stark to talk to General Ross as S.H.I.E.L.D.'s consultant.",
     justificationEs:
       "Trata las secuelas de Iron Man 2 y El Increíble Hulk, con Coulson enviando a Stark a hablar con el General Ross como consultor de S.H.I.E.L.D.",
-    tmdbSearchTitle: "The Consultant",
+    tmdbSearchTitle: "Marvel One-Shot: The Consultant",
     tmdbMediaType: "movie",
   },
   {
     id: "the-avengers",
     titleEn: "The Avengers",
-    titleEs: "Los Vengadores",
+    titleEs: "The Avengers",
     type: "movie",
     phase: 1,
     order: 14,
@@ -228,7 +229,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEn: "2012",
     dateLabelEs: "2012",
     justificationEn: "Deals with the aftermath of The Avengers.",
-    justificationEs: "Trata las secuelas de Los Vengadores.",
+    justificationEs: "Trata las secuelas de The Avengers.",
     tmdbSearchTitle: "Item 47",
     tmdbMediaType: "movie",
   },
@@ -261,7 +262,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEs: "2013",
     justificationEn: "Shortly after Iron Man 3, the Mandarin kidnaps Trevor Slattery.",
     justificationEs: "Poco después de Iron Man 3, el Mandarín secuestra a Trevor Slattery.",
-    tmdbSearchTitle: "All Hail the King",
+    tmdbSearchTitle: "Marvel One-Shot: All Hail the King",
     tmdbMediaType: "movie",
   },
   {
@@ -373,7 +374,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEs: "2014",
     justificationEn: "Set in 2014.",
     justificationEs: "Transcurre en 2014.",
-    tmdbSearchTitle: "Daredevil",
+    tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
     tmdbYear: 2015,
   },
@@ -476,7 +477,7 @@ export const timeline: TimelineEntry[] = [
       "Events from the first half are referenced in a newsreel in Agents of S.H.I.E.L.D. Season 3, Episodes 11-19.",
     justificationEs:
       "Los eventos de la primera mitad se referencian en un noticiero en Agents of S.H.I.E.L.D. Temporada 3, episodios 11-19.",
-    tmdbSearchTitle: "Daredevil",
+    tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
   },
   {
@@ -504,7 +505,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEs: "2015",
     justificationEn: "From here, Daredevil and Luke Cage interweave episode by episode.",
     justificationEs: "A partir de aquí, Daredevil y Luke Cage se entrelazan capítulo a capítulo.",
-    tmdbSearchTitle: "Daredevil",
+    tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
   },
   {
@@ -532,7 +533,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEs: "2015",
     justificationEn: "Continues the interwoven chronology with Luke Cage Season 1.",
     justificationEs: "Continúa la cronología entrelazada con Luke Cage Temporada 1.",
-    tmdbSearchTitle: "Daredevil",
+    tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
   },
   {
@@ -560,7 +561,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEs: "2015",
     justificationEn: "Continues the interwoven chronology with Luke Cage Season 1.",
     justificationEs: "Continúa la cronología entrelazada con Luke Cage Temporada 1.",
-    tmdbSearchTitle: "Daredevil",
+    tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
   },
   {
@@ -588,7 +589,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEs: "2015",
     justificationEn: "Continues the interwoven chronology with Luke Cage Season 1.",
     justificationEs: "Continúa la cronología entrelazada con Luke Cage Temporada 1.",
-    tmdbSearchTitle: "Daredevil",
+    tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
   },
   {
@@ -616,7 +617,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEs: "2015",
     justificationEn: "Closes out the interwoven chronology with Luke Cage Season 1.",
     justificationEs: "Cierra la cronología entrelazada con Luke Cage Temporada 1.",
-    tmdbSearchTitle: "Daredevil",
+    tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
   },
   {
@@ -930,7 +931,7 @@ export const timeline: TimelineEntry[] = [
     dateLabelEs: "2017 (Acción de Gracias y Navidad)",
     justificationEn: "References to Thanksgiving and Christmas place this season here.",
     justificationEs: "Las referencias a Acción de Gracias y Navidad ubican esta temporada aquí.",
-    tmdbSearchTitle: "Daredevil",
+    tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
   },
   {

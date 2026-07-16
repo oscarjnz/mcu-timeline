@@ -13,7 +13,10 @@ Fuente de contenido y decisiones de estructura documentadas en la memoria persis
 - **Framework:** Next.js 15+ (App Router), TypeScript, Tailwind CSS, ESLint.
 - **Idiomas:** toggle ES/EN en la misma página (sin rutas separadas), español por defecto.
 - **Datos:** catálogo propio de ~90 entradas (películas, series, one-shots, specials) en un archivo de datos tipado dentro de `src/`, cada una con título ES/EN, fase (1-6), tipo, fecha/año in-universe, justificación cronológica ES/EN, y referencia a TMDB para poster/metadata.
-- **API externa:** TMDB (The Movie Database) para posters y metadata verificada. Credenciales en `.env.local` (excluido de git via `.gitignore`, patrón `.env*`). Resolución de posters pensada para build time, no llamadas cliente con la key expuesta.
+- **API externa:** TMDB (The Movie Database) para posters, metadata verificada y disponibilidad de streaming (`watch/providers`, regiones US y DO). Credenciales en `.env.local` (excluido de git via `.gitignore`, patrón `.env*`). Resolución de posters pensada para build time, no llamadas cliente con la key expuesta.
+- **Puntuaciones:** rating de TMDB siempre disponible (no requiere key adicional). IMDb y Rotten Tomatoes vía OMDb API (`OMDB_API_KEY` opcional en `.env.local`); si no está seteada, esos dos campos simplemente quedan vacíos y solo se muestra TMDB. El usuario intentó sacar una key en omdbapi.com y le dio error de servidor al registrarse; la API en sí funciona (verificado), así que es un problema puntual del registro (probable con emails Yahoo/Hotmail/Outlook/Live, según la propia doc de OMDb) que puede reintentar más tarde.
+- **Scripts de build de datos** (`scripts/`, se corren manualmente con `npx tsx scripts/<nombre>.ts` tras editar `timeline.ts`): `fetch-tmdb.ts` (posters/backdrops → `src/data/tmdb-cache.json`), `fetch-providers.ts` (streaming → `src/data/providers-cache.json`), `fetch-ratings.ts` (ratings → `src/data/ratings-cache.json`). Los tres se basan en `tmdbSearchTitle`/`tmdbMediaType`/`tmdbYear` de cada entrada.
+- **Extranjerismos:** términos que son nombres propios de saga/equipo tomados directamente de Marvel (`The Avengers`, `The Defenders`, `Disassembled`) se dejan sin traducir en ambos idiomas, en cualquier lugar donde aparezcan (nombre de fase, título de película, justificación), por decisión explícita del usuario. No traducir a "Vengadores"/"Defensores"/"Desarmados" aunque exista una traducción oficial de doblaje.
 - **Layout:** timeline vertical continuo, agrupado y coloreado por fase, con navegación sticky por fase y filtros por tipo/fase.
 
 ## Cómo correr el proyecto localmente
@@ -39,7 +42,10 @@ Reglas de uso, sin excepción:
 
 ## Registro de errores y lecciones aprendidas
 
-(aún no se ha registrado ningún error)
+- **Fecha:** 2026-07-16
+- **Qué pasó:** varias series (ej. Daredevil temporadas 1-3) y un one-shot (`The Consultant`) mostraban el poster equivocado, de otra entrega distinta a la esperada.
+- **Causa raíz:** `scripts/fetch-tmdb.ts` tomaba siempre el primer resultado de `search/movie` o `search/tv` sin verificar que el nombre coincidiera. TMDB ordena por popularidad, no por coincidencia exacta de título, así que un título de búsqueda ambiguo (ej. "Daredevil", que también matchea "Daredevil: Born Again") o poco específico (ej. "The Consultant", que matchea "The Christmas Consultant") podía resolver a un ítem completamente distinto.
+- **Regla derivada para evitarlo:** el script ahora prioriza coincidencia exacta de título normalizado (o de año/fecha si `tmdbYear` está seteado) antes de caer al primer resultado. Además, al agregar `tmdbSearchTitle` para una entrada, usar el título más específico posible (ej. `"Marvel's Daredevil"` en vez de `"Daredevil"`, `"Marvel One-Shot: The Consultant"` en vez de `"The Consultant"`) y correr `npx tsx scripts/audit` (recrear el script de auditoría si hace falta: compara el `name`/`title` real del `tmdbId` cacheado contra `tmdbSearchTitle`) tras cualquier cambio masivo de posters.
 
 Formato para cada entrada nueva:
 

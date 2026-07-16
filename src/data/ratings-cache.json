@@ -1,0 +1,793 @@
+{
+  "eyes-of-wakanda": {
+    "tmdbScore": 6.185,
+    "tmdbVoteCount": 176,
+    "imdbId": "tt13968252",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "captain-america-first-avenger": {
+    "tmdbScore": 7.009,
+    "tmdbVoteCount": 22864,
+    "imdbId": "tt0458339",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "one-shot-agent-carter": {
+    "tmdbScore": 7.246,
+    "tmdbVoteCount": 883,
+    "imdbId": "tt3067038",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "agent-carter-s1": {
+    "tmdbScore": 7.52,
+    "tmdbVoteCount": 1999,
+    "imdbId": "tt3475734",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "agent-carter-s2": {
+    "tmdbScore": 7.52,
+    "tmdbVoteCount": 1999,
+    "imdbId": "tt3475734",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "fantastic-four-first-steps": {
+    "tmdbScore": 6.952,
+    "tmdbVoteCount": 3498,
+    "imdbId": "tt10676052",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "captain-marvel": {
+    "tmdbScore": 6.78,
+    "tmdbVoteCount": 16852,
+    "imdbId": "tt4154664",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "iron-man": {
+    "tmdbScore": 7.662,
+    "tmdbVoteCount": 28327,
+    "imdbId": "tt0371746",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "iron-man-2": {
+    "tmdbScore": 6.855,
+    "tmdbVoteCount": 22528,
+    "imdbId": "tt1228705",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "one-shot-thors-hammer": {
+    "tmdbScore": 6.878,
+    "tmdbVoteCount": 575,
+    "imdbId": "tt2011109",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "thor": {
+    "tmdbScore": 6.771,
+    "tmdbVoteCount": 22465,
+    "imdbId": "tt0800369",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "incredible-hulk": {
+    "tmdbScore": 6.247,
+    "tmdbVoteCount": 12805,
+    "imdbId": "tt0800080",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "one-shot-the-consultant": {
+    "tmdbScore": 6.307,
+    "tmdbVoteCount": 629,
+    "imdbId": "tt2011118",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "the-avengers": {
+    "tmdbScore": 8.056,
+    "tmdbVoteCount": 38761,
+    "imdbId": "tt0848228",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "one-shot-item-47": {
+    "tmdbScore": 6.434,
+    "tmdbVoteCount": 623,
+    "imdbId": "tt2247732",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "iron-man-3": {
+    "tmdbScore": 6.932,
+    "tmdbVoteCount": 23548,
+    "imdbId": "tt1300854",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "one-shot-all-hail-the-king": {
+    "tmdbScore": 6.754,
+    "tmdbVoteCount": 623,
+    "imdbId": "tt3438640",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s1-1-7": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "thor-dark-world": {
+    "tmdbScore": 6.5,
+    "tmdbVoteCount": 18428,
+    "imdbId": "tt1981115",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s1-8-16": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "captain-america-winter-soldier": {
+    "tmdbScore": 7.7,
+    "tmdbVoteCount": 20126,
+    "imdbId": "tt1843866",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s1-17-22": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "guardians-of-the-galaxy": {
+    "tmdbScore": 7.906,
+    "tmdbVoteCount": 29893,
+    "imdbId": "tt2015381",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "guardians-of-the-galaxy-vol-2": {
+    "tmdbScore": 7.611,
+    "tmdbVoteCount": 23061,
+    "imdbId": "tt3896198",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-s1": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 5248,
+    "imdbId": "tt3322312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "jessica-jones-s1": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 2641,
+    "imdbId": "tt2357547",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s2-1-19": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "avengers-age-of-ultron": {
+    "tmdbScore": 7.3,
+    "tmdbVoteCount": 24599,
+    "imdbId": "tt2395427",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s2-20-22": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "ant-man": {
+    "tmdbScore": 7.066,
+    "tmdbVoteCount": 20970,
+    "imdbId": "tt0478970",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s3-1-10": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-s2-1-6": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 5248,
+    "imdbId": "tt3322312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s3-11-19": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-s2-7": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 5248,
+    "imdbId": "tt3322312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "luke-cage-s1-1": {
+    "tmdbScore": 6.9,
+    "tmdbVoteCount": 2034,
+    "imdbId": "tt3322314",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-s2-8": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 5248,
+    "imdbId": "tt3322312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "luke-cage-s1-2": {
+    "tmdbScore": 6.9,
+    "tmdbVoteCount": 2034,
+    "imdbId": "tt3322314",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-s2-9": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 5248,
+    "imdbId": "tt3322312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "luke-cage-s1-3-4": {
+    "tmdbScore": 6.9,
+    "tmdbVoteCount": 2034,
+    "imdbId": "tt3322314",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-s2-10-11": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 5248,
+    "imdbId": "tt3322312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "luke-cage-s1-5": {
+    "tmdbScore": 6.9,
+    "tmdbVoteCount": 2034,
+    "imdbId": "tt3322314",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-s2-12-13": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 5248,
+    "imdbId": "tt3322312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "luke-cage-s1-6-13": {
+    "tmdbScore": 6.9,
+    "tmdbVoteCount": 2034,
+    "imdbId": "tt3322314",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "iron-fist-s1": {
+    "tmdbScore": 6.5,
+    "tmdbVoteCount": 2698,
+    "imdbId": "tt3322310",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "the-defenders": {
+    "tmdbScore": 7.042,
+    "tmdbVoteCount": 1675,
+    "imdbId": "tt4230076",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "captain-america-civil-war": {
+    "tmdbScore": 7.449,
+    "tmdbVoteCount": 24161,
+    "imdbId": "tt3498820",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "black-widow": {
+    "tmdbScore": 7.163,
+    "tmdbVoteCount": 11339,
+    "imdbId": "tt3480822",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "black-panther": {
+    "tmdbScore": 7.364,
+    "tmdbVoteCount": 23615,
+    "imdbId": "tt1825683",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s3-20-22": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "inhumans": {
+    "tmdbScore": 5.8,
+    "tmdbVoteCount": 772,
+    "imdbId": "tt4154858",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "spider-man-homecoming": {
+    "tmdbScore": 7.331,
+    "tmdbVoteCount": 23326,
+    "imdbId": "tt2250912",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "punisher-s1": {
+    "tmdbScore": 8.149,
+    "tmdbVoteCount": 3213,
+    "imdbId": "tt5675620",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "doctor-strange": {
+    "tmdbScore": 7.422,
+    "tmdbVoteCount": 23559,
+    "imdbId": "tt1211837",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-slingshot": {
+    "tmdbScore": 7.088,
+    "tmdbVoteCount": 255,
+    "imdbId": "tt6313900",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s4": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "cloak-and-dagger-s1": {
+    "tmdbScore": 7.1,
+    "tmdbVoteCount": 662,
+    "imdbId": "tt5614844",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "jessica-jones-s2": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 2641,
+    "imdbId": "tt2357547",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "luke-cage-s2": {
+    "tmdbScore": 6.9,
+    "tmdbVoteCount": 2034,
+    "imdbId": "tt3322314",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s5-1-10": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "thor-ragnarok": {
+    "tmdbScore": 7.582,
+    "tmdbVoteCount": 22145,
+    "imdbId": "tt3501632",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "iron-fist-s2": {
+    "tmdbScore": 6.5,
+    "tmdbVoteCount": 2698,
+    "imdbId": "tt3322310",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "cloak-and-dagger-s2": {
+    "tmdbScore": 7.1,
+    "tmdbVoteCount": 662,
+    "imdbId": "tt5614844",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-s3": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 5248,
+    "imdbId": "tt3322312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "runaways-s1-3": {
+    "tmdbScore": 7.275,
+    "tmdbVoteCount": 984,
+    "imdbId": "tt1236246",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "punisher-s2": {
+    "tmdbScore": 8.149,
+    "tmdbVoteCount": 3213,
+    "imdbId": "tt5675620",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "jessica-jones-s3": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 2641,
+    "imdbId": "tt2357547",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s5-11-18": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "ant-man-and-the-wasp": {
+    "tmdbScore": 6.901,
+    "tmdbVoteCount": 14271,
+    "imdbId": "tt5095030",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s5-19-22": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "avengers-infinity-war": {
+    "tmdbScore": 8.239,
+    "tmdbVoteCount": 32283,
+    "imdbId": "tt4154756",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s6": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "aos-s7": {
+    "tmdbScore": 7.5,
+    "tmdbVoteCount": 3836,
+    "imdbId": "tt2364582",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "avengers-endgame": {
+    "tmdbScore": 8.239,
+    "tmdbVoteCount": 28026,
+    "imdbId": "tt4154796",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "loki-s1": {
+    "tmdbScore": 8.171,
+    "tmdbVoteCount": 12493,
+    "imdbId": "tt9140554",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "what-if-s1": {
+    "tmdbScore": 8,
+    "tmdbVoteCount": 4663,
+    "imdbId": "tt10168312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "marvel-zombies": {
+    "tmdbScore": 7.284,
+    "tmdbVoteCount": 373,
+    "imdbId": "tt16027014",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "wandavision": {
+    "tmdbScore": 8.186,
+    "tmdbVoteCount": 12753,
+    "imdbId": "tt9140560",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "eternals": {
+    "tmdbScore": 6.8,
+    "tmdbVoteCount": 9225,
+    "imdbId": "tt9032400",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "shang-chi": {
+    "tmdbScore": 7.493,
+    "tmdbVoteCount": 10488,
+    "imdbId": "tt9376612",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "falcon-and-winter-soldier": {
+    "tmdbScore": 7.593,
+    "tmdbVoteCount": 8926,
+    "imdbId": "tt9208876",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "thor-love-and-thunder": {
+    "tmdbScore": 6.369,
+    "tmdbVoteCount": 8657,
+    "imdbId": "tt10648342",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "moon-knight": {
+    "tmdbScore": 7.6,
+    "tmdbVoteCount": 3570,
+    "imdbId": "tt10234724",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "one-shot-peters-to-do-list": {
+    "tmdbScore": 7,
+    "tmdbVoteCount": 102,
+    "imdbId": "tt11107678",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "spider-man-far-from-home": {
+    "tmdbScore": 7.396,
+    "tmdbVoteCount": 17105,
+    "imdbId": "tt6320628",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "spider-man-no-way-home": {
+    "tmdbScore": 7.934,
+    "tmdbVoteCount": 22227,
+    "imdbId": "tt10872600",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "doctor-strange-multiverse-of-madness": {
+    "tmdbScore": 7.232,
+    "tmdbVoteCount": 10467,
+    "imdbId": "tt9419884",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "hawkeye": {
+    "tmdbScore": 7.784,
+    "tmdbVoteCount": 3752,
+    "imdbId": "tt10160804",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "she-hulk-1-3": {
+    "tmdbScore": 6.1,
+    "tmdbVoteCount": 2529,
+    "imdbId": "tt10857160",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "black-panther-wakanda-forever": {
+    "tmdbScore": 7.005,
+    "tmdbVoteCount": 7551,
+    "imdbId": "tt9114286",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "echo": {
+    "tmdbScore": 6.034,
+    "tmdbVoteCount": 632,
+    "imdbId": "tt13966962",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "she-hulk-4-6": {
+    "tmdbScore": 6.1,
+    "tmdbVoteCount": 2529,
+    "imdbId": "tt10857160",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "she-hulk-7-9": {
+    "tmdbScore": 6.1,
+    "tmdbVoteCount": 2529,
+    "imdbId": "tt10857160",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "ms-marvel": {
+    "tmdbScore": 6.3,
+    "tmdbVoteCount": 1471,
+    "imdbId": "tt10857164",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "ironheart": {
+    "tmdbScore": 5.3,
+    "tmdbVoteCount": 477,
+    "imdbId": "tt13623126",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "secret-invasion": {
+    "tmdbScore": 6.5,
+    "tmdbVoteCount": 1406,
+    "imdbId": "tt13157618",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "the-marvels": {
+    "tmdbScore": 5.934,
+    "tmdbVoteCount": 3473,
+    "imdbId": "tt10676048",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "gotg-holiday-special": {
+    "tmdbScore": 7.092,
+    "tmdbVoteCount": 2396,
+    "imdbId": "tt13623136",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "werewolf-by-night": {
+    "tmdbScore": 6.963,
+    "tmdbVoteCount": 1559,
+    "imdbId": "tt15318872",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "wonder-man": {
+    "tmdbScore": 7,
+    "tmdbVoteCount": 307,
+    "imdbId": "tt21066182",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "ant-man-quantumania": {
+    "tmdbScore": 6.227,
+    "tmdbVoteCount": 5911,
+    "imdbId": "tt10954600",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "loki-s2": {
+    "tmdbScore": 8.171,
+    "tmdbVoteCount": 12493,
+    "imdbId": "tt9140554",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "what-if-s2": {
+    "tmdbScore": 8,
+    "tmdbVoteCount": 4663,
+    "imdbId": "tt10168312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "what-if-s3": {
+    "tmdbScore": 8,
+    "tmdbVoteCount": 4663,
+    "imdbId": "tt10168312",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "deadpool-and-wolverine": {
+    "tmdbScore": 7.58,
+    "tmdbVoteCount": 8931,
+    "imdbId": "tt6263850",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "guardians-of-the-galaxy-vol-3": {
+    "tmdbScore": 7.931,
+    "tmdbVoteCount": 8483,
+    "imdbId": "tt6791350",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "agatha-all-along": {
+    "tmdbScore": 7.438,
+    "tmdbVoteCount": 976,
+    "imdbId": "tt15571732",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-born-again-s1": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 1011,
+    "imdbId": "tt18923754",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "captain-america-brave-new-world": {
+    "tmdbScore": 5.963,
+    "tmdbVoteCount": 3178,
+    "imdbId": "tt14513804",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "thunderbolts": {
+    "tmdbScore": 7.295,
+    "tmdbVoteCount": 3680,
+    "imdbId": "tt20969586",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "daredevil-born-again-s2": {
+    "tmdbScore": 8.2,
+    "tmdbVoteCount": 1011,
+    "imdbId": "tt18923754",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "spider-man-brand-new-day": {
+    "tmdbScore": 0,
+    "tmdbVoteCount": 0,
+    "imdbId": "tt22084616",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "avengers-doomsday": {
+    "tmdbScore": 0,
+    "tmdbVoteCount": 0,
+    "imdbId": "tt21357150",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "avengers-secret-wars": {
+    "tmdbScore": 0,
+    "tmdbVoteCount": 0,
+    "imdbId": "tt21361444",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  }
+}

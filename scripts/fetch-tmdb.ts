@@ -29,6 +29,8 @@ if (!TMDB_READ_ACCESS_TOKEN) {
 
 interface TmdbSearchResult {
   id: number;
+  title?: string;
+  name?: string;
   poster_path: string | null;
   backdrop_path: string | null;
   release_date?: string;
@@ -69,11 +71,23 @@ async function searchTmdb(entry: TimelineEntry): Promise<TmdbSearchResult | null
   const data = (await response.json()) as TmdbSearchResponse;
   if (data.results.length === 0) return null;
 
-  if (entry.tmdbYear && entry.tmdbMediaType === "movie") {
+  if (entry.tmdbYear) {
     const wanted = String(entry.tmdbYear);
-    const yearMatch = data.results.find((result) => result.release_date?.startsWith(wanted));
+    const yearMatch = data.results.find((result) =>
+      result.release_date?.startsWith(wanted) || result.first_air_date?.startsWith(wanted),
+    );
     if (yearMatch) return yearMatch;
   }
+
+  // La API ordena por popularidad, no por coincidencia de titulo: un resultado mas
+  // popular pero con nombre distinto (ej. una serie posterior del mismo universo)
+  // puede aparecer antes que la entrada exacta que buscamos.
+  const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const wantedTitle = normalize(entry.tmdbSearchTitle);
+  const exactMatch = data.results.find(
+    (result) => normalize(result.title ?? result.name ?? "") === wantedTitle,
+  );
+  if (exactMatch) return exactMatch;
 
   return data.results[0];
 }
