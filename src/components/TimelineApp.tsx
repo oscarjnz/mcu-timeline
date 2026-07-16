@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import { phases } from "@/data/phases";
 import { timeline } from "@/data/timeline";
 import type { EntryType } from "@/types/timeline";
@@ -15,6 +15,31 @@ const allTypes: EntryType[] = ["movie", "tv", "one-shot", "special"];
 function TimelineContent() {
   const { language } = useLanguage();
   const [activeTypes, setActiveTypes] = useState<Set<EntryType>>(new Set(allTypes));
+  const [activePhase, setActivePhase] = useState(1);
+
+  useEffect(() => {
+    const sections = phases
+      .map((phase) => document.getElementById(`phase-${phase.number}`))
+      .filter((el): el is HTMLElement => el !== null);
+
+    if (sections.length === 0) return;
+
+    const observer = new IntersectionObserver(
+      (entries) => {
+        const visible = entries
+          .filter((entry) => entry.isIntersecting)
+          .sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (visible.length > 0) {
+          const phaseNumber = Number(visible[0].target.id.replace("phase-", ""));
+          setActivePhase(phaseNumber);
+        }
+      },
+      { rootMargin: "-96px 0px -70% 0px", threshold: 0 },
+    );
+
+    sections.forEach((section) => observer.observe(section));
+    return () => observer.disconnect();
+  }, []);
 
   function toggleType(type: EntryType) {
     setActiveTypes((prev) => {
@@ -58,7 +83,7 @@ function TimelineContent() {
         <LanguageToggle />
       </header>
 
-      <PhaseNav />
+      <PhaseNav activePhase={activePhase} />
       <TypeFilters activeTypes={activeTypes} onToggleType={toggleType} />
 
       <main className="divide-y divide-zinc-200 dark:divide-zinc-800">

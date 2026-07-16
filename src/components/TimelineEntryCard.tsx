@@ -24,7 +24,7 @@ export function TimelineEntryCard({ entry }: { entry: TimelineEntry }) {
 
   return (
     <article
-      className={`flex gap-4 rounded-lg border-l-4 bg-zinc-50 p-4 dark:bg-zinc-900 ${colors.accentBorder}`}
+      className={`flex gap-4 rounded-lg border-l-4 bg-zinc-50 p-4 transition-shadow duration-200 hover:shadow-md dark:bg-zinc-900 ${colors.accentBorder}`}
     >
       <div className="relative h-36 w-24 shrink-0 overflow-hidden rounded bg-zinc-200 dark:bg-zinc-800">
         {posterUrl ? (
