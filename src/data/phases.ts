@@ -1,4 +1,4 @@
-import type { Phase } from "@/types/timeline";
+import type { Phase } from "../types/timeline";
 
 export const phases: Phase[] = [
   {

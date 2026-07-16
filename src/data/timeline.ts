@@ -1,4 +1,4 @@
-import type { TimelineEntry } from "@/types/timeline";
+import type { TimelineEntry } from "../types/timeline";
 
 export const timeline: TimelineEntry[] = [
   // ===================== FASE 1: THE AVENGERS =====================
