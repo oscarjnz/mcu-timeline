@@ -56,7 +56,7 @@ Ya resueltas también: estructura de carpetas (`src/data` para datos y cache TMD
 
 Todavía sin definir:
 
-- Nada pendiente de fase conocido a día de hoy (2026-07-16). Fase 1 (modelo de datos), Fase 2 (integración TMDB) y Fase 3 (UI: timeline vertical, nav por fase, filtros, toggle de idioma) ya están implementadas y verificadas en navegador.
+- Nada pendiente de fase conocido a día de hoy (2026-07-16). Fase 1 (modelo de datos), Fase 2 (integración TMDB), Fase 3 (UI: timeline vertical, nav por fase, filtros, toggle de idioma) y una pasada de pulido de UI/UX (indicador de fase activa al hacer scroll con IntersectionObserver, scroll suave, scrollbar oculto en la nav de fases, hover con sombra en las tarjetas) ya están implementadas y verificadas en navegador (desktop y mobile 390x844).
 
 ## Convenciones heredadas
 
