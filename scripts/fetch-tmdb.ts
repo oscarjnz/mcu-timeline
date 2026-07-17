@@ -45,6 +45,34 @@ export interface TmdbCacheEntry {
   tmdbId: number;
   posterPath: string | null;
   backdropPath: string | null;
+  releaseYear: number | null;
+}
+
+interface TmdbSeasonResponse {
+  air_date: string | null;
+}
+
+// La mayoria de nuestras entradas de TV son un tramo de episodios de una
+// temporada especifica (ej. "Agents of S.H.I.E.L.D. Season 3, Episodes 1-10"),
+// pero el resultado de busqueda de TMDB solo trae la fecha de estreno de la
+// serie completa (temporada 1). Para no mostrar "estreno 2013" en una entrada
+// de la temporada 6, se resuelve el numero de temporada desde el titulo y se
+// pide la fecha de estreno de esa temporada puntual.
+async function fetchSeasonAirYear(tmdbId: number, entry: TimelineEntry): Promise<number | null> {
+  const seasonMatch = entry.titleEn.match(/Season (\d+)/);
+  const seasonNumber = seasonMatch ? Number(seasonMatch[1]) : 1;
+
+  const response = await fetch(
+    `https://api.themoviedb.org/3/tv/${tmdbId}/season/${seasonNumber}`,
+    {
+      headers: { Authorization: `Bearer ${TMDB_READ_ACCESS_TOKEN}`, accept: "application/json" },
+    },
+  );
+  if (!response.ok) return null;
+
+  const data = (await response.json()) as TmdbSeasonResponse;
+  if (!data.air_date) return null;
+  return Number(data.air_date.slice(0, 4));
 }
 
 async function searchTmdb(entry: TimelineEntry): Promise<TmdbSearchResult | null> {
@@ -102,10 +130,18 @@ async function main() {
       misses.push(`${entry.id} (${entry.tmdbSearchTitle})`);
       continue;
     }
+    let releaseYear: number | null = null;
+    if (entry.tmdbMediaType === "tv") {
+      releaseYear = await fetchSeasonAirYear(result.id, entry);
+    } else if (result.release_date) {
+      releaseYear = Number(result.release_date.slice(0, 4));
+    }
+
     cache[entry.id] = {
       tmdbId: result.id,
       posterPath: result.poster_path,
       backdropPath: result.backdrop_path,
+      releaseYear,
     };
     await new Promise((resolve) => setTimeout(resolve, 60));
   }

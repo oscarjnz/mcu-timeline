@@ -4,7 +4,7 @@ import Image from "next/image";
 import type { TimelineEntry } from "@/types/timeline";
 import { useLanguage } from "@/lib/language-context";
 import { phaseColors } from "@/lib/phase-colors";
-import { getPosterUrl } from "@/lib/tmdb";
+import { getPosterUrl, getReleaseYear } from "@/lib/tmdb";
 import { getRatings } from "@/lib/ratings";
 import { getProviders } from "@/lib/providers";
 
@@ -19,6 +19,7 @@ export function TimelineEntryCard({ entry }: { entry: TimelineEntry }) {
   const { language } = useLanguage();
   const colors = phaseColors[entry.phase];
   const posterUrl = getPosterUrl(entry.id, "w342");
+  const releaseYear = getReleaseYear(entry.id);
   const ratings = getRatings(entry.id);
   const providers = getProviders(entry.id);
 
@@ -65,7 +66,14 @@ export function TimelineEntryCard({ entry }: { entry: TimelineEntry }) {
             </span>
           )}
         </div>
-        <p className="text-sm font-medium text-zinc-500 dark:text-zinc-400">{dateLabel}</p>
+        <p className="text-sm font-medium text-zinc-500 dark:text-zinc-400">
+          {dateLabel}
+          {releaseYear !== null && (
+            <span className="ml-1.5 font-normal text-zinc-400 dark:text-zinc-500">
+              ({language === "es" ? "estreno" : "release"}: {releaseYear})
+            </span>
+          )}
+        </p>
         <p className="text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">{justification}</p>
 
         {ratings && (ratings.imdbRating || ratings.rottenTomatoes || ratings.tmdbScore !== null) && (

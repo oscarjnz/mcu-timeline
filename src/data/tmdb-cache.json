@@ -2,571 +2,685 @@
   "eyes-of-wakanda": {
     "tmdbId": 241388,
     "posterPath": "/bG23nZW96LxmWkJjsagRZI9hF6t.jpg",
-    "backdropPath": "/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg"
+    "backdropPath": "/cWO5NDkKqpOuwxu4vFc4PtL8aNF.jpg",
+    "releaseYear": 2025
   },
   "captain-america-first-avenger": {
     "tmdbId": 1771,
     "posterPath": "/vSNxAJTlD0r02V9sPYpOjqDZXUK.jpg",
-    "backdropPath": "/yFuKvT4Vm3sKHdFY4eG6I4ldAnn.jpg"
+    "backdropPath": "/yFuKvT4Vm3sKHdFY4eG6I4ldAnn.jpg",
+    "releaseYear": 2011
   },
   "one-shot-agent-carter": {
     "tmdbId": 211387,
     "posterPath": "/4vFKKWPvCVDJTOWiwReBfpAMScP.jpg",
-    "backdropPath": "/kv8KDbi2I4F4MNBbBMCR4LDqP6H.jpg"
+    "backdropPath": "/kv8KDbi2I4F4MNBbBMCR4LDqP6H.jpg",
+    "releaseYear": 2013
   },
   "agent-carter-s1": {
     "tmdbId": 61550,
     "posterPath": "/fe79VYyLp5ZBstpJ4oukpuUT3B.jpg",
-    "backdropPath": "/MaQ7hbNsiJ30p14UgRdEnXDGMH.jpg"
+    "backdropPath": "/MaQ7hbNsiJ30p14UgRdEnXDGMH.jpg",
+    "releaseYear": 2015
   },
   "agent-carter-s2": {
     "tmdbId": 61550,
     "posterPath": "/fe79VYyLp5ZBstpJ4oukpuUT3B.jpg",
-    "backdropPath": "/MaQ7hbNsiJ30p14UgRdEnXDGMH.jpg"
+    "backdropPath": "/MaQ7hbNsiJ30p14UgRdEnXDGMH.jpg",
+    "releaseYear": 2016
   },
   "fantastic-four-first-steps": {
     "tmdbId": 617126,
     "posterPath": "/nf5qaSEvyYSNeFH0YhSs5EsBLX9.jpg",
-    "backdropPath": "/s94NjfKkcSczZ1FembwmQZwsuwY.jpg"
+    "backdropPath": "/s94NjfKkcSczZ1FembwmQZwsuwY.jpg",
+    "releaseYear": 2025
   },
   "captain-marvel": {
     "tmdbId": 299537,
     "posterPath": "/AtsgWhDnHTq68L0lLsUrCnM7TjG.jpg",
-    "backdropPath": "/qAzYK4YPSWDc7aa4R43LcwRIAyb.jpg"
+    "backdropPath": "/qAzYK4YPSWDc7aa4R43LcwRIAyb.jpg",
+    "releaseYear": 2019
   },
   "iron-man": {
     "tmdbId": 1726,
     "posterPath": "/78lPtwv72eTNqFW9COBYI0dWDJa.jpg",
-    "backdropPath": "/cyecB7godJ6kNHGONFjUyVN9OX5.jpg"
+    "backdropPath": "/cyecB7godJ6kNHGONFjUyVN9OX5.jpg",
+    "releaseYear": 2008
   },
   "iron-man-2": {
     "tmdbId": 10138,
     "posterPath": "/6WBeq4fCfn7AN0o21W9qNcRF2l9.jpg",
-    "backdropPath": "/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg"
+    "backdropPath": "/7lmBufEG7P7Y1HClYK3gCxYrkgS.jpg",
+    "releaseYear": 2010
   },
   "one-shot-thors-hammer": {
     "tmdbId": 76535,
     "posterPath": "/ugrdgmZlSuiavH0NFurhlUPIRD0.jpg",
-    "backdropPath": "/yuIsNfHZTn3nkSsatzM0298wA67.jpg"
+    "backdropPath": "/yuIsNfHZTn3nkSsatzM0298wA67.jpg",
+    "releaseYear": 2011
   },
   "thor": {
     "tmdbId": 10195,
     "posterPath": "/prSfAi1xGrhLQNxVSUFh61xQ4Qy.jpg",
-    "backdropPath": "/jWAJlgICJbn2kyohrokteRoD3cZ.jpg"
+    "backdropPath": "/jWAJlgICJbn2kyohrokteRoD3cZ.jpg",
+    "releaseYear": 2011
   },
   "incredible-hulk": {
     "tmdbId": 1724,
     "posterPath": "/gKzYx79y0AQTL4UAk1cBQJ3nvrm.jpg",
-    "backdropPath": "/jPu8yiadqgzwFPGKJmGo637ASVP.jpg"
+    "backdropPath": "/jPu8yiadqgzwFPGKJmGo637ASVP.jpg",
+    "releaseYear": 2008
   },
   "one-shot-the-consultant": {
     "tmdbId": 76122,
     "posterPath": "/xqNLXUUvBnfVk6m3QFGGU0Grgs7.jpg",
-    "backdropPath": "/r1Q3jyOpfbF3VDU52w8RzkTPbfe.jpg"
+    "backdropPath": "/r1Q3jyOpfbF3VDU52w8RzkTPbfe.jpg",
+    "releaseYear": 2011
   },
   "the-avengers": {
     "tmdbId": 24428,
     "posterPath": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-    "backdropPath": "/pGFQCp12a8andfPlpnmXz44IIvY.jpg"
+    "backdropPath": "/pGFQCp12a8andfPlpnmXz44IIvY.jpg",
+    "releaseYear": 2012
   },
   "one-shot-item-47": {
     "tmdbId": 119569,
     "posterPath": "/hnSxG8clwLuAXEkp9emc8HCUcHD.jpg",
-    "backdropPath": "/pC36ONAaKMXStlvutYFcAbMemCM.jpg"
+    "backdropPath": "/pC36ONAaKMXStlvutYFcAbMemCM.jpg",
+    "releaseYear": 2012
   },
   "iron-man-3": {
     "tmdbId": 68721,
     "posterPath": "/qhPtAc1TKbMPqNvcdXSOn9Bn7hZ.jpg",
-    "backdropPath": "/iVped1djsF0tvGkvnHbzsE3ZPTF.jpg"
+    "backdropPath": "/iVped1djsF0tvGkvnHbzsE3ZPTF.jpg",
+    "releaseYear": 2013
   },
   "one-shot-all-hail-the-king": {
     "tmdbId": 253980,
     "posterPath": "/y0QYZPWgeGKOvyrzi6Oz3aJPxJa.jpg",
-    "backdropPath": "/yoigAFjhEhJM6O6hQT9TiKH6EL7.jpg"
+    "backdropPath": "/yoigAFjhEhJM6O6hQT9TiKH6EL7.jpg",
+    "releaseYear": 2014
   },
   "aos-s1-1-7": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2013
   },
   "thor-dark-world": {
     "tmdbId": 76338,
     "posterPath": "/wp6OxE4poJ4G7c0U2ZIXasTSMR7.jpg",
-    "backdropPath": "/5QEOy0QEpad9QsXeMxuGHPXMale.jpg"
+    "backdropPath": "/5QEOy0QEpad9QsXeMxuGHPXMale.jpg",
+    "releaseYear": 2013
   },
   "aos-s1-8-16": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2013
   },
   "captain-america-winter-soldier": {
     "tmdbId": 100402,
     "posterPath": "/tVFRpFw3xTedgPGqxW0AOI8Qhh0.jpg",
-    "backdropPath": "/1RWLMyC9KcFfcaoViMiJGSSZzzr.jpg"
+    "backdropPath": "/1RWLMyC9KcFfcaoViMiJGSSZzzr.jpg",
+    "releaseYear": 2014
   },
   "aos-s1-17-22": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2013
   },
   "guardians-of-the-galaxy": {
     "tmdbId": 118340,
     "posterPath": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
-    "backdropPath": "/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg"
+    "backdropPath": "/uLtVbjvS1O7gXL8lUOwsFOH4man.jpg",
+    "releaseYear": 2014
   },
   "guardians-of-the-galaxy-vol-2": {
     "tmdbId": 283995,
     "posterPath": "/y4MBh0EjBlMuOzv9axM4qJlmhzz.jpg",
-    "backdropPath": "/bW93ycPSSi3Hxx1NvlMX5qm2mQu.jpg"
+    "backdropPath": "/bW93ycPSSi3Hxx1NvlMX5qm2mQu.jpg",
+    "releaseYear": 2017
   },
   "daredevil-s1": {
     "tmdbId": 61889,
     "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "releaseYear": 2015
   },
   "jessica-jones-s1": {
     "tmdbId": 38472,
     "posterPath": "/oxnWofiE9fHOgUfs9NJa6nG6NTR.jpg",
-    "backdropPath": "/fjEOQhzZk2Or7VYUBeMx5ZIwU95.jpg"
+    "backdropPath": "/fjEOQhzZk2Or7VYUBeMx5ZIwU95.jpg",
+    "releaseYear": 2015
   },
   "aos-s2-1-19": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2014
   },
   "avengers-age-of-ultron": {
     "tmdbId": 99861,
     "posterPath": "/4ssDuvEDkSArWEdyBl2X5EHvYKU.jpg",
-    "backdropPath": "/kIBK5SKwgqIIuRKhhWrJn3XkbPq.jpg"
+    "backdropPath": "/kIBK5SKwgqIIuRKhhWrJn3XkbPq.jpg",
+    "releaseYear": 2015
   },
   "aos-s2-20-22": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2014
   },
   "ant-man": {
     "tmdbId": 102899,
     "posterPath": "/rQRnQfUl3kfp78nCWq8Ks04vnq1.jpg",
-    "backdropPath": "/1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg"
+    "backdropPath": "/1K3JmSNUN8OpjYsCjc0Hy0SYxAb.jpg",
+    "releaseYear": 2015
   },
   "aos-s3-1-10": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2015
   },
   "daredevil-s2-1-6": {
     "tmdbId": 61889,
     "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "releaseYear": 2016
   },
   "aos-s3-11-19": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2015
   },
   "daredevil-s2-7": {
     "tmdbId": 61889,
     "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "releaseYear": 2016
   },
   "luke-cage-s1-1": {
     "tmdbId": 62126,
     "posterPath": "/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
-    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg"
+    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg",
+    "releaseYear": 2016
   },
   "daredevil-s2-8": {
     "tmdbId": 61889,
     "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "releaseYear": 2016
   },
   "luke-cage-s1-2": {
     "tmdbId": 62126,
     "posterPath": "/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
-    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg"
+    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg",
+    "releaseYear": 2016
   },
   "daredevil-s2-9": {
     "tmdbId": 61889,
     "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "releaseYear": 2016
   },
   "luke-cage-s1-3-4": {
     "tmdbId": 62126,
     "posterPath": "/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
-    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg"
+    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg",
+    "releaseYear": 2016
   },
   "daredevil-s2-10-11": {
     "tmdbId": 61889,
     "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "releaseYear": 2016
   },
   "luke-cage-s1-5": {
     "tmdbId": 62126,
     "posterPath": "/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
-    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg"
+    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg",
+    "releaseYear": 2016
   },
   "daredevil-s2-12-13": {
     "tmdbId": 61889,
     "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "releaseYear": 2016
   },
   "luke-cage-s1-6-13": {
     "tmdbId": 62126,
     "posterPath": "/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
-    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg"
+    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg",
+    "releaseYear": 2016
   },
   "iron-fist-s1": {
     "tmdbId": 62127,
     "posterPath": "/4l6KD9HhtD6nCDEfg10Lp6C6zah.jpg",
-    "backdropPath": "/cuckn6IFp9OKu9H8AgD0iEANxhc.jpg"
+    "backdropPath": "/cuckn6IFp9OKu9H8AgD0iEANxhc.jpg",
+    "releaseYear": 2017
   },
   "the-defenders": {
     "tmdbId": 62285,
     "posterPath": "/49XzINhH4LFsgz7cx6TOPcHUJUL.jpg",
-    "backdropPath": "/ycAWXhAhyaE7g3JBAaierK4LgNg.jpg"
+    "backdropPath": "/ycAWXhAhyaE7g3JBAaierK4LgNg.jpg",
+    "releaseYear": 2017
   },
   "captain-america-civil-war": {
     "tmdbId": 271110,
     "posterPath": "/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
-    "backdropPath": "/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg"
+    "backdropPath": "/wdwcOBMkt3zmPQuEMxB3FUtMio2.jpg",
+    "releaseYear": 2016
   },
   "black-widow": {
     "tmdbId": 497698,
     "posterPath": "/qAZ0pzat24kLdO3o8ejmbLxyOac.jpg",
-    "backdropPath": "/6azpBJGcLx9SKif8h9VMnflBfa.jpg"
+    "backdropPath": "/6azpBJGcLx9SKif8h9VMnflBfa.jpg",
+    "releaseYear": 2021
   },
   "black-panther": {
     "tmdbId": 284054,
     "posterPath": "/uxzzxijgPIY7slzFvMotPv8wjKA.jpg",
-    "backdropPath": "/19Ed4XgjahPm4U8JT7SnntERIlt.jpg"
+    "backdropPath": "/19Ed4XgjahPm4U8JT7SnntERIlt.jpg",
+    "releaseYear": 2018
   },
   "aos-s3-20-22": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2015
   },
   "inhumans": {
     "tmdbId": 68716,
     "posterPath": "/zKfGip55oJ9tdzhyd9ayGyFFhuo.jpg",
-    "backdropPath": "/5W9YCPMDF5TCudct2guf6b8iRFz.jpg"
+    "backdropPath": "/5W9YCPMDF5TCudct2guf6b8iRFz.jpg",
+    "releaseYear": 2017
   },
   "spider-man-homecoming": {
     "tmdbId": 315635,
     "posterPath": "/c24sv2weTHPsmDa7jEMN0m2P3RT.jpg",
-    "backdropPath": "/tPpYGm2mVecue7Bk3gNVoSPA5qn.jpg"
+    "backdropPath": "/tPpYGm2mVecue7Bk3gNVoSPA5qn.jpg",
+    "releaseYear": 2017
   },
   "punisher-s1": {
     "tmdbId": 67178,
     "posterPath": "/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
-    "backdropPath": "/jBGjbSDRxOEudW9rmQbWDzJUKq9.jpg"
+    "backdropPath": "/jBGjbSDRxOEudW9rmQbWDzJUKq9.jpg",
+    "releaseYear": 2017
   },
   "doctor-strange": {
     "tmdbId": 284052,
     "posterPath": "/xf8PbyQcR5ucXErmZNzdKR0s8ya.jpg",
-    "backdropPath": "/3zvZ699gMW2RhWc0GisIukzq0Ls.jpg"
+    "backdropPath": "/3zvZ699gMW2RhWc0GisIukzq0Ls.jpg",
+    "releaseYear": 2016
   },
   "aos-slingshot": {
     "tmdbId": 69088,
     "posterPath": "/bwJej7WdmGRMCMyuDlotwAqVX7S.jpg",
-    "backdropPath": "/pvqasfLg6ALyTV1bAlg4hkrCdVu.jpg"
+    "backdropPath": "/pvqasfLg6ALyTV1bAlg4hkrCdVu.jpg",
+    "releaseYear": 2016
   },
   "aos-s4": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2016
   },
   "cloak-and-dagger-s1": {
     "tmdbId": 66190,
     "posterPath": "/pYnRJuBPEqZO1o4fcxBTgmKNHfy.jpg",
-    "backdropPath": "/4amkATUf2mh5QL9OQ3WmHQqx9wk.jpg"
+    "backdropPath": "/4amkATUf2mh5QL9OQ3WmHQqx9wk.jpg",
+    "releaseYear": 2018
   },
   "jessica-jones-s2": {
     "tmdbId": 38472,
     "posterPath": "/oxnWofiE9fHOgUfs9NJa6nG6NTR.jpg",
-    "backdropPath": "/fjEOQhzZk2Or7VYUBeMx5ZIwU95.jpg"
+    "backdropPath": "/fjEOQhzZk2Or7VYUBeMx5ZIwU95.jpg",
+    "releaseYear": 2018
   },
   "luke-cage-s2": {
     "tmdbId": 62126,
     "posterPath": "/yzM1hMB3PUJqbISX0f421b3xOjB.jpg",
-    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg"
+    "backdropPath": "/bJOmop22SGTHPo1tiuVAFf4U7B9.jpg",
+    "releaseYear": 2018
   },
   "aos-s5-1-10": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2017
   },
   "thor-ragnarok": {
     "tmdbId": 284053,
     "posterPath": "/rzRwTcFvttcN1ZpX2xv4j3tSdJu.jpg",
-    "backdropPath": "/wBzMnQ01R9w58W6ucltdYfOyP4j.jpg"
+    "backdropPath": "/wBzMnQ01R9w58W6ucltdYfOyP4j.jpg",
+    "releaseYear": 2017
   },
   "iron-fist-s2": {
     "tmdbId": 62127,
     "posterPath": "/4l6KD9HhtD6nCDEfg10Lp6C6zah.jpg",
-    "backdropPath": "/cuckn6IFp9OKu9H8AgD0iEANxhc.jpg"
+    "backdropPath": "/cuckn6IFp9OKu9H8AgD0iEANxhc.jpg",
+    "releaseYear": 2018
   },
   "cloak-and-dagger-s2": {
     "tmdbId": 66190,
     "posterPath": "/pYnRJuBPEqZO1o4fcxBTgmKNHfy.jpg",
-    "backdropPath": "/4amkATUf2mh5QL9OQ3WmHQqx9wk.jpg"
+    "backdropPath": "/4amkATUf2mh5QL9OQ3WmHQqx9wk.jpg",
+    "releaseYear": 2019
   },
   "daredevil-s3": {
     "tmdbId": 61889,
     "posterPath": "/QWbPaDxiB6LW2LjASknzYBvjMj.jpg",
-    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg"
+    "backdropPath": "/pPALpad1Fh14g7ejyQjqKzlhrBw.jpg",
+    "releaseYear": 2018
   },
   "runaways-s1-3": {
     "tmdbId": 67466,
     "posterPath": "/hnHEhbzh0F7kN3Ah1lzRjtQuW16.jpg",
-    "backdropPath": "/pHURd96EW167jUd2Jf8XpgTiLJV.jpg"
+    "backdropPath": "/pHURd96EW167jUd2Jf8XpgTiLJV.jpg",
+    "releaseYear": 2017
   },
   "punisher-s2": {
     "tmdbId": 67178,
     "posterPath": "/tM6xqRKXoloH9UchaJEyyRE9O1w.jpg",
-    "backdropPath": "/jBGjbSDRxOEudW9rmQbWDzJUKq9.jpg"
+    "backdropPath": "/jBGjbSDRxOEudW9rmQbWDzJUKq9.jpg",
+    "releaseYear": 2019
   },
   "jessica-jones-s3": {
     "tmdbId": 38472,
     "posterPath": "/oxnWofiE9fHOgUfs9NJa6nG6NTR.jpg",
-    "backdropPath": "/fjEOQhzZk2Or7VYUBeMx5ZIwU95.jpg"
+    "backdropPath": "/fjEOQhzZk2Or7VYUBeMx5ZIwU95.jpg",
+    "releaseYear": 2019
   },
   "aos-s5-11-18": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2017
   },
   "ant-man-and-the-wasp": {
     "tmdbId": 363088,
     "posterPath": "/cFQEO687n1K6umXbInzocxcnAQz.jpg",
-    "backdropPath": "/iYdgEUE2W2aJkgqfSjf1x3gFfuV.jpg"
+    "backdropPath": "/iYdgEUE2W2aJkgqfSjf1x3gFfuV.jpg",
+    "releaseYear": 2018
   },
   "aos-s5-19-22": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2017
   },
   "avengers-infinity-war": {
     "tmdbId": 299536,
     "posterPath": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
-    "backdropPath": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg"
+    "backdropPath": "/mDfJG3LC3Dqb67AZ52x3Z0jU0uB.jpg",
+    "releaseYear": 2018
   },
   "aos-s6": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2019
   },
   "aos-s7": {
     "tmdbId": 1403,
     "posterPath": "/gHUCCMy1vvj58tzE3dZqeC9SXus.jpg",
-    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg"
+    "backdropPath": "/iWopHyAvuIDjGX10Yc3nn6UEebW.jpg",
+    "releaseYear": 2020
   },
   "avengers-endgame": {
     "tmdbId": 299534,
     "posterPath": "/ulzhLuWrPK07P1YkdWQLZnQh1JL.jpg",
-    "backdropPath": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg"
+    "backdropPath": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
+    "releaseYear": 2019
   },
   "loki-s1": {
     "tmdbId": 84958,
     "posterPath": "/rX1wQMTKFqF0gvZyS0DDQqgnQPB.jpg",
-    "backdropPath": "/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg"
+    "backdropPath": "/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg",
+    "releaseYear": 2021
   },
   "what-if-s1": {
     "tmdbId": 91363,
     "posterPath": "/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
-    "backdropPath": "/jnzoh5qoxRLFRIQAxnl6D3RStPC.jpg"
+    "backdropPath": "/jnzoh5qoxRLFRIQAxnl6D3RStPC.jpg",
+    "releaseYear": 2021
   },
   "marvel-zombies": {
     "tmdbId": 138505,
     "posterPath": "/mwKj9ERGFXsWot0nXgQ5yMQf9I7.jpg",
-    "backdropPath": "/kmenKs1yJZT1d3pRVu6T6m3kWCQ.jpg"
+    "backdropPath": "/kmenKs1yJZT1d3pRVu6T6m3kWCQ.jpg",
+    "releaseYear": 2025
   },
   "wandavision": {
     "tmdbId": 85271,
     "posterPath": "/ijWWwINc8h71NQ8j1LTJMFSj5wr.jpg",
-    "backdropPath": "/lOr9NKxh4vMweufMOUDJjJhCRHW.jpg"
+    "backdropPath": "/lOr9NKxh4vMweufMOUDJjJhCRHW.jpg",
+    "releaseYear": 2021
   },
   "eternals": {
     "tmdbId": 524434,
     "posterPath": "/lFByFSLV5WDJEv3KabbdAF959F2.jpg",
-    "backdropPath": "/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg"
+    "backdropPath": "/c6H7Z4u73ir3cIoCteuhJh7UCAR.jpg",
+    "releaseYear": 2021
   },
   "shang-chi": {
     "tmdbId": 566525,
     "posterPath": "/9f2Q0U3IOsLgrI2HkvldwSABZy5.jpg",
-    "backdropPath": "/r7K6Xt0RX4Mw0cAbZVw5cyb1Tux.jpg"
+    "backdropPath": "/r7K6Xt0RX4Mw0cAbZVw5cyb1Tux.jpg",
+    "releaseYear": 2021
   },
   "falcon-and-winter-soldier": {
     "tmdbId": 88396,
     "posterPath": "/6kbAMLteGO8yyewYau6bJ683sw7.jpg",
-    "backdropPath": "/aTjbqMONy77fHJrIYu14g1F0d5h.jpg"
+    "backdropPath": "/aTjbqMONy77fHJrIYu14g1F0d5h.jpg",
+    "releaseYear": 2021
   },
   "thor-love-and-thunder": {
     "tmdbId": 616037,
     "posterPath": "/pIkRyD18kl4FhoCNQuWxWu5cBLM.jpg",
-    "backdropPath": "/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg"
+    "backdropPath": "/jsoz1HlxczSuTx0mDl2h0lxy36l.jpg",
+    "releaseYear": 2022
   },
   "moon-knight": {
     "tmdbId": 92749,
     "posterPath": "/x6FsYvt33846IQnDSFxla9j0RX8.jpg",
-    "backdropPath": "/iux1vKPT7Vw1AzetZb4Jz6wfYsm.jpg"
+    "backdropPath": "/iux1vKPT7Vw1AzetZb4Jz6wfYsm.jpg",
+    "releaseYear": 2022
   },
   "one-shot-peters-to-do-list": {
     "tmdbId": 758025,
     "posterPath": "/2LoW0WMYHwhxXQr1wz6xCVRiX9.jpg",
-    "backdropPath": "/qG5A6fWoP5inQa16VadLDiB1mlb.jpg"
+    "backdropPath": "/qG5A6fWoP5inQa16VadLDiB1mlb.jpg",
+    "releaseYear": 2019
   },
   "spider-man-far-from-home": {
     "tmdbId": 429617,
     "posterPath": "/4q2NNj4S5dG2RLF9CpXsej7yXl.jpg",
-    "backdropPath": "/34jW8LvjRplM8Pv06cBFDpLlenR.jpg"
+    "backdropPath": "/34jW8LvjRplM8Pv06cBFDpLlenR.jpg",
+    "releaseYear": 2019
   },
   "spider-man-no-way-home": {
     "tmdbId": 634649,
     "posterPath": "/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg",
-    "backdropPath": "/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg"
+    "backdropPath": "/14QbnygCuTO0vl7CAFmPf1fgZfV.jpg",
+    "releaseYear": 2021
   },
   "doctor-strange-multiverse-of-madness": {
     "tmdbId": 453395,
     "posterPath": "/ddJcSKbcp4rKZTmuyWaMhuwcfMz.jpg",
-    "backdropPath": "/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg"
+    "backdropPath": "/lv3TXqhpaIxkclIHbhN2MRMOemQ.jpg",
+    "releaseYear": 2022
   },
   "hawkeye": {
     "tmdbId": 88329,
     "posterPath": "/ct5pNE5dDHryHLDnxyZPYcqO1sz.jpg",
-    "backdropPath": "/1R68vl3d5s86JsS2NPjl8UoMqIS.jpg"
+    "backdropPath": "/1R68vl3d5s86JsS2NPjl8UoMqIS.jpg",
+    "releaseYear": 2021
   },
   "she-hulk-1-3": {
     "tmdbId": 92783,
     "posterPath": "/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
-    "backdropPath": "/eljErfkQUcFUgQkI4I1soZcH8MW.jpg"
+    "backdropPath": "/eljErfkQUcFUgQkI4I1soZcH8MW.jpg",
+    "releaseYear": 2022
   },
   "black-panther-wakanda-forever": {
     "tmdbId": 505642,
     "posterPath": "/sv1xJUazXeYqALzczSZ3O6nkH75.jpg",
-    "backdropPath": "/83H0C66AcvkwpG2738VCTHMY9uv.jpg"
+    "backdropPath": "/83H0C66AcvkwpG2738VCTHMY9uv.jpg",
+    "releaseYear": 2022
   },
   "echo": {
     "tmdbId": 122226,
     "posterPath": "/vFyJH630cF68LohVYjQW49074Sy.jpg",
-    "backdropPath": "/u3ySnWqSjM3jedYgJZTR7RWRDDm.jpg"
+    "backdropPath": "/u3ySnWqSjM3jedYgJZTR7RWRDDm.jpg",
+    "releaseYear": 2024
   },
   "she-hulk-4-6": {
     "tmdbId": 92783,
     "posterPath": "/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
-    "backdropPath": "/eljErfkQUcFUgQkI4I1soZcH8MW.jpg"
+    "backdropPath": "/eljErfkQUcFUgQkI4I1soZcH8MW.jpg",
+    "releaseYear": 2022
   },
   "she-hulk-7-9": {
     "tmdbId": 92783,
     "posterPath": "/5xz2orV8f0usyrfGNshcoXHmiaV.jpg",
-    "backdropPath": "/eljErfkQUcFUgQkI4I1soZcH8MW.jpg"
+    "backdropPath": "/eljErfkQUcFUgQkI4I1soZcH8MW.jpg",
+    "releaseYear": 2022
   },
   "ms-marvel": {
     "tmdbId": 92782,
     "posterPath": "/3HWWh92kZbD7odwJX7nKmXNZsYo.jpg",
-    "backdropPath": "/mfcLUWASJghU8MTNK38eYktfE83.jpg"
+    "backdropPath": "/mfcLUWASJghU8MTNK38eYktfE83.jpg",
+    "releaseYear": 2022
   },
   "ironheart": {
     "tmdbId": 114471,
     "posterPath": "/dOh6MJpdlQhYpLBhzhNQeYGKTZ5.jpg",
-    "backdropPath": "/kiOEVg5BkzLE0pWoPKecXd7wZ2Q.jpg"
+    "backdropPath": "/kiOEVg5BkzLE0pWoPKecXd7wZ2Q.jpg",
+    "releaseYear": 2025
   },
   "secret-invasion": {
     "tmdbId": 114472,
     "posterPath": "/cF8RJk4wTce9esl9rxdFdUGV3Nb.jpg",
-    "backdropPath": "/6mOK9j99OFlxGc3ird2jWUeUha9.jpg"
+    "backdropPath": "/6mOK9j99OFlxGc3ird2jWUeUha9.jpg",
+    "releaseYear": 2023
   },
   "the-marvels": {
     "tmdbId": 609681,
     "posterPath": "/9GBhzXMFjgcZ3FdR9w3bUMMTps5.jpg",
-    "backdropPath": "/w4pRLYYbhHn3sh9kqRgPZM6GjyS.jpg"
+    "backdropPath": "/w4pRLYYbhHn3sh9kqRgPZM6GjyS.jpg",
+    "releaseYear": 2023
   },
   "gotg-holiday-special": {
     "tmdbId": 774752,
     "posterPath": "/8dqXyslZ2hv49Oiob9UjlGSHSTR.jpg",
-    "backdropPath": "/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg"
+    "backdropPath": "/rfnmMYuZ6EKOBvQLp2wqP21v7sI.jpg",
+    "releaseYear": 2022
   },
   "werewolf-by-night": {
     "tmdbId": 894205,
     "posterPath": "/mvIvNKRIJPPS7WSFarFhOAGIVnU.jpg",
-    "backdropPath": "/pfAZP7JvTTxqgq7n6A1OYgkAdEW.jpg"
+    "backdropPath": "/pfAZP7JvTTxqgq7n6A1OYgkAdEW.jpg",
+    "releaseYear": 2022
   },
   "wonder-man": {
     "tmdbId": 198178,
     "posterPath": "/6yy9nQlFt2l6UVWzrfhszFCaZ5C.jpg",
-    "backdropPath": "/ldz9THIHaV4orMsUrPT1nlQF51T.jpg"
+    "backdropPath": "/ldz9THIHaV4orMsUrPT1nlQF51T.jpg",
+    "releaseYear": 2026
   },
   "ant-man-quantumania": {
     "tmdbId": 640146,
     "posterPath": "/qnqGbB22YJ7dSs4o6M7exTpNxPz.jpg",
-    "backdropPath": "/m8JTwHFwX7I7JY5fPe4SjqejWag.jpg"
+    "backdropPath": "/m8JTwHFwX7I7JY5fPe4SjqejWag.jpg",
+    "releaseYear": 2023
   },
   "loki-s2": {
     "tmdbId": 84958,
     "posterPath": "/rX1wQMTKFqF0gvZyS0DDQqgnQPB.jpg",
-    "backdropPath": "/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg"
+    "backdropPath": "/q3jHCb4dMfYF6ojikKuHd6LscxC.jpg",
+    "releaseYear": 2023
   },
   "what-if-s2": {
     "tmdbId": 91363,
     "posterPath": "/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
-    "backdropPath": "/jnzoh5qoxRLFRIQAxnl6D3RStPC.jpg"
+    "backdropPath": "/jnzoh5qoxRLFRIQAxnl6D3RStPC.jpg",
+    "releaseYear": 2023
   },
   "what-if-s3": {
     "tmdbId": 91363,
     "posterPath": "/lztz5XBMG1x6Y5ubz7CxfPFsAcW.jpg",
-    "backdropPath": "/jnzoh5qoxRLFRIQAxnl6D3RStPC.jpg"
+    "backdropPath": "/jnzoh5qoxRLFRIQAxnl6D3RStPC.jpg",
+    "releaseYear": 2024
   },
   "deadpool-and-wolverine": {
     "tmdbId": 533535,
     "posterPath": "/8cdWjvZQUExUUTzyp4t6EDMubfO.jpg",
-    "backdropPath": "/cOoVcVQ3i1m5b2xtqKBtoTSbxC1.jpg"
+    "backdropPath": "/cOoVcVQ3i1m5b2xtqKBtoTSbxC1.jpg",
+    "releaseYear": 2024
   },
   "guardians-of-the-galaxy-vol-3": {
     "tmdbId": 447365,
     "posterPath": "/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
-    "backdropPath": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg"
+    "backdropPath": "/5YZbUmjbMa3ClvSW1Wj3D6XGolb.jpg",
+    "releaseYear": 2023
   },
   "agatha-all-along": {
     "tmdbId": 138501,
     "posterPath": "/mGsxKwXUjojitRv2E9qMTbxbBRd.jpg",
-    "backdropPath": "/tYLXJW1sZQU09VWY1BhSVPKGIwc.jpg"
+    "backdropPath": "/tYLXJW1sZQU09VWY1BhSVPKGIwc.jpg",
+    "releaseYear": 2024
   },
   "daredevil-born-again-s1": {
     "tmdbId": 202555,
     "posterPath": "/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "backdropPath": "/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg"
+    "backdropPath": "/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg",
+    "releaseYear": 2025
   },
   "captain-america-brave-new-world": {
     "tmdbId": 822119,
     "posterPath": "/pzIddUEMWhWzfvLI3TwxUG2wGoi.jpg",
-    "backdropPath": "/8eifdha9GQeZAkexgtD45546XKx.jpg"
+    "backdropPath": "/8eifdha9GQeZAkexgtD45546XKx.jpg",
+    "releaseYear": 2025
   },
   "thunderbolts": {
     "tmdbId": 986056,
     "posterPath": "/hqcexYHbiTBfDIdDWxrxPtVndBX.jpg",
-    "backdropPath": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg"
+    "backdropPath": "/rthMuZfFv4fqEU4JVbgSW9wQ8rs.jpg",
+    "releaseYear": 2025
   },
   "daredevil-born-again-s2": {
     "tmdbId": 202555,
     "posterPath": "/xDUoAsU8lQHOOoRkFiBuarmACDN.jpg",
-    "backdropPath": "/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg"
+    "backdropPath": "/qrTAc0ZtQ859Qu5O8cixJzNJpQs.jpg",
+    "releaseYear": 2026
   },
   "punisher-one-shot-special": {
     "tmdbId": 1439930,
     "posterPath": "/qQclTgLMDvGBuUBFGHRipxkEwWR.jpg",
-    "backdropPath": "/qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg"
+    "backdropPath": "/qO55CD8tgVL1T4WKn6zYFFiD6lL.jpg",
+    "releaseYear": 2026
   },
   "spider-man-brand-new-day": {
     "tmdbId": 969681,
     "posterPath": "/yyB2VJEW3an2xCdcYCPQhn9QERR.jpg",
-    "backdropPath": "/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg"
+    "backdropPath": "/vjMvFSmGUxEtqVdaZgvFee9XkZl.jpg",
+    "releaseYear": 2026
   },
   "avengers-doomsday": {
     "tmdbId": 1003596,
     "posterPath": "/8HkIe2i4ScpCkcX9SzZ9IPasqWV.jpg",
-    "backdropPath": "/6KDDoTq8Vq3HuQHULzuvPiCJbMI.jpg"
+    "backdropPath": "/6KDDoTq8Vq3HuQHULzuvPiCJbMI.jpg",
+    "releaseYear": 2026
   },
   "avengers-secret-wars": {
     "tmdbId": 1003598,
     "posterPath": "/f0YBuh4hyiAheXhh4JnJWoKi9g5.jpg",
-    "backdropPath": "/rytc6Lf4447C0CDncwFa4gxe0vY.jpg"
+    "backdropPath": "/rytc6Lf4447C0CDncwFa4gxe0vY.jpg",
+    "releaseYear": 2027
   }
 }

@@ -8,6 +8,7 @@ interface TmdbCacheEntry {
   tmdbId: number;
   posterPath: string | null;
   backdropPath: string | null;
+  releaseYear: number | null;
 }
 
 const cache = tmdbCache as Record<string, TmdbCacheEntry>;
@@ -26,4 +27,8 @@ export function getBackdropUrl(id: string, size: TmdbImageSize = "w780"): string
   const backdropPath = cache[id]?.backdropPath;
   if (!backdropPath) return null;
   return `${TMDB_IMAGE_BASE}/${size}${backdropPath}`;
+}
+
+export function getReleaseYear(id: string): number | null {
+  return cache[id]?.releaseYear ?? null;
 }

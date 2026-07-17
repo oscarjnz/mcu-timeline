@@ -21,7 +21,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "captain-america-first-avenger",
     titleEn: "Captain America: The First Avenger",
-    titleEs: "Capitán América: El Primer Avenger",
+    titleEs: "Captain America: The First Avenger",
     type: "movie",
     phase: 1,
     order: 2,
@@ -53,7 +53,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "agent-carter-s1",
     titleEn: "Agent Carter Season 1",
-    titleEs: "Agent Carter Temporada 1",
+    titleEs: "Agent Carter Season 1",
     type: "tv",
     phase: 1,
     order: 4,
@@ -70,7 +70,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "agent-carter-s2",
     titleEn: "Agent Carter Season 2",
-    titleEs: "Agent Carter Temporada 2",
+    titleEs: "Agent Carter Season 2",
     type: "tv",
     phase: 1,
     order: 5,
@@ -85,7 +85,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "fantastic-four-first-steps",
     titleEn: "The Fantastic Four: First Steps",
-    titleEs: "Los 4 Fantásticos: Primeros Pasos",
+    titleEs: "The Fantastic Four: First Steps",
     type: "movie",
     phase: 1,
     order: 6,
@@ -102,7 +102,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "captain-marvel",
     titleEn: "Captain Marvel",
-    titleEs: "Capitana Marvel",
+    titleEs: "Captain Marvel",
     type: "movie",
     phase: 1,
     order: 7,
@@ -176,7 +176,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "incredible-hulk",
     titleEn: "The Incredible Hulk",
-    titleEs: "El Increíble Hulk",
+    titleEs: "The Incredible Hulk",
     type: "movie",
     phase: 1,
     order: 12,
@@ -200,7 +200,7 @@ export const timeline: TimelineEntry[] = [
     justificationEn:
       "Deals with the aftermath of Iron Man 2 and The Incredible Hulk, with Coulson sending Stark to talk to General Ross as S.H.I.E.L.D.'s consultant.",
     justificationEs:
-      "Trata las secuelas de Iron Man 2 y El Increíble Hulk, con Coulson enviando a Stark a hablar con el General Ross como consultor de S.H.I.E.L.D.",
+      "Trata las secuelas de Iron Man 2 y The Incredible Hulk, con Coulson enviando a Stark a hablar con el General Ross como consultor de S.H.I.E.L.D.",
     tmdbSearchTitle: "Marvel One-Shot: The Consultant",
     tmdbMediaType: "movie",
   },
@@ -268,7 +268,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s1-1-7",
     titleEn: "Agents of S.H.I.E.L.D. Season 1, Episodes 1-7",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 1, episodios 1-7",
+    titleEs: "Agents of S.H.I.E.L.D. Season 1, Episodes 1-7",
     type: "tv",
     phase: 2,
     order: 18,
@@ -282,7 +282,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "thor-dark-world",
     titleEn: "Thor: The Dark World",
-    titleEs: "Thor: Un Mundo Oscuro",
+    titleEs: "Thor: The Dark World",
     type: "movie",
     phase: 2,
     order: 19,
@@ -296,21 +296,21 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s1-8-16",
     titleEn: "Agents of S.H.I.E.L.D. Season 1, Episodes 8-16",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 1, episodios 8-16",
+    titleEs: "Agents of S.H.I.E.L.D. Season 1, Episodes 8-16",
     type: "tv",
     phase: 2,
     order: 20,
     dateLabelEn: "2013",
     dateLabelEs: "2013",
     justificationEn: "Deals with the aftermath of The Dark World and leads into The Winter Soldier.",
-    justificationEs: "Trata las secuelas de Un Mundo Oscuro y enlaza con The Winter Soldier.",
+    justificationEs: "Trata las secuelas de The Dark World y enlaza con The Winter Soldier.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
   },
   {
     id: "captain-america-winter-soldier",
     titleEn: "Captain America: The Winter Soldier",
-    titleEs: "Capitán América: El Soldado de Invierno",
+    titleEs: "Captain America: The Winter Soldier",
     type: "movie",
     phase: 2,
     order: 21,
@@ -324,7 +324,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s1-17-22",
     titleEn: "Agents of S.H.I.E.L.D. Season 1, Episodes 17-22",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 1, episodios 17-22",
+    titleEs: "Agents of S.H.I.E.L.D. Season 1, Episodes 17-22",
     type: "tv",
     phase: 2,
     order: 22,
@@ -338,7 +338,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "guardians-of-the-galaxy",
     titleEn: "Guardians of the Galaxy",
-    titleEs: "Guardianes de la Galaxia",
+    titleEs: "Guardians of the Galaxy",
     type: "movie",
     phase: 2,
     order: 23,
@@ -352,7 +352,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "guardians-of-the-galaxy-vol-2",
     titleEn: "Guardians of the Galaxy Vol. 2",
-    titleEs: "Guardianes de la Galaxia Vol. 2",
+    titleEs: "Guardians of the Galaxy Vol. 2",
     type: "movie",
     phase: 2,
     order: 24,
@@ -366,7 +366,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-s1",
     titleEn: "Daredevil Season 1",
-    titleEs: "Daredevil Temporada 1",
+    titleEs: "Daredevil Season 1",
     type: "tv",
     phase: 2,
     order: 25,
@@ -381,7 +381,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "jessica-jones-s1",
     titleEn: "Jessica Jones Season 1",
-    titleEs: "Jessica Jones Temporada 1",
+    titleEs: "Jessica Jones Season 1",
     type: "tv",
     phase: 2,
     order: 26,
@@ -395,21 +395,21 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s2-1-19",
     titleEn: "Agents of S.H.I.E.L.D. Season 2, Episodes 1-19",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 2, episodios 1-19",
+    titleEs: "Agents of S.H.I.E.L.D. Season 2, Episodes 1-19",
     type: "tv",
     phase: 2,
     order: 27,
     dateLabelEn: "2015",
     dateLabelEs: "2015",
     justificationEn: "Leads directly into Avengers: Age of Ultron.",
-    justificationEs: "Enlaza directamente con Avengers: La Era de Ultrón.",
+    justificationEs: "Enlaza directamente con Avengers: Age of Ultron.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
   },
   {
     id: "avengers-age-of-ultron",
     titleEn: "Avengers: Age of Ultron",
-    titleEs: "Avengers: La Era de Ultrón",
+    titleEs: "Avengers: Age of Ultron",
     type: "movie",
     phase: 2,
     order: 28,
@@ -423,7 +423,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s2-20-22",
     titleEn: "Agents of S.H.I.E.L.D. Season 2, Episodes 20-22",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 2, episodios 20-22",
+    titleEs: "Agents of S.H.I.E.L.D. Season 2, Episodes 20-22",
     type: "tv",
     phase: 2,
     order: 29,
@@ -446,14 +446,14 @@ export const timeline: TimelineEntry[] = [
     justificationEn:
       "References the events of Age of Ultron; Spider-Man is mentioned, placing the film somewhere within the six months before Civil War.",
     justificationEs:
-      "Referencia los eventos de La Era de Ultrón; se menciona a Spider-Man, ubicando la película dentro de los seis meses previos a Civil War.",
+      "Referencia los eventos de Age of Ultron; se menciona a Spider-Man, ubicando la película dentro de los seis meses previos a Civil War.",
     tmdbSearchTitle: "Ant-Man",
     tmdbMediaType: "movie",
   },
   {
     id: "aos-s3-1-10",
     titleEn: "Agents of S.H.I.E.L.D. Season 3, Episodes 1-10",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 3, episodios 1-10",
+    titleEs: "Agents of S.H.I.E.L.D. Season 3, Episodes 1-10",
     type: "tv",
     phase: 2,
     order: 31,
@@ -467,7 +467,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-s2-1-6",
     titleEn: "Daredevil Season 2, Episodes 1-6",
-    titleEs: "Daredevil Temporada 2, episodios 1-6",
+    titleEs: "Daredevil Season 2, Episodes 1-6",
     type: "tv",
     phase: 2,
     order: 32,
@@ -483,7 +483,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s3-11-19",
     titleEn: "Agents of S.H.I.E.L.D. Season 3, Episodes 11-19",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 3, episodios 11-19",
+    titleEs: "Agents of S.H.I.E.L.D. Season 3, Episodes 11-19",
     type: "tv",
     phase: 2,
     order: 33,
@@ -497,7 +497,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-s2-7",
     titleEn: "Daredevil Season 2, Episode 7",
-    titleEs: "Daredevil Temporada 2, episodio 7",
+    titleEs: "Daredevil Season 2, Episode 7",
     type: "tv",
     phase: 2,
     order: 34,
@@ -511,7 +511,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "luke-cage-s1-1",
     titleEn: "Luke Cage Season 1, Episode 1",
-    titleEs: "Luke Cage Temporada 1, episodio 1",
+    titleEs: "Luke Cage Season 1, Episode 1",
     type: "tv",
     phase: 2,
     order: 35,
@@ -525,7 +525,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-s2-8",
     titleEn: "Daredevil Season 2, Episode 8",
-    titleEs: "Daredevil Temporada 2, episodio 8",
+    titleEs: "Daredevil Season 2, Episode 8",
     type: "tv",
     phase: 2,
     order: 36,
@@ -539,7 +539,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "luke-cage-s1-2",
     titleEn: "Luke Cage Season 1, Episode 2",
-    titleEs: "Luke Cage Temporada 1, episodio 2",
+    titleEs: "Luke Cage Season 1, Episode 2",
     type: "tv",
     phase: 2,
     order: 37,
@@ -553,7 +553,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-s2-9",
     titleEn: "Daredevil Season 2, Episode 9",
-    titleEs: "Daredevil Temporada 2, episodio 9",
+    titleEs: "Daredevil Season 2, Episode 9",
     type: "tv",
     phase: 2,
     order: 38,
@@ -567,7 +567,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "luke-cage-s1-3-4",
     titleEn: "Luke Cage Season 1, Episodes 3-4",
-    titleEs: "Luke Cage Temporada 1, episodios 3-4",
+    titleEs: "Luke Cage Season 1, Episodes 3-4",
     type: "tv",
     phase: 2,
     order: 39,
@@ -581,7 +581,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-s2-10-11",
     titleEn: "Daredevil Season 2, Episodes 10-11",
-    titleEs: "Daredevil Temporada 2, episodios 10-11",
+    titleEs: "Daredevil Season 2, Episodes 10-11",
     type: "tv",
     phase: 2,
     order: 40,
@@ -595,7 +595,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "luke-cage-s1-5",
     titleEn: "Luke Cage Season 1, Episode 5",
-    titleEs: "Luke Cage Temporada 1, episodio 5",
+    titleEs: "Luke Cage Season 1, Episode 5",
     type: "tv",
     phase: 2,
     order: 41,
@@ -609,7 +609,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-s2-12-13",
     titleEn: "Daredevil Season 2, Episodes 12-13",
-    titleEs: "Daredevil Temporada 2, episodios 12-13",
+    titleEs: "Daredevil Season 2, Episodes 12-13",
     type: "tv",
     phase: 2,
     order: 42,
@@ -623,7 +623,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "luke-cage-s1-6-13",
     titleEn: "Luke Cage Season 1, Episodes 6-13",
-    titleEs: "Luke Cage Temporada 1, episodios 6-13",
+    titleEs: "Luke Cage Season 1, Episodes 6-13",
     type: "tv",
     phase: 2,
     order: 43,
@@ -637,7 +637,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "iron-fist-s1",
     titleEn: "Iron Fist Season 1",
-    titleEs: "Iron Fist Temporada 1",
+    titleEs: "Iron Fist Season 1",
     type: "tv",
     phase: 2,
     order: 44,
@@ -667,7 +667,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "captain-america-civil-war",
     titleEn: "Captain America: Civil War",
-    titleEs: "Capitán América: Civil War",
+    titleEs: "Captain America: Civil War",
     type: "movie",
     phase: 3,
     order: 46,
@@ -715,7 +715,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s3-20-22",
     titleEn: "Agents of S.H.I.E.L.D. Season 3, Episodes 20-22",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 3, episodios 20-22",
+    titleEs: "Agents of S.H.I.E.L.D. Season 3, Episodes 20-22",
     type: "tv",
     phase: 3,
     order: 49,
@@ -729,7 +729,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "inhumans",
     titleEn: "Inhumans",
-    titleEs: "Inhumanos",
+    titleEs: "Inhumans",
     type: "tv",
     phase: 3,
     order: 50,
@@ -761,7 +761,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "punisher-s1",
     titleEn: "Marvel's The Punisher Season 1",
-    titleEs: "Marvel's The Punisher Temporada 1",
+    titleEs: "Marvel's The Punisher Season 1",
     type: "tv",
     phase: 3,
     order: 52,
@@ -775,7 +775,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "doctor-strange",
     titleEn: "Doctor Strange",
-    titleEs: "Doctor Strange: Hechicero Supremo",
+    titleEs: "Doctor Strange",
     type: "movie",
     phase: 3,
     order: 53,
@@ -805,7 +805,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s4",
     titleEn: "Agents of S.H.I.E.L.D. Season 4",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 4",
+    titleEs: "Agents of S.H.I.E.L.D. Season 4",
     type: "tv",
     phase: 3,
     order: 55,
@@ -819,7 +819,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "cloak-and-dagger-s1",
     titleEn: "Cloak & Dagger Season 1",
-    titleEs: "Cloak & Dagger Temporada 1",
+    titleEs: "Cloak & Dagger Season 1",
     type: "tv",
     phase: 3,
     order: 56,
@@ -833,7 +833,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "jessica-jones-s2",
     titleEn: "Jessica Jones Season 2",
-    titleEs: "Jessica Jones Temporada 2",
+    titleEs: "Jessica Jones Season 2",
     type: "tv",
     phase: 3,
     order: 57,
@@ -848,7 +848,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "luke-cage-s2",
     titleEn: "Luke Cage Season 2",
-    titleEs: "Luke Cage Temporada 2",
+    titleEs: "Luke Cage Season 2",
     type: "tv",
     phase: 3,
     order: 58,
@@ -863,7 +863,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s5-1-10",
     titleEn: "Agents of S.H.I.E.L.D. Season 5, Episodes 1-10",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 5, episodios 1-10",
+    titleEs: "Agents of S.H.I.E.L.D. Season 5, Episodes 1-10",
     type: "tv",
     phase: 3,
     order: 59,
@@ -893,7 +893,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "iron-fist-s2",
     titleEn: "Iron Fist Season 2",
-    titleEs: "Iron Fist Temporada 2",
+    titleEs: "Iron Fist Season 2",
     type: "tv",
     phase: 3,
     order: 61,
@@ -907,7 +907,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "cloak-and-dagger-s2",
     titleEn: "Cloak & Dagger Season 2",
-    titleEs: "Cloak & Dagger Temporada 2",
+    titleEs: "Cloak & Dagger Season 2",
     type: "tv",
     phase: 3,
     order: 62,
@@ -923,7 +923,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-s3",
     titleEn: "Daredevil Season 3",
-    titleEs: "Daredevil Temporada 3",
+    titleEs: "Daredevil Season 3",
     type: "tv",
     phase: 3,
     order: 63,
@@ -937,7 +937,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "runaways-s1-3",
     titleEn: "Runaways Seasons 1-3",
-    titleEs: "Runaways Temporadas 1-3",
+    titleEs: "Runaways Seasons 1-3",
     type: "tv",
     phase: 3,
     order: 64,
@@ -951,7 +951,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "punisher-s2",
     titleEn: "Marvel's The Punisher Season 2",
-    titleEs: "Marvel's The Punisher Temporada 2",
+    titleEs: "Marvel's The Punisher Season 2",
     type: "tv",
     phase: 3,
     order: 65,
@@ -965,7 +965,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "jessica-jones-s3",
     titleEn: "Jessica Jones Season 3",
-    titleEs: "Jessica Jones Temporada 3",
+    titleEs: "Jessica Jones Season 3",
     type: "tv",
     phase: 3,
     order: 66,
@@ -980,21 +980,21 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s5-11-18",
     titleEn: "Agents of S.H.I.E.L.D. Season 5, Episodes 11-18",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 5, episodios 11-18",
+    titleEs: "Agents of S.H.I.E.L.D. Season 5, Episodes 11-18",
     type: "tv",
     phase: 3,
     order: 67,
     dateLabelEn: "2018",
     dateLabelEs: "2018",
     justificationEn: "Ant-Man and the Wasp has to take place before Episodes 19-22.",
-    justificationEs: "Ant-Man y la Avispa debe transcurrir antes de los episodios 19-22.",
+    justificationEs: "Ant-Man and the Wasp debe transcurrir antes de los episodios 19-22.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
   },
   {
     id: "ant-man-and-the-wasp",
     titleEn: "Ant-Man and the Wasp",
-    titleEs: "Ant-Man y la Avispa",
+    titleEs: "Ant-Man and the Wasp",
     type: "movie",
     phase: 3,
     order: 68,
@@ -1008,7 +1008,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s5-19-22",
     titleEn: "Agents of S.H.I.E.L.D. Season 5, Episodes 19-22",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 5, episodios 19-22",
+    titleEs: "Agents of S.H.I.E.L.D. Season 5, Episodes 19-22",
     type: "tv",
     phase: 3,
     order: 69,
@@ -1036,7 +1036,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s6",
     titleEn: "Agents of S.H.I.E.L.D. Season 6",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 6",
+    titleEs: "Agents of S.H.I.E.L.D. Season 6",
     type: "tv",
     phase: 3,
     order: 71,
@@ -1050,7 +1050,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "aos-s7",
     titleEn: "Agents of S.H.I.E.L.D. Season 7",
-    titleEs: "Agents of S.H.I.E.L.D. Temporada 7",
+    titleEs: "Agents of S.H.I.E.L.D. Season 7",
     type: "tv",
     phase: 3,
     order: 72,
@@ -1082,7 +1082,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "loki-s1",
     titleEn: "Loki Season 1",
-    titleEs: "Loki Temporada 1",
+    titleEs: "Loki Season 1",
     type: "tv",
     phase: 4,
     order: 74,
@@ -1097,7 +1097,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "what-if-s1",
     titleEn: "What If...? Season 1",
-    titleEs: "What If...? Temporada 1",
+    titleEs: "What If...? Season 1",
     type: "tv",
     phase: 4,
     order: 75,
@@ -1157,7 +1157,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "shang-chi",
     titleEn: "Shang-Chi and the Legend of the Ten Rings",
-    titleEs: "Shang-Chi y la Leyenda de los Diez Anillos",
+    titleEs: "Shang-Chi and the Legend of the Ten Rings",
     type: "movie",
     phase: 4,
     order: 79,
@@ -1171,7 +1171,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "falcon-and-winter-soldier",
     titleEn: "The Falcon and the Winter Soldier",
-    titleEs: "Falcon y el Soldado de Invierno",
+    titleEs: "The Falcon and the Winter Soldier",
     type: "tv",
     phase: 4,
     order: 80,
@@ -1185,7 +1185,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "thor-love-and-thunder",
     titleEn: "Thor: Love and Thunder",
-    titleEs: "Thor: Amor y Trueno",
+    titleEs: "Thor: Love and Thunder",
     type: "movie",
     phase: 4,
     order: 81,
@@ -1231,7 +1231,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "spider-man-far-from-home",
     titleEn: "Spider-Man: Far From Home",
-    titleEs: "Spider-Man: Lejos de Casa",
+    titleEs: "Spider-Man: Far From Home",
     type: "movie",
     phase: 4,
     order: 84,
@@ -1245,35 +1245,35 @@ export const timeline: TimelineEntry[] = [
   {
     id: "spider-man-no-way-home",
     titleEn: "Spider-Man: No Way Home",
-    titleEs: "Spider-Man: Sin Camino a Casa",
+    titleEs: "Spider-Man: No Way Home",
     type: "movie",
     phase: 4,
     order: 85,
     dateLabelEn: "2024",
     dateLabelEs: "2024",
     justificationEn: "Picks up directly after Far From Home; the ending is set in December.",
-    justificationEs: "Continúa justo después de Lejos de Casa; el final transcurre en diciembre.",
+    justificationEs: "Continúa justo después de Far From Home; el final transcurre en diciembre.",
     tmdbSearchTitle: "Spider-Man: No Way Home",
     tmdbMediaType: "movie",
   },
   {
     id: "doctor-strange-multiverse-of-madness",
     titleEn: "Doctor Strange in the Multiverse of Madness",
-    titleEs: "Doctor Strange en el Multiverso de la Locura",
+    titleEs: "Doctor Strange in the Multiverse of Madness",
     type: "movie",
     phase: 4,
     order: 86,
     dateLabelEn: "2024",
     dateLabelEs: "2024",
     justificationEn: "Fall foliage in New York and direct references to the events of No Way Home.",
-    justificationEs: "El follaje de otoño en Nueva York y las referencias directas a los eventos de Sin Camino a Casa.",
+    justificationEs: "El follaje de otoño en Nueva York y las referencias directas a los eventos de No Way Home.",
     tmdbSearchTitle: "Doctor Strange in the Multiverse of Madness",
     tmdbMediaType: "movie",
   },
   {
     id: "hawkeye",
     titleEn: "Hawkeye",
-    titleEs: "Ojo de Halcón",
+    titleEs: "Hawkeye",
     type: "tv",
     phase: 4,
     order: 87,
@@ -1287,7 +1287,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "she-hulk-1-3",
     titleEn: "She-Hulk: Attorney at Law, Episodes 1-3",
-    titleEs: "She-Hulk: Abogada Hulka, episodios 1-3",
+    titleEs: "She-Hulk: Attorney at Law, Episodes 1-3",
     type: "tv",
     phase: 4,
     order: 88,
@@ -1303,7 +1303,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "black-panther-wakanda-forever",
     titleEn: "Black Panther: Wakanda Forever",
-    titleEs: "Black Panther: Wakanda por Siempre",
+    titleEs: "Black Panther: Wakanda Forever",
     type: "movie",
     phase: 4,
     order: 89,
@@ -1328,14 +1328,14 @@ export const timeline: TimelineEntry[] = [
     justificationEn:
       "Five months after Hawkeye places it in late May. Daredevil and Kingpin survived the Snap, and Fisk began restoring his empire, forcing Matt to become Daredevil again.",
     justificationEs:
-      "Cinco meses después de Ojo de Halcón la ubican a fines de mayo. Daredevil y Kingpin sobrevivieron al chasquido, y Fisk empezó a reconstruir su imperio, obligando a Matt a volver a ser Daredevil.",
+      "Cinco meses después de Hawkeye la ubican a fines de mayo. Daredevil y Kingpin sobrevivieron al chasquido, y Fisk empezó a reconstruir su imperio, obligando a Matt a volver a ser Daredevil.",
     tmdbSearchTitle: "Echo",
     tmdbMediaType: "tv",
   },
   {
     id: "she-hulk-4-6",
     titleEn: "She-Hulk: Attorney at Law, Episodes 4-6",
-    titleEs: "She-Hulk: Abogada Hulka, episodios 4-6",
+    titleEs: "She-Hulk: Attorney at Law, Episodes 4-6",
     type: "tv",
     phase: 4,
     order: 91,
@@ -1349,7 +1349,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "she-hulk-7-9",
     titleEn: "She-Hulk: Attorney at Law, Episodes 7-9",
-    titleEs: "She-Hulk: Abogada Hulka, episodios 7-9",
+    titleEs: "She-Hulk: Attorney at Law, Episodes 7-9",
     type: "tv",
     phase: 4,
     order: 92,
@@ -1395,7 +1395,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "secret-invasion",
     titleEn: "Secret Invasion",
-    titleEs: "Invasión Secreta",
+    titleEs: "Secret Invasion",
     type: "tv",
     phase: 5,
     order: 95,
@@ -1404,7 +1404,7 @@ export const timeline: TimelineEntry[] = [
     justificationEn:
       "Unity Day is November 4th, thirty years after Captain Marvel. The invasion began after everyone returned in Endgame, and it happens chronologically before The Marvels.",
     justificationEs:
-      "El Día de la Unidad es el 4 de noviembre, treinta años después de Capitana Marvel. La invasión comenzó después de que todos volvieran en Endgame, y ocurre cronológicamente antes de The Marvels.",
+      "El Día de la Unidad es el 4 de noviembre, treinta años después de Captain Marvel. La invasión comenzó después de que todos volvieran en Endgame, y ocurre cronológicamente antes de The Marvels.",
     tmdbSearchTitle: "Secret Invasion",
     tmdbMediaType: "tv",
   },
@@ -1418,14 +1418,14 @@ export const timeline: TimelineEntry[] = [
     dateLabelEn: "2025",
     dateLabelEs: "2025",
     justificationEn: "The writers confirmed it happens chronologically after Secret Invasion; Kamala is still 16 years old.",
-    justificationEs: "Los guionistas confirmaron que ocurre cronológicamente después de Invasión Secreta; Kamala sigue teniendo 16 años.",
+    justificationEs: "Los guionistas confirmaron que ocurre cronológicamente después de Secret Invasion; Kamala sigue teniendo 16 años.",
     tmdbSearchTitle: "The Marvels",
     tmdbMediaType: "movie",
   },
   {
     id: "gotg-holiday-special",
     titleEn: "The Guardians of the Galaxy Holiday Special",
-    titleEs: "El Especial Navideño de los Guardianes de la Galaxia",
+    titleEs: "The Guardians of the Galaxy Holiday Special",
     type: "special",
     phase: 5,
     order: 97,
@@ -1471,7 +1471,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "ant-man-quantumania",
     titleEn: "Ant-Man and the Wasp: Quantumania",
-    titleEs: "Ant-Man y la Avispa: Quantumania",
+    titleEs: "Ant-Man and the Wasp: Quantumania",
     type: "movie",
     phase: 5,
     order: 100,
@@ -1487,7 +1487,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "loki-s2",
     titleEn: "Loki Season 2",
-    titleEs: "Loki Temporada 2",
+    titleEs: "Loki Season 2",
     type: "tv",
     phase: 5,
     order: 101,
@@ -1502,7 +1502,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "what-if-s2",
     titleEn: "What If...? Season 2",
-    titleEs: "What If...? Temporada 2",
+    titleEs: "What If...? Season 2",
     type: "tv",
     phase: 5,
     order: 102,
@@ -1517,7 +1517,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "what-if-s3",
     titleEn: "What If...? Season 3",
-    titleEs: "What If...? Temporada 3",
+    titleEs: "What If...? Season 3",
     type: "tv",
     phase: 5,
     order: 103,
@@ -1532,7 +1532,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "deadpool-and-wolverine",
     titleEn: "Deadpool & Wolverine",
-    titleEs: "Deadpool y Wolverine",
+    titleEs: "Deadpool & Wolverine",
     type: "movie",
     phase: 5,
     order: 104,
@@ -1547,21 +1547,21 @@ export const timeline: TimelineEntry[] = [
   {
     id: "guardians-of-the-galaxy-vol-3",
     titleEn: "Guardians of the Galaxy Vol. 3",
-    titleEs: "Guardianes de la Galaxia Vol. 3",
+    titleEs: "Guardians of the Galaxy Vol. 3",
     type: "movie",
     phase: 5,
     order: 105,
     dateLabelEn: "2026",
     dateLabelEs: "2026",
     justificationEn: "Follows the Holiday Special; a newspaper clipping is dated September 14th, 2026.",
-    justificationEs: "Continúa el Especial Navideño; un recorte de periódico tiene fecha del 14 de septiembre de 2026.",
+    justificationEs: "Continúa el Holiday Special; un recorte de periódico tiene fecha del 14 de septiembre de 2026.",
     tmdbSearchTitle: "Guardians of the Galaxy Vol. 3",
     tmdbMediaType: "movie",
   },
   {
     id: "agatha-all-along",
     titleEn: "Agatha All Along",
-    titleEs: "Agatha Todo Al Mismo Tiempo",
+    titleEs: "Agatha All Along",
     type: "tv",
     phase: 5,
     order: 106,
@@ -1577,7 +1577,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "daredevil-born-again-s1",
     titleEn: "Daredevil: Born Again Season 1",
-    titleEs: "Daredevil: Born Again Temporada 1",
+    titleEs: "Daredevil: Born Again Season 1",
     type: "tv",
     phase: 5,
     order: 107,
@@ -1593,7 +1593,7 @@ export const timeline: TimelineEntry[] = [
   {
     id: "captain-america-brave-new-world",
     titleEn: "Captain America: Brave New World",
-    titleEs: "Capitán América: Un Nuevo Mundo",
+    titleEs: "Captain America: Brave New World",
     type: "movie",
     phase: 5,
     order: 108,
@@ -1602,7 +1602,7 @@ export const timeline: TimelineEntry[] = [
     justificationEn:
       "Set three years after The Falcon and the Winter Soldier, per the April date on the Celestial Island World Summit itinerary.",
     justificationEs:
-      "Transcurre tres años después de Falcon y el Soldado de Invierno, según la fecha de abril en el itinerario de la Cumbre Mundial de Celestial Island.",
+      "Transcurre tres años después de The Falcon and the Winter Soldier, según la fecha de abril en el itinerario de la Cumbre Mundial de Celestial Island.",
     tmdbSearchTitle: "Captain America: Brave New World",
     tmdbMediaType: "movie",
   },
@@ -1618,14 +1618,14 @@ export const timeline: TimelineEntry[] = [
     justificationEn:
       "A double-feature sequel to Brave New World; roughly five to six months later, with trees and foliage suggesting late September or early October.",
     justificationEs:
-      "Secuela de doble función de Un Nuevo Mundo; aproximadamente cinco o seis meses después, con árboles y follaje que sugieren fines de septiembre o inicio de octubre.",
+      "Secuela de doble función de Brave New World; aproximadamente cinco o seis meses después, con árboles y follaje que sugieren fines de septiembre o inicio de octubre.",
     tmdbSearchTitle: "Thunderbolts*",
     tmdbMediaType: "movie",
   },
   {
     id: "daredevil-born-again-s2",
     titleEn: "Daredevil: Born Again Season 2",
-    titleEs: "Daredevil: Born Again Temporada 2",
+    titleEs: "Daredevil: Born Again Season 2",
     type: "tv",
     phase: 5,
     order: 110,
@@ -1657,14 +1657,14 @@ export const timeline: TimelineEntry[] = [
   {
     id: "spider-man-brand-new-day",
     titleEn: "Spider-Man: Brand New Day",
-    titleEs: "Spider-Man: Un Nuevo Día",
+    titleEs: "Spider-Man: Brand New Day",
     type: "movie",
     phase: 5,
     order: 112,
     dateLabelEn: "2027-2028",
     dateLabelEs: "2027-2028",
     justificationEn: "Set four years after No Way Home.",
-    justificationEs: "Transcurre cuatro años después de Sin Camino a Casa.",
+    justificationEs: "Transcurre cuatro años después de No Way Home.",
     tmdbSearchTitle: "Spider-Man: Brand New Day",
     tmdbMediaType: "movie",
   },
