@@ -1640,8 +1640,8 @@ export const timeline: TimelineEntry[] = [
   },
   {
     id: "punisher-one-shot-special",
-    titleEn: "Punisher: One-Shot Special",
-    titleEs: "Punisher: One-Shot Special",
+    titleEn: "The Punisher: One Last Kill",
+    titleEs: "The Punisher: One Last Kill",
     type: "special",
     phase: 5,
     order: 111,
@@ -1651,7 +1651,7 @@ export const timeline: TimelineEntry[] = [
       "A sequel to Punisher Season 2 and Born Again Seasons 1 and 2, leading into Spider-Man: Brand New Day.",
     justificationEs:
       "Secuela de Punisher Temporada 2 y Born Again Temporadas 1 y 2, que lleva a Spider-Man: Brand New Day.",
-    tmdbSearchTitle: "Punisher: One-Shot Special",
+    tmdbSearchTitle: "The Punisher: One Last Kill",
     tmdbMediaType: "movie",
   },
   {

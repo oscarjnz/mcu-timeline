@@ -1691,6 +1691,20 @@
       }
     ]
   },
+  "punisher-one-shot-special": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
   "spider-man-brand-new-day": {
     "US": [],
     "DO": []

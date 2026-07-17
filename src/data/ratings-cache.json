@@ -1,6 +1,6 @@
 {
   "eyes-of-wakanda": {
-    "tmdbScore": 6.185,
+    "tmdbScore": 6.2,
     "tmdbVoteCount": 176,
     "imdbId": "tt13968252",
     "imdbRating": null,
@@ -21,14 +21,14 @@
     "rottenTomatoes": null
   },
   "agent-carter-s1": {
-    "tmdbScore": 7.52,
+    "tmdbScore": 7.5,
     "tmdbVoteCount": 1999,
     "imdbId": "tt3475734",
     "imdbRating": null,
     "rottenTomatoes": null
   },
   "agent-carter-s2": {
-    "tmdbScore": 7.52,
+    "tmdbScore": 7.5,
     "tmdbVoteCount": 1999,
     "imdbId": "tt3475734",
     "imdbRating": null,
@@ -50,7 +50,7 @@
   },
   "iron-man": {
     "tmdbScore": 7.662,
-    "tmdbVoteCount": 28327,
+    "tmdbVoteCount": 28331,
     "imdbId": "tt0371746",
     "imdbRating": null,
     "rottenTomatoes": null
@@ -155,7 +155,7 @@
   },
   "guardians-of-the-galaxy": {
     "tmdbScore": 7.906,
-    "tmdbVoteCount": 29893,
+    "tmdbVoteCount": 29897,
     "imdbId": "tt2015381",
     "imdbRating": null,
     "rottenTomatoes": null
@@ -441,7 +441,7 @@
     "rottenTomatoes": null
   },
   "runaways-s1-3": {
-    "tmdbScore": 7.275,
+    "tmdbScore": 7.3,
     "tmdbVoteCount": 984,
     "imdbId": "tt1236246",
     "imdbRating": null,
@@ -589,7 +589,7 @@
   },
   "spider-man-no-way-home": {
     "tmdbScore": 7.934,
-    "tmdbVoteCount": 22227,
+    "tmdbVoteCount": 22230,
     "imdbId": "tt10872600",
     "imdbRating": null,
     "rottenTomatoes": null
@@ -602,7 +602,7 @@
     "rottenTomatoes": null
   },
   "hawkeye": {
-    "tmdbScore": 7.784,
+    "tmdbScore": 7.8,
     "tmdbVoteCount": 3752,
     "imdbId": "tt10160804",
     "imdbRating": null,
@@ -722,7 +722,7 @@
   },
   "deadpool-and-wolverine": {
     "tmdbScore": 7.58,
-    "tmdbVoteCount": 8931,
+    "tmdbVoteCount": 8934,
     "imdbId": "tt6263850",
     "imdbRating": null,
     "rottenTomatoes": null
@@ -766,6 +766,13 @@
     "tmdbScore": 8.2,
     "tmdbVoteCount": 1011,
     "imdbId": "tt18923754",
+    "imdbRating": null,
+    "rottenTomatoes": null
+  },
+  "punisher-one-shot-special": {
+    "tmdbScore": 8.329,
+    "tmdbVoteCount": 1849,
+    "imdbId": "tt36042156",
     "imdbRating": null,
     "rottenTomatoes": null
   },
