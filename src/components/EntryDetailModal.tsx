@@ -80,7 +80,7 @@ export function EntryDetailModal({ entry, onClose }: EntryDetailModalProps) {
 
   return (
     <div
-      className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/70 p-4 sm:items-center"
+      className="fixed inset-0 z-50 flex items-start justify-center overflow-y-auto bg-black/70 p-4"
       onClick={onClose}
     >
       <div
