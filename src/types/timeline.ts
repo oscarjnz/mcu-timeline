@@ -18,6 +18,13 @@ export interface TimelineEntry {
   tmdbYear?: number;
   outsideTime?: boolean;
   earthVariant?: string;
+  universeEn?: string;
+  universeEs?: string;
+  postCreditsEn?: string;
+  postCreditsEs?: string;
+  triviaEn?: string[];
+  triviaEs?: string[];
+  hasFutureSpoilers?: boolean;
 }
 
 export interface Phase {
