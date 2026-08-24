@@ -27,6 +27,10 @@ if (!TMDB_READ_ACCESS_TOKEN) {
   throw new Error("Falta TMDB_READ_ACCESS_TOKEN en el entorno (revisa .env.local).");
 }
 
+function tmdbHeaders() {
+  return { Authorization: `Bearer ${TMDB_READ_ACCESS_TOKEN}`, accept: "application/json" };
+}
+
 interface TmdbSearchResult {
   id: number;
   title?: string;
@@ -41,15 +45,66 @@ interface TmdbSearchResponse {
   results: TmdbSearchResult[];
 }
 
+export interface TmdbCastMember {
+  name: string;
+  character: string;
+  profilePath: string | null;
+}
+
 export interface TmdbCacheEntry {
   tmdbId: number;
   posterPath: string | null;
   backdropPath: string | null;
   releaseYear: number | null;
+  overviewEn: string | null;
+  overviewEs: string | null;
+  tagline: string | null;
+  runtimeMinutes: number | null;
+  genresEn: string[];
+  genresEs: string[];
+  director: string | null;
+  cast: TmdbCastMember[];
+  trailerKey: string | null;
 }
 
 interface TmdbSeasonResponse {
   air_date: string | null;
+  overview: string | null;
+}
+
+interface TmdbCreditsResponse {
+  cast: { name: string; character: string; profile_path: string | null; order: number }[];
+  crew: { job: string; name: string }[];
+}
+
+interface TmdbVideosResponse {
+  results: { key: string; site: string; type: string; official: boolean; published_at: string }[];
+}
+
+interface TmdbGenre {
+  id: number;
+  name: string;
+}
+
+interface TmdbDetailsResponse {
+  overview: string | null;
+  tagline?: string | null;
+  runtime?: number | null;
+  episode_run_time?: number[];
+  genres: TmdbGenre[];
+  created_by?: { name: string }[];
+  credits: TmdbCreditsResponse;
+  videos: TmdbVideosResponse;
+}
+
+interface TmdbLocalizedDetailsResponse {
+  overview: string | null;
+  genres: TmdbGenre[];
+}
+
+function getSeasonNumber(entry: TimelineEntry): number {
+  const seasonMatch = entry.titleEn.match(/Season (\d+)/);
+  return seasonMatch ? Number(seasonMatch[1]) : 1;
 }
 
 // La mayoria de nuestras entradas de TV son un tramo de episodios de una
@@ -59,20 +114,28 @@ interface TmdbSeasonResponse {
 // de la temporada 6, se resuelve el numero de temporada desde el titulo y se
 // pide la fecha de estreno de esa temporada puntual.
 async function fetchSeasonAirYear(tmdbId: number, entry: TimelineEntry): Promise<number | null> {
-  const seasonMatch = entry.titleEn.match(/Season (\d+)/);
-  const seasonNumber = seasonMatch ? Number(seasonMatch[1]) : 1;
-
+  const seasonNumber = getSeasonNumber(entry);
   const response = await fetch(
     `https://api.themoviedb.org/3/tv/${tmdbId}/season/${seasonNumber}`,
-    {
-      headers: { Authorization: `Bearer ${TMDB_READ_ACCESS_TOKEN}`, accept: "application/json" },
-    },
+    { headers: tmdbHeaders() },
   );
   if (!response.ok) return null;
-
   const data = (await response.json()) as TmdbSeasonResponse;
   if (!data.air_date) return null;
   return Number(data.air_date.slice(0, 4));
+}
+
+// Mismo problema que arriba pero para la sinopsis: el endpoint de serie
+// completa devuelve el overview de la temporada 1, no el de la temporada
+// especifica de esta entrada. Se pide el overview de la temporada exacta.
+async function fetchSeasonOverview(tmdbId: number, entry: TimelineEntry, language: string): Promise<string | null> {
+  const seasonNumber = getSeasonNumber(entry);
+  const url = new URL(`https://api.themoviedb.org/3/tv/${tmdbId}/season/${seasonNumber}`);
+  url.searchParams.set("language", language);
+  const response = await fetch(url, { headers: tmdbHeaders() });
+  if (!response.ok) return null;
+  const data = (await response.json()) as TmdbSeasonResponse;
+  return data.overview || null;
 }
 
 async function searchTmdb(entry: TimelineEntry): Promise<TmdbSearchResult | null> {
@@ -84,12 +147,7 @@ async function searchTmdb(entry: TimelineEntry): Promise<TmdbSearchResult | null
     url.searchParams.set("year", String(entry.tmdbYear));
   }
 
-  const response = await fetch(url, {
-    headers: {
-      Authorization: `Bearer ${TMDB_READ_ACCESS_TOKEN}`,
-      accept: "application/json",
-    },
-  });
+  const response = await fetch(url, { headers: tmdbHeaders() });
 
   if (!response.ok) {
     console.warn(`TMDB respondio ${response.status} para "${entry.tmdbSearchTitle}" (${entry.id})`);
@@ -120,6 +178,67 @@ async function searchTmdb(entry: TimelineEntry): Promise<TmdbSearchResult | null
   return data.results[0];
 }
 
+async function fetchDetails(entry: TimelineEntry, tmdbId: number): Promise<Omit<TmdbCacheEntry, "tmdbId" | "posterPath" | "backdropPath" | "releaseYear">> {
+  const endpoint = entry.tmdbMediaType === "movie" ? "movie" : "tv";
+
+  const mainUrl = new URL(`https://api.themoviedb.org/3/${endpoint}/${tmdbId}`);
+  mainUrl.searchParams.set("language", "en-US");
+  mainUrl.searchParams.set("append_to_response", "credits,videos");
+  const mainResponse = await fetch(mainUrl, { headers: tmdbHeaders() });
+  const main = mainResponse.ok ? ((await mainResponse.json()) as TmdbDetailsResponse) : null;
+
+  const esUrl = new URL(`https://api.themoviedb.org/3/${endpoint}/${tmdbId}`);
+  esUrl.searchParams.set("language", "es-ES");
+  const esResponse = await fetch(esUrl, { headers: tmdbHeaders() });
+  const es = esResponse.ok ? ((await esResponse.json()) as TmdbLocalizedDetailsResponse) : null;
+
+  const isSplitSeason = entry.tmdbMediaType === "tv" && /Season \d+/.test(entry.titleEn);
+  const overviewEn = isSplitSeason
+    ? await fetchSeasonOverview(tmdbId, entry, "en-US")
+    : main?.overview || null;
+  const overviewEs = isSplitSeason
+    ? await fetchSeasonOverview(tmdbId, entry, "es-ES")
+    : es?.overview || null;
+
+  const runtimeMinutes =
+    entry.tmdbMediaType === "movie"
+      ? main?.runtime ?? null
+      : main?.episode_run_time?.[0] ?? null;
+
+  const director =
+    entry.tmdbMediaType === "movie"
+      ? main?.credits.crew.find((c) => c.job === "Director")?.name ?? null
+      : main?.created_by && main.created_by.length > 0
+        ? main.created_by.map((c) => c.name).join(", ")
+        : null;
+
+  const cast: TmdbCastMember[] = (main?.credits.cast ?? [])
+    .slice()
+    .sort((a, b) => a.order - b.order)
+    .slice(0, 6)
+    .map((c) => ({ name: c.name, character: c.character, profilePath: c.profile_path }));
+
+  const trailers = (main?.videos.results ?? []).filter(
+    (v) => v.site === "YouTube" && v.type === "Trailer",
+  );
+  const officialTrailers = trailers.filter((v) => v.official);
+  const bestTrailers = officialTrailers.length > 0 ? officialTrailers : trailers;
+  bestTrailers.sort((a, b) => (a.published_at < b.published_at ? 1 : -1));
+  const trailerKey = bestTrailers[0]?.key ?? null;
+
+  return {
+    overviewEn,
+    overviewEs,
+    tagline: main?.tagline || null,
+    runtimeMinutes,
+    genresEn: main?.genres.map((g) => g.name) ?? [],
+    genresEs: es?.genres.map((g) => g.name) ?? [],
+    director,
+    cast,
+    trailerKey,
+  };
+}
+
 async function main() {
   const cache: Record<string, TmdbCacheEntry> = {};
   const misses: string[] = [];
@@ -130,6 +249,7 @@ async function main() {
       misses.push(`${entry.id} (${entry.tmdbSearchTitle})`);
       continue;
     }
+
     let releaseYear: number | null = null;
     if (entry.tmdbMediaType === "tv") {
       releaseYear = await fetchSeasonAirYear(result.id, entry);
@@ -137,13 +257,16 @@ async function main() {
       releaseYear = Number(result.release_date.slice(0, 4));
     }
 
+    const details = await fetchDetails(entry, result.id);
+
     cache[entry.id] = {
       tmdbId: result.id,
       posterPath: result.poster_path,
       backdropPath: result.backdrop_path,
       releaseYear,
+      ...details,
     };
-    await new Promise((resolve) => setTimeout(resolve, 60));
+    await new Promise((resolve) => setTimeout(resolve, 80));
   }
 
   const outPath = path.join(__dirname, "..", "src", "data", "tmdb-cache.json");
