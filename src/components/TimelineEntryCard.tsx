@@ -8,6 +8,7 @@ import { getPosterUrl, getReleaseYear } from "@/lib/tmdb";
 import { getRatings } from "@/lib/ratings";
 import { getProviders } from "@/lib/providers";
 import { RatingsRow, ProvidersBlock } from "@/components/RatingsAndProviders";
+import { SpoilerText } from "@/components/SpoilerText";
 
 const typeLabels: Record<TimelineEntry["type"], { es: string; en: string }> = {
   movie: { es: "Película", en: "Movie" },
@@ -16,7 +17,12 @@ const typeLabels: Record<TimelineEntry["type"], { es: string; en: string }> = {
   special: { es: "Especial", en: "Special" },
 };
 
-export function TimelineEntryCard({ entry }: { entry: TimelineEntry }) {
+interface TimelineEntryCardProps {
+  entry: TimelineEntry;
+  onOpen: (id: string) => void;
+}
+
+export function TimelineEntryCard({ entry, onOpen }: TimelineEntryCardProps) {
   const { language } = useLanguage();
   const colors = phaseColors[entry.phase];
   const posterUrl = getPosterUrl(entry.id, "w342");
@@ -30,7 +36,16 @@ export function TimelineEntryCard({ entry }: { entry: TimelineEntry }) {
 
   return (
     <article
-      className={`flex gap-4 rounded-lg border-l-4 bg-zinc-50 p-4 transition-shadow duration-200 hover:shadow-md dark:bg-zinc-900 ${colors.accentBorder}`}
+      onClick={() => onOpen(entry.id)}
+      role="button"
+      tabIndex={0}
+      onKeyDown={(event) => {
+        if (event.key === "Enter" || event.key === " ") {
+          event.preventDefault();
+          onOpen(entry.id);
+        }
+      }}
+      className={`flex cursor-pointer gap-4 rounded-lg border-l-4 bg-zinc-50 p-4 transition-shadow duration-200 hover:shadow-md dark:bg-zinc-900 ${colors.accentBorder}`}
     >
       <div className="relative h-36 w-24 shrink-0 overflow-hidden rounded bg-zinc-200 dark:bg-zinc-800">
         {posterUrl ? (
@@ -75,7 +90,11 @@ export function TimelineEntryCard({ entry }: { entry: TimelineEntry }) {
             </span>
           )}
         </p>
-        <p className="text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">{justification}</p>
+        <SpoilerText
+          text={justification}
+          isSpoiler={entry.hasFutureSpoilers}
+          className="text-sm leading-relaxed text-zinc-700 dark:text-zinc-300"
+        />
 
         <RatingsRow ratings={ratings} />
         <ProvidersBlock providers={providers} sameLabel={language === "es" ? "Disponible en" : "Available on"} />

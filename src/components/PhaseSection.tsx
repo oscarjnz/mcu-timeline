@@ -8,9 +8,10 @@ import { TimelineEntryCard } from "@/components/TimelineEntryCard";
 interface PhaseSectionProps {
   phase: Phase;
   entries: TimelineEntry[];
+  onOpenEntry: (id: string) => void;
 }
 
-export function PhaseSection({ phase, entries }: PhaseSectionProps) {
+export function PhaseSection({ phase, entries, onOpenEntry }: PhaseSectionProps) {
   const { language } = useLanguage();
   const colors = phaseColors[phase.number];
 
@@ -36,7 +37,7 @@ export function PhaseSection({ phase, entries }: PhaseSectionProps) {
       ) : (
         <div className="flex flex-col gap-4">
           {entries.map((entry) => (
-            <TimelineEntryCard key={entry.id} entry={entry} />
+            <TimelineEntryCard key={entry.id} entry={entry} onOpen={onOpenEntry} />
           ))}
         </div>
       )}

@@ -5,10 +5,13 @@ import { phases } from "@/data/phases";
 import { timeline } from "@/data/timeline";
 import type { EntryType } from "@/types/timeline";
 import { LanguageProvider, useLanguage } from "@/lib/language-context";
+import { SpoilerProvider } from "@/lib/spoiler-context";
 import { LanguageToggle } from "@/components/LanguageToggle";
+import { SpoilerToggle } from "@/components/SpoilerToggle";
 import { PhaseNav } from "@/components/PhaseNav";
 import { TypeFilters } from "@/components/TypeFilters";
 import { PhaseSection } from "@/components/PhaseSection";
+import { EntryDetailModal } from "@/components/EntryDetailModal";
 
 const allTypes: EntryType[] = ["movie", "tv", "one-shot", "special"];
 
@@ -16,6 +19,31 @@ function TimelineContent() {
   const { language } = useLanguage();
   const [activeTypes, setActiveTypes] = useState<Set<EntryType>>(new Set(allTypes));
   const [activePhase, setActivePhase] = useState(1);
+  const [selectedEntryId, setSelectedEntryId] = useState<string | null>(null);
+
+  useEffect(() => {
+    function readFromUrl() {
+      const params = new URLSearchParams(window.location.search);
+      setSelectedEntryId(params.get("entry"));
+    }
+    readFromUrl();
+    window.addEventListener("popstate", readFromUrl);
+    return () => window.removeEventListener("popstate", readFromUrl);
+  }, []);
+
+  function openEntry(id: string) {
+    const url = new URL(window.location.href);
+    url.searchParams.set("entry", id);
+    window.history.pushState({}, "", url);
+    setSelectedEntryId(id);
+  }
+
+  function closeEntry() {
+    const url = new URL(window.location.href);
+    url.searchParams.delete("entry");
+    window.history.pushState({}, "", url);
+    setSelectedEntryId(null);
+  }
 
   useEffect(() => {
     const sections = phases
@@ -67,9 +95,13 @@ function TimelineContent() {
     return grouped;
   }, [activeTypes]);
 
+  const selectedEntry = selectedEntryId
+    ? timeline.find((entry) => entry.id === selectedEntryId) ?? null
+    : null;
+
   return (
     <div className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-4">
-      <header className="flex items-center justify-between py-6">
+      <header className="flex items-center justify-between gap-2 py-6">
         <div>
           <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
             {language === "es" ? "Timeline del UCM" : "MCU Timeline"}
@@ -80,7 +112,10 @@ function TimelineContent() {
               : "Complete narrative chronological order"}
           </p>
         </div>
-        <LanguageToggle />
+        <div className="flex items-center gap-2">
+          <SpoilerToggle />
+          <LanguageToggle />
+        </div>
       </header>
 
       <PhaseNav activePhase={activePhase} />
@@ -92,9 +127,12 @@ function TimelineContent() {
             key={phase.number}
             phase={phase}
             entries={entriesByPhase.get(phase.number) ?? []}
+            onOpenEntry={openEntry}
           />
         ))}
       </main>
+
+      {selectedEntry && <EntryDetailModal entry={selectedEntry} onClose={closeEntry} />}
     </div>
   );
 }
@@ -102,7 +140,9 @@ function TimelineContent() {
 export function TimelineApp() {
   return (
     <LanguageProvider>
-      <TimelineContent />
+      <SpoilerProvider>
+        <TimelineContent />
+      </SpoilerProvider>
     </LanguageProvider>
   );
 }
