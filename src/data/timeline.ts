@@ -1501,6 +1501,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "La ropa de otoño y la nieve ubican esta temporada aquí.",
     tmdbSearchTitle: "Marvel's Iron Fist",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Showrunner Raven Metzner replaced Scott Buck for the second season, part of a broader effort to address the sharply negative critical reception of season 1.",
+      "Alice Eve joined the cast as Mary Walker, an assassin with dissociative identity disorder known in the comics as Typhoid Mary.",
+      "Sacha Dhawan's Davos becomes the season's central villain after gaining Iron Fist adjacent powers, taking on the mantle of the comics villain Steel Serpent.",
+    ],
+    triviaEs: [
+      "La showrunner Raven Metzner reemplazó a Scott Buck para la segunda temporada, parte de un esfuerzo mayor por atender la recepción crítica muy negativa de la primera temporada.",
+      "Alice Eve se sumó al elenco como Mary Walker, una asesina con trastorno de identidad disociativo conocida en los cómics como Typhoid Mary.",
+      "Davos, interpretado por Sacha Dhawan, se convierte en el villano central de la temporada tras obtener poderes similares a los de Iron Fist, adoptando el manto del villano de los cómics Steel Serpent.",
+    ],
   },
   {
     id: "cloak-and-dagger-s2",
@@ -1517,6 +1527,16 @@ export const timeline: TimelineEntry[] = [
       "Salto temporal de Mardi Gras 2017 a cerca de Acción de Gracias de 2017. La noticia de que Luke Cage controla Harlem llegó a Nueva Orleans, y Cloak sigue el ejemplo de Luke para dirigir el crimen allí.",
     tmdbSearchTitle: "Marvel's Cloak & Dagger",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Season 2 includes a crossover episode with Marvel's Runaways, with Cloak and Dagger appearing near the end of Runaways season 3, episode 7, something showrunner Joe Pokaski said both creative teams had wanted to do since the comics themselves crossed the properties over.",
+      "Coordinating the crossover was complicated by the fact that Cloak & Dagger aired weekly on cable via Freeform while Runaways released whole seasons at once on Hulu.",
+      "This was the show's second and final season; Freeform declined to renew Cloak & Dagger in 2020, ending the series after 20 episodes total.",
+    ],
+    triviaEs: [
+      "La temporada 2 incluye un episodio crossover con Marvel's Runaways, con Cloak y Dagger apareciendo cerca del final del episodio 7 de la temporada 3 de Runaways, algo que el showrunner Joe Pokaski dijo que ambos equipos creativos querían hacer desde que los propios cómics cruzaron las dos franquicias.",
+      "Coordinar el crossover fue complicado porque Cloak & Dagger se emitía semanalmente por cable en Freeform mientras que Runaways lanzaba temporadas completas de una vez en Hulu.",
+      "Esta fue la segunda y última temporada de la serie; Freeform no renovó Cloak & Dagger en 2020, cerrando la serie tras 20 episodios en total.",
+    ],
   },
   {
     id: "daredevil-s3",
@@ -1531,6 +1551,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Las referencias a Acción de Gracias y Navidad ubican esta temporada aquí.",
     tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Vincent D'Onofrio returns as Wilson Fisk/Kingpin for the first time since season 1, after the character was largely absent from season 2.",
+      "Wilson Bethel joins the cast as FBI agent Benjamin \"Dex\" Poindexter, whose arc across the season builds him into the character's comics alter ego, Bullseye.",
+      "This was the show's third and final season before Netflix canceled it in November 2018; many critics and fans still consider it the strongest season of the series.",
+    ],
+    triviaEs: [
+      "Vincent D'Onofrio vuelve como Wilson Fisk/Kingpin por primera vez desde la primera temporada, después de que el personaje estuviera casi ausente en la segunda.",
+      "Wilson Bethel se une al elenco como el agente del FBI Benjamin \"Dex\" Poindexter, cuyo arco a lo largo de la temporada lo convierte en el alter ego de los cómics del personaje, Bullseye.",
+      "Esta fue la tercera y última temporada de la serie antes de que Netflix la cancelara en noviembre de 2018; muchos críticos y seguidores todavía la consideran la temporada más sólida de la serie.",
+    ],
   },
   {
     id: "runaways-s1-3",
@@ -1545,6 +1575,17 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre durante la temporada de fiestas, sin reconocer el chasquido.",
     tmdbSearchTitle: "Marvel's Runaways",
     tmdbMediaType: "tv",
+    hasFutureSpoilers: true,
+    triviaEn: [
+      "Runaways is based on the comic series created by Brian K. Vaughan and Adrian Alphona, about teenagers who discover their parents are secretly a group of supervillains.",
+      "Season 3 includes a crossover episode with Marvel's Cloak & Dagger, something both shows' creative teams had wanted since the comics themselves crossed the two properties over.",
+      "Hulu canceled the series after season 3 in November 2019, around the same time Marvel Television was folded into Marvel Studios under Kevin Feige, ending Marvel's original Hulu partnership.",
+    ],
+    triviaEs: [
+      "Runaways está basada en la serie de cómics creada por Brian K. Vaughan y Adrian Alphona, sobre un grupo de adolescentes que descubre que sus padres son en secreto un grupo de supervillanos.",
+      "La temporada 3 incluye un episodio crossover con Marvel's Cloak & Dagger, algo que ambos equipos creativos querían hacer desde que los propios cómics cruzaron ambas franquicias.",
+      "Hulu canceló la serie tras la temporada 3 en noviembre de 2019, casi al mismo tiempo que Marvel Television se integró a Marvel Studios bajo Kevin Feige, cerrando así la alianza original de Marvel con Hulu.",
+    ],
   },
   {
     id: "punisher-s2",
@@ -1559,6 +1600,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Involucra a Nelson, Murdock y Page.",
     tmdbSearchTitle: "Marvel's The Punisher",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Ben Barnes returns as Billy Russo, now going by the disfigured, mask-wearing identity of Jigsaw after his defeat in season 1, becoming this season's central antagonist.",
+      "Amber Rose Revah returns as Homeland Security agent Dinah Madani, continuing her uneasy alliance with Frank Castle from the first season.",
+      "This was The Punisher's final season; Netflix canceled the show in February 2019 as part of a broader wind-down of its Marvel series that same year.",
+    ],
+    triviaEs: [
+      "Ben Barnes vuelve como Billy Russo, ahora bajo la identidad desfigurada y enmascarada de Jigsaw tras su derrota en la primera temporada, convirtiéndose en el antagonista central de esta entrega.",
+      "Amber Rose Revah repite como la agente de Seguridad Nacional Dinah Madani, dando continuidad a su tensa alianza con Frank Castle desde la primera temporada.",
+      "Esta fue la última temporada de The Punisher; Netflix canceló la serie en febrero de 2019 como parte de la retirada más amplia de sus series de Marvel ese mismo año.",
+    ],
   },
   {
     id: "jessica-jones-s3",
@@ -1574,6 +1625,16 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Jessica Jones",
     tmdbMediaType: "tv",
     tmdbYear: 2019,
+    triviaEn: [
+      "This was the last of the interconnected Marvel Netflix shows to premiere, arriving in June 2019 after Daredevil, Iron Fist, Luke Cage and The Punisher had already been canceled, effectively closing out that shared television universe.",
+      "Season 3 continues Trish Walker's transformation into the enhanced, comics inspired identity of Hellcat, powers she gained at the end of season 2.",
+      "Jeremy Bobb plays Gregory Salinger, an ordinary man without powers as the season's main threat, a deliberate choice by showrunner Melissa Rosenberg to keep the show grounded rather than lean into superpowered spectacle.",
+    ],
+    triviaEs: [
+      "Esta fue la última de las series interconectadas de Marvel en Netflix en estrenarse, llegando en junio de 2019, después de que Daredevil, Iron Fist, Luke Cage y The Punisher ya hubieran sido canceladas, cerrando de hecho ese universo televisivo compartido.",
+      "La temporada 3 continúa la transformación de Trish Walker hacia la identidad potenciada e inspirada en los cómics de Hellcat, poderes que obtuvo al final de la temporada 2.",
+      "Jeremy Bobb interpreta a Gregory Salinger, un hombre común sin poderes como la amenaza principal de la temporada, una decisión deliberada de la productora ejecutiva Melissa Rosenberg para mantener la serie con los pies en la tierra en lugar de apostar por el espectáculo superpoderoso.",
+    ],
   },
   {
     id: "aos-s5-11-18",
