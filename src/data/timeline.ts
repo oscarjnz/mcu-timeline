@@ -1103,6 +1103,20 @@ export const timeline: TimelineEntry[] = [
       "Funciona igual que la gran semana de Fury; Black Widow y Black Panther se superponen con su final. Bucky entra en criostasis.",
     tmdbSearchTitle: "Captain America: Civil War",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Civil War marks the MCU debuts of both Chadwick Boseman as T'Challa/Black Panther and Tom Holland as Peter Parker/Spider-Man, introduced mid movie without either having had their own solo film first.",
+      "The airport battle sequence, the film's centerpiece with a dozen heroes fighting at once, took around two weeks to shoot and is often ranked among the largest ensemble action scenes in the genre.",
+      "Directors Anthony and Joe Russo based the story loosely on the 2006-2007 Civil War comic event, but swapped its Superhuman Registration Act for the United Nations' Sokovia Accords as the story's political trigger.",
+    ],
+    triviaEs: [
+      "Civil War marca el debut en el UCM tanto de Chadwick Boseman como T'Challa/Black Panther como de Tom Holland como Peter Parker/Spider-Man, presentados a mitad de la película sin que ninguno tuviera antes su propia película en solitario.",
+      "La secuencia de batalla en el aeropuerto, el momento central de la película con una docena de héroes peleando a la vez, tardó cerca de dos semanas en filmarse y suele considerarse una de las escenas de acción de conjunto más grandes del género.",
+      "Los directores Anthony y Joe Russo basaron la historia libremente en el evento de cómics Civil War de 2006-2007, pero cambiaron la Ley de Registro de Superhumanos por los Acuerdos de Sokovia de las Naciones Unidas como detonante político de la trama.",
+    ],
+    postCreditsEn:
+      "In a post-credits scene, T'Challa brings Bucky Barnes to Wakanda, where Shuri examines him and Bucky asks to be placed into cryostasis until his Hydra programming can be safely removed.",
+    postCreditsEs:
+      "En una escena post-créditos, T'Challa lleva a Bucky Barnes a Wakanda, donde Shuri lo examina y Bucky pide que lo pongan en criostasis hasta que su programación de Hydra pueda eliminarse de forma segura.",
   },
   {
     id: "black-widow",
@@ -1119,6 +1133,20 @@ export const timeline: TimelineEntry[] = [
       "El final de la película enlaza con la escena de Cap liberando a sus aliados de la Balsa. Bucky entra en criostasis.",
     tmdbSearchTitle: "Black Widow",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "The film's release was delayed four times over roughly a year due to the COVID-19 pandemic, finally opening simultaneously in theaters and on Disney+ Premier Access in July 2021, five years after the Civil War era story it tells.",
+      "Scarlett Johansson sued Disney over that simultaneous streaming release, arguing it undercut a contract that tied her pay to box office performance; the two sides settled for a reported eight figure sum a few months later.",
+      "Florence Pugh's debut as Yelena Belova and David Harbour's as Alexei Shostakov/Red Guardian were both expanded further in later Marvel projects.",
+    ],
+    triviaEs: [
+      "El estreno de la película se retrasó cuatro veces a lo largo de casi un año por la pandemia de COVID-19, hasta abrir de forma simultánea en cines y en Disney+ Premier Access en julio de 2021, cinco años después de la historia de la era de Civil War que cuenta.",
+      "Scarlett Johansson demandó a Disney por ese estreno simultáneo en streaming, alegando que perjudicaba un contrato que ligaba su pago al desempeño en taquilla; ambas partes llegaron a un acuerdo por una cifra de ocho dígitos reportada meses después.",
+      "El debut de Florence Pugh como Yelena Belova y el de David Harbour como Alexei Shostakov/Red Guardian se expandieron después en otros proyectos de Marvel.",
+    ],
+    postCreditsEn:
+      "In a scene set some time after Natasha Romanoff's death in Avengers: Endgame, Yelena Belova visits her sister's grave and is approached by Valentina Allegra de Fontaine, who hires her to track down Clint Barton, setting up Yelena's role in Hawkeye and Thunderbolts*.",
+    postCreditsEs:
+      "En una escena ambientada un tiempo después de la muerte de Natasha Romanoff en Avengers: Endgame, Yelena Belova visita la tumba de su hermana y es abordada por Valentina Allegra de Fontaine, quien la contrata para rastrear a Clint Barton, preparando el papel de Yelena en Hawkeye y Thunderbolts*.",
   },
   {
     id: "black-panther",
@@ -1135,6 +1163,20 @@ export const timeline: TimelineEntry[] = [
       "Bucky ya está en criostasis, algo que Shuri referencia. T'Challa va a buscar a Nakia.",
     tmdbSearchTitle: "Black Panther",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Ruth E. Carter and Hannah Beachler became the first Black winners of the Academy Awards for Costume Design and Production Design respectively, and Ludwig Goransson won Best Original Score, making Black Panther the first Marvel Studios film to win competitive Oscars.",
+      "Kendrick Lamar curated and produced the companion album Black Panther: The Album alongside Goransson's score; its single \"All the Stars\" earned an Oscar nomination for Best Original Song.",
+      "Ruth E. Carter and the production design team researched real African cultures, from Basotho blankets to Maasai and Tuareg elements, to build Wakanda's distinct tribal aesthetics instead of inventing them from scratch.",
+    ],
+    triviaEs: [
+      "Ruth E. Carter y Hannah Beachler se convirtieron en las primeras ganadoras negras de los Oscar a Mejor Diseño de Vestuario y Mejor Diseño de Producción respectivamente, y Ludwig Goransson ganó el de Mejor Banda Sonora, con lo que Black Panther se volvió la primera película de Marvel Studios en ganar Oscars competitivos.",
+      "Kendrick Lamar curó y produjo el álbum Black Panther: The Album junto a la banda sonora de Goransson; su sencillo \"All the Stars\" recibió una nominación al Oscar a Mejor Canción Original.",
+      "Ruth E. Carter y el equipo de diseño de producción investigaron culturas africanas reales, desde las mantas basotho hasta elementos maasái y tuareg, para construir la estética tribal de Wakanda en lugar de inventarla desde cero.",
+    ],
+    postCreditsEn:
+      "In a mid-credits scene, T'Challa addresses the United Nations and announces that Wakanda will end its isolationist policy and share its resources and technology with the world; a post-credits scene shows Bucky Barnes, recovering in Wakanda under the name White Wolf, meeting a group of local children.",
+    postCreditsEs:
+      "En una escena a mitad de los créditos, T'Challa se dirige a las Naciones Unidas y anuncia que Wakanda pondrá fin a su política aislacionista y compartirá sus recursos y tecnología con el mundo; una escena post-créditos muestra a Bucky Barnes, recuperándose en Wakanda bajo el nombre de White Wolf, conociendo a un grupo de niños locales.",
   },
   {
     id: "aos-s3-20-22",
@@ -1149,6 +1191,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Se referencian los Acuerdos de Sokovia y la batalla del aeropuerto.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "These three episodes make up the season 3 finale trilogy, in which Grant Ward's Hive-possessed body hijacks a captured Zephyr jet loaded with newly Terrigenesis-transformed Inhumans to breach Earth's atmosphere.",
+      "Luke Mitchell's Lincoln Campbell sacrifices himself to stop Hive, a death that reshaped Daisy Johnson's arc going into the following season.",
+      "News footage referencing the Sokovia Accords and the Civil War airport battle is used to anchor the finale's timing directly to Captain America: Civil War.",
+    ],
+    triviaEs: [
+      "Estos tres episodios forman la trilogía final de la temporada 3, en la que el cuerpo de Grant Ward poseído por Hive secuestra un Zephyr capturado, cargado de Inhumanos recién transformados por Terrigénesis, para atravesar la atmósfera terrestre.",
+      "Lincoln Campbell, interpretado por Luke Mitchell, se sacrifica para detener a Hive, una muerte que reformuló el arco de Daisy Johnson de cara a la temporada siguiente.",
+      "Se usa material de noticiero que menciona los Acuerdos de Sokovia y la batalla del aeropuerto de Civil War para anclar el momento del final de temporada directamente a Captain America: Civil War.",
+    ],
   },
   {
     id: "inhumans",
@@ -1165,6 +1217,16 @@ export const timeline: TimelineEntry[] = [
       "Se mencionan los Acuerdos de Sokovia y la serie está conectada con Agents of S.H.I.E.L.D. El Brote Terrígeno, proyectado a terminar 17 meses después de empezar a inicios de 2015, ubica esto a fines de verano o inicio de otoño de 2016.",
     tmdbSearchTitle: "Marvel's Inhumans",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The first two episodes premiered in IMAX theaters for a two week run starting September 1, 2017, before airing on ABC, making Inhumans the first scripted TV series shot natively for and launched in IMAX.",
+      "Anson Mount stars as the mute king Black Bolt, Iwan Rheon, known for playing Ramsay Bolton on Game of Thrones, as his brother Maximus, and Serinda Swan as Queen Medusa.",
+      "Widely considered one of the worst reviewed productions in the MCU, the show was canceled by ABC after a single eight episode season.",
+    ],
+    triviaEs: [
+      "Los primeros dos episodios se estrenaron en salas IMAX durante dos semanas a partir del 1 de septiembre de 2017, antes de emitirse en ABC, lo que convirtió a Inhumans en la primera serie de televisión filmada de forma nativa para IMAX y estrenada allí.",
+      "Anson Mount interpreta al mudo rey Black Bolt, Iwan Rheon, conocido por interpretar a Ramsay Bolton en Game of Thrones, a su hermano Maximus, y Serinda Swan a la reina Medusa.",
+      "Considerada una de las producciones peor recibidas del UCM, la serie fue cancelada por ABC tras una única temporada de ocho episodios.",
+    ],
   },
   {
     id: "spider-man-homecoming",
@@ -1181,6 +1243,20 @@ export const timeline: TimelineEntry[] = [
       "Transcurre al inicio del año escolar. Happy Hogan lleva ocho años guardando un anillo de compromiso, en referencia a Iron Man.",
     tmdbSearchTitle: "Spider-Man: Homecoming",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Tom Holland performed many of his own stunts and had a gymnastics background, which the Russo brothers and director Jon Watts leaned on for the film's more acrobatic Spider-Man shots.",
+      "Michael Keaton, who had played Batman in two Tim Burton films decades earlier, was cast as the villain Vulture, becoming one of the first actors to play a lead hero for one comic book studio and a villain for a rival's cinematic universe.",
+      "This was the first Spider-Man film co-produced by Sony and Marvel Studios under a deal that let the character appear in the wider MCU while Sony retained distribution rights.",
+    ],
+    triviaEs: [
+      "Tom Holland hizo buena parte de sus propias escenas de riesgo y tenía formación en gimnasia, algo que los hermanos Russo y el director Jon Watts aprovecharon para las tomas más acrobáticas de Spider-Man.",
+      "Michael Keaton, quien había interpretado a Batman en dos películas de Tim Burton décadas antes, fue elegido como el villano Vulture, convirtiéndose en uno de los primeros actores en interpretar a un héroe protagónico para un estudio de cómics y a un villano para el universo cinematográfico de otro.",
+      "Esta fue la primera película de Spider-Man coproducida por Sony y Marvel Studios bajo un acuerdo que permitió que el personaje apareciera en el UCM mientras Sony mantenía los derechos de distribución.",
+    ],
+    postCreditsEn:
+      "In the second post-credits scene, Captain America appears in an in-universe PSA video aimed at students, delivering a rambling lecture on the virtue of patience before asking off-screen how many more of these he has to record, a joke aimed at audiences trained to wait through the credits for a teaser.",
+    postCreditsEs:
+      "En la segunda escena post-créditos, el Capitán América aparece en un video de servicio público dentro del propio universo dirigido a estudiantes, dando un discurso divagante sobre la virtud de la paciencia antes de preguntar fuera de cámara cuántos más de estos tiene que grabar, una broma dirigida al público acostumbrado a esperar hasta el final de los créditos por un adelanto.",
   },
   {
     id: "punisher-s1",
@@ -1195,6 +1271,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Referencia los eventos de Daredevil Temporada 2 y The Defenders.",
     tmdbSearchTitle: "Marvel's The Punisher",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Jon Bernthal reprises Frank Castle after introducing the character in Daredevil Season 2, making this the second Marvel Netflix show built around a character who debuted in someone else's series.",
+      "Netflix and Marvel pulled the show's New York Comic Con panel and canceled a planned Paris premiere event weeks before release, out of respect for the victims of the October 2017 Las Vegas mass shooting.",
+      "The series ultimately premiered on November 17, 2017, giving it some distance from the tragedy without straying far from its original release window.",
+    ],
+    triviaEs: [
+      "Jon Bernthal repite como Frank Castle tras presentar al personaje en Daredevil Temporada 2, con lo que esta es la segunda serie de Marvel en Netflix construida alrededor de un personaje que debutó en otra serie.",
+      "Netflix y Marvel retiraron el panel de la serie en la New York Comic Con y cancelaron un evento de estreno planeado en París, semanas antes del lanzamiento, por respeto a las víctimas del tiroteo masivo de Las Vegas de octubre de 2017.",
+      "La serie finalmente se estrenó el 17 de noviembre de 2017, lo que le dio algo de distancia de la tragedia sin alejarse demasiado de su ventana de estreno original.",
+    ],
   },
   {
     id: "doctor-strange",
@@ -1211,6 +1297,20 @@ export const timeline: TimelineEntry[] = [
       "Los directores confirmaron que la película abarca todo 2016 y principios de 2017, e introduce la magia en el multiverso del UCM.",
     tmdbSearchTitle: "Doctor Strange",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Benedict Cumberbatch trained in yoga and martial arts and drew on tai chi and juggling references to sell Strange's shift from surgeon to sorcerer, reportedly practicing one handed handstand push ups between takes.",
+      "Marvel cast Tilda Swinton, a white actress, as the Ancient One, a character depicted as a Tibetan man in the comics; years later, Marvel Studios president Kevin Feige publicly said the studio regretted that casting choice, in the context of discussing Shang-Chi and the Legend of the Ten Rings.",
+      "The film's dimension-folding chase through Hong Kong and Manhattan visibly draws on Inception's city-bending visuals, an influence director Scott Derrickson has openly acknowledged.",
+    ],
+    triviaEs: [
+      "Benedict Cumberbatch entrenó yoga y artes marciales y se apoyó en referencias de tai chi y malabarismo para transmitir el cambio de Strange de cirujano a hechicero, y según se contó seguía haciendo flexiones en parada de manos con un solo brazo entre tomas.",
+      "Marvel eligió a Tilda Swinton, una actriz blanca, para interpretar a la Anciana, un personaje representado como un hombre tibetano en los cómics; años después, el presidente de Marvel Studios, Kevin Feige, dijo públicamente que el estudio se arrepentía de esa decisión de casting, en el contexto de hablar de Shang-Chi and the Legend of the Ten Rings.",
+      "La persecución con dimensiones que se pliegan por Hong Kong y Manhattan se apoya visiblemente en los efectos de ciudades que se doblan de Inception, algo que el director Scott Derrickson reconoció abiertamente como influencia.",
+    ],
+    postCreditsEn:
+      "In a mid-credits scene set some time later, Thor visits Strange in his New York sanctum and asks for his help finding Odin, setting up the beginning of Thor: Ragnarok; a post-credits scene shows Strange's former ally Karl Mordo stripping Jonathan Pangborn of his magically restored ability to walk, hinting at his turn toward villainy.",
+    postCreditsEs:
+      "En una escena a mitad de los créditos, ambientada algún tiempo después, Thor visita a Strange en su santuario de Nueva York y le pide ayuda para encontrar a Odín, lo que da inicio a Thor: Ragnarok; una escena post-créditos muestra al antiguo aliado de Strange, Karl Mordo, quitándole a Jonathan Pangborn su capacidad de caminar restaurada por magia, insinuando su giro hacia la villanía.",
   },
   {
     id: "aos-slingshot",
