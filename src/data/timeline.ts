@@ -1325,6 +1325,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Precuela de la Temporada 4, aunque su inicio y final ocurren entre los episodios 8 y 9.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.: Slingshot",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Slingshot is a six episode digital prequel released for free through the ABC app and Hulu in December 2016, built to bridge the gap before season 4 during the show's winter break.",
+      "It centers on Natalia Cordova-Buckley's Elena \"Yo-Yo\" Rodriguez wrestling with the newly enacted Sokovia Accords, which conflict with a personal mission of hers.",
+      "Its first episode marked the directorial debut of Joe Quesada, Marvel Entertainment's longtime chief creative officer.",
+    ],
+    triviaEs: [
+      "Slingshot es una precuela digital de seis episodios lanzada gratis a través de la app de ABC y Hulu en diciembre de 2016, pensada para llenar el hueco antes de la temporada 4 durante el receso invernal de la serie.",
+      "Se centra en Elena \"Yo-Yo\" Rodriguez, interpretada por Natalia Cordova-Buckley, mientras lidia con los recién promulgados Acuerdos de Sokovia, que chocan con una misión personal suya.",
+      "Su primer episodio marcó el debut como director de Joe Quesada, veterano director creativo de Marvel Entertainment.",
+    ],
   },
   {
     id: "aos-s4",
@@ -1339,6 +1349,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Cubre la Dimensión Oscura, el Infierno y la magia; los guionistas dijeron que esta temporada es el tejido conectivo con Doctor Strange.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Season 4 is split into three distinct arcs, Ghost Rider, LMDs and Agents of Hydra, each with its own villain and visual style, a structural experiment the show hadn't tried before.",
+      "Gabriel Luna's Robbie Reyes became the first live action Ghost Rider to appear in a Marvel Studios connected production since Nicolas Cage's Sony films.",
+      "Show writers described the season's Darkhold and Ghost Rider driven plotlines as connective tissue leading into the magic and Dark Dimension concepts introduced in Doctor Strange.",
+    ],
+    triviaEs: [
+      "La temporada 4 se divide en tres arcos distintos, Ghost Rider, los LMD y Agents of Hydra, cada uno con su propio villano y estilo visual, un experimento estructural que la serie no había probado antes.",
+      "Robbie Reyes, interpretado por Gabriel Luna, se convirtió en el primer Ghost Rider en acción real en aparecer en una producción conectada a Marvel Studios desde las películas de Nicolas Cage de Sony.",
+      "Los guionistas de la serie describieron las tramas del Darkhold y Ghost Rider de esta temporada como tejido conectivo hacia los conceptos de magia y la Dimensión Oscura presentados en Doctor Strange.",
+    ],
   },
   {
     id: "cloak-and-dagger-s1",
@@ -1353,6 +1373,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre durante el Mardi Gras.",
     tmdbSearchTitle: "Marvel's Cloak & Dagger",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Olivia Holt and Aubrey Joseph star as Tandy Bowen/Dagger and Tyrone Johnson/Cloak, two New Orleans teenagers who gain their powers from the same offshore oil rig accident.",
+      "The show aired on Freeform, a network aimed at young adults, giving Marvel's screen output its first entry built specifically for that demographic rather than a general prime time or streaming audience.",
+      "Series creator Joe Pokaski deliberately grounded the characters' powers in trauma, using Tandy and Tyrone's abilities as metaphors for grief and systemic injustice rather than as pure action set pieces.",
+    ],
+    triviaEs: [
+      "Olivia Holt y Aubrey Joseph protagonizan como Tandy Bowen/Dagger y Tyrone Johnson/Cloak, dos adolescentes de Nueva Orleans que obtienen sus poderes en el mismo accidente en una plataforma petrolera.",
+      "La serie se emitió en Freeform, una cadena orientada a adultos jóvenes, lo que le dio a la producción audiovisual de Marvel su primer título pensado específicamente para ese público en lugar de uno de horario estelar general o streaming.",
+      "El creador de la serie, Joe Pokaski, ató deliberadamente los poderes de los personajes a su trauma, usando las habilidades de Tandy y Tyrone como metáforas del duelo y la injusticia sistémica en lugar de solo como recursos de acción.",
+    ],
   },
   {
     id: "jessica-jones-s2",
@@ -1368,6 +1398,16 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Jessica Jones",
     tmdbMediaType: "tv",
     tmdbYear: 2018,
+    triviaEn: [
+      "All 13 episodes of season 2 were directed by women, an industry first for a major genre series, following executive producer Melissa Rosenberg's push to build an all female directing roster.",
+      "The season digs into Jessica's origin as the sole survivor of IGH's experiments and introduces her estranged mother, Alisa Jones, played by Janet McTeer.",
+      "It premiered on Netflix on March 8, 2018.",
+    ],
+    triviaEs: [
+      "Los trece episodios de la temporada 2 fueron dirigidos por mujeres, una primicia de la industria para una serie de género importante, tras el impulso de la productora ejecutiva Melissa Rosenberg de armar un equipo de dirección enteramente femenino.",
+      "La temporada profundiza en el origen de Jessica como única sobreviviente de los experimentos de IGH y presenta a su madre distanciada, Alisa Jones, interpretada por Janet McTeer.",
+      "Se estrenó en Netflix el 8 de marzo de 2018.",
+    ],
   },
   {
     id: "luke-cage-s2",
@@ -1383,6 +1423,16 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Luke Cage",
     tmdbMediaType: "tv",
     tmdbYear: 2018,
+    triviaEn: [
+      "Mustafa Shakir plays Bushmaster, John McIver, a villain built on Jamaican folk magic and Caribbean history rather than the character's original comics background, a change made to give the show a distinct cultural texture.",
+      "This turned out to be Luke Cage's only second season; Netflix canceled the show in October 2018, the same day it canceled Iron Fist.",
+      "Alfre Woodard's Mariah Dillard is pushed further into villainy across the season, which keeps its focus on Harlem's political and criminal power structures rather than street level crime alone.",
+    ],
+    triviaEs: [
+      "Mustafa Shakir interpreta a Bushmaster, John McIver, un villano construido a partir de la magia folclórica jamaicana y la historia caribeña en lugar del trasfondo original del personaje en los cómics, un cambio hecho para darle a la serie una textura cultural propia.",
+      "Esta terminó siendo la única segunda temporada de Luke Cage; Netflix canceló la serie en octubre de 2018, el mismo día que canceló Iron Fist.",
+      "Mariah Dillard, interpretada por Alfre Woodard, se hunde aún más en la villanía a lo largo de la temporada, que sigue enfocada en las estructuras de poder político y criminal de Harlem más que solo en el crimen callejero.",
+    ],
   },
   {
     id: "aos-s5-1-10",
@@ -1397,6 +1447,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Los viajes en el tiempo y las referencias festivas en las series alrededor ayudan a ubicar estos episodios.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "This first stretch of season 5 sends the team 90 years into the future, trapped aboard the Lighthouse, a mining station orbiting the wreckage of a destroyed Earth in the year 2091, the show's biggest structural swing yet.",
+      "Much of the space station and alien world material was built on redressed studio sets, leaning on matte paintings and practical detail over full CG environments to keep the show's TV budget workable.",
+      "The arc introduces the Kree soldier Kasius and starts unpacking a season long prophecy about who ends up destroying Earth.",
+    ],
+    triviaEs: [
+      "Este primer tramo de la temporada 5 envía al equipo 90 años al futuro, atrapados en el Lighthouse, una estación minera que orbita los restos de una Tierra destruida en el año 2091, el giro estructural más grande de la serie hasta ese momento.",
+      "Buena parte del material de la estación espacial y el mundo alienígena se construyó sobre sets de estudio reutilizados, apoyándose en mate paintings y detalle práctico en vez de entornos totalmente generados por computadora, para mantener manejable el presupuesto televisivo de la serie.",
+      "El arco presenta al soldado kree Kasius y empieza a desarrollar una profecía de toda la temporada sobre quién termina destruyendo la Tierra.",
+    ],
   },
   {
     id: "thor-ragnarok",
@@ -1413,6 +1473,20 @@ export const timeline: TimelineEntry[] = [
       "Continúa la escena postcréditos de Doctor Strange; la gente en Nueva York viste ropa de otoño. La escena postcréditos ocurre en 2018, justo antes del inicio de Infinity War.",
     tmdbSearchTitle: "Thor: Ragnarok",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Director Taika Waititi voices Korg himself, largely improvising the rock creature's dialogue in his own New Zealand accent during on-set recording sessions.",
+      "Led Zeppelin's \"Immigrant Song\", used in the film's opening and climax, was inspired by Norse mythology and became so tied to the sizzle reel Waititi cut for Marvel that the band refused to let its lyrics be altered for the soundtrack.",
+      "Composer Mark Mothersbaugh, a founding member of the band Devo, built much of the score on vintage analog synthesizers pulled out of storage, giving the film's music a deliberately retro, 1980s-influenced sound.",
+    ],
+    triviaEs: [
+      "El director Taika Waititi le pone la voz a Korg, improvisando en gran parte los diálogos de la criatura de roca con su propio acento neozelandés durante las grabaciones en el set.",
+      "\"Immigrant Song\", de Led Zeppelin, usada en la apertura y el clímax de la película, se inspiró en la mitología nórdica y quedó tan ligada al material promocional que Waititi armó para Marvel que la banda no permitió que se alterara su letra para la banda sonora.",
+      "El compositor Mark Mothersbaugh, miembro fundador de la banda Devo, construyó buena parte de la partitura con sintetizadores analógicos vintage sacados de guardado, dándole a la música de la película un sonido deliberadamente retro, con influencia de los años ochenta.",
+    ],
+    postCreditsEn:
+      "In the post-credits scene, Thor and Loki stand on the bridge of the ship Statesman alongside the surviving Asgardians when an enormous, ominous vessel appears before them, later revealed in Avengers: Infinity War to be Thanos' warship.",
+    postCreditsEs:
+      "En la escena post-créditos, Thor y Loki están en el puente de la nave Statesman junto a los asgardianos sobrevivientes cuando una nave enorme y ominosa aparece frente a ellos, revelada después en Avengers: Infinity War como la nave de guerra de Thanos.",
   },
   {
     id: "iron-fist-s2",
