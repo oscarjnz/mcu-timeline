@@ -18,18 +18,6 @@
       {
         "name": "Disney Plus",
         "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-      },
-      {
-        "name": "Hulu",
-        "logoPath": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-      },
-      {
-        "name": "fuboTV",
-        "logoPath": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg"
-      },
-      {
-        "name": "YouTube TV",
-        "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
       }
     ],
     "DO": [
@@ -301,14 +289,6 @@
       {
         "name": "Disney Plus",
         "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-      },
-      {
-        "name": "Hulu",
-        "logoPath": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-      },
-      {
-        "name": "YouTube TV",
-        "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
       }
     ],
     "DO": [
@@ -421,20 +401,20 @@
         "logoPath": "/ptmbGSttkyzawLbxx9MElmxKuVo.jpg"
       },
       {
-        "name": "Starz Apple TV Channel",
-        "logoPath": "/1C5EVCWyQD798CE1DFfcm6oAbxP.jpg"
-      },
-      {
-        "name": "Starz Roku Premium Channel",
-        "logoPath": "/9laPF1MAiUxlqM8T98F3Gj0bhzd.jpg"
+        "name": "Starz Amazon Channel",
+        "logoPath": "/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg"
       },
       {
         "name": "Starz",
         "logoPath": "/yIKwylTLP1u8gl84Is7FItpYLGL.jpg"
       },
       {
-        "name": "Starz Amazon Channel",
-        "logoPath": "/esiLBRzDUwodjfN8gA4qj7l3ZF7.jpg"
+        "name": "Starz Apple TV channel",
+        "logoPath": "/1C5EVCWyQD798CE1DFfcm6oAbxP.jpg"
+      },
+      {
+        "name": "Starz Roku Premium Channel",
+        "logoPath": "/9laPF1MAiUxlqM8T98F3Gj0bhzd.jpg"
       }
     ],
     "DO": [
@@ -711,18 +691,6 @@
       {
         "name": "Disney Plus",
         "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-      },
-      {
-        "name": "Hulu",
-        "logoPath": "/bxBlRPEPpMVDc4jMhSrTf2339DW.jpg"
-      },
-      {
-        "name": "fuboTV",
-        "logoPath": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg"
-      },
-      {
-        "name": "YouTube TV",
-        "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
       }
     ],
     "DO": [
@@ -811,6 +779,10 @@
         "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
       },
       {
+        "name": "FXNow",
+        "logoPath": "/m4KUe3UoTnLgN4g6txYMnBqeUI5.jpg"
+      },
+      {
         "name": "Netflix Standard with Ads",
         "logoPath": "/dpR8r13zWDeUR0QkzWidrdMxa56.jpg"
       }
@@ -841,6 +813,14 @@
       {
         "name": "Disney Plus",
         "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      },
+      {
+        "name": "fuboTV",
+        "logoPath": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg"
+      },
+      {
+        "name": "YouTube TV",
+        "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
       }
     ],
     "DO": [
@@ -1118,22 +1098,6 @@
       {
         "name": "Disney Plus",
         "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
-      },
-      {
-        "name": "YouTube TV",
-        "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
-      },
-      {
-        "name": "TNT",
-        "logoPath": "/76CvnJAKAPbJuiXYwQGN7PFqOci.jpg"
-      },
-      {
-        "name": "TBS",
-        "logoPath": "/cZvP3XsDKlHFhNIyHYCVPStXT5l.jpg"
-      },
-      {
-        "name": "tru TV",
-        "logoPath": "/mMJ6AQUpHDsD5s2Q2dnbpX1NFwp.jpg"
       }
     ],
     "DO": [
@@ -1286,6 +1250,10 @@
       {
         "name": "YouTube TV",
         "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
+      },
+      {
+        "name": "FXNow",
+        "logoPath": "/m4KUe3UoTnLgN4g6txYMnBqeUI5.jpg"
       }
     ],
     "DO": [
@@ -1314,26 +1282,33 @@
         "logoPath": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg"
       },
       {
-        "name": "Starz Apple TV Channel",
-        "logoPath": "/1C5EVCWyQD798CE1DFfcm6oAbxP.jpg"
-      },
-      {
         "name": "YouTube TV",
         "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
+      },
+      {
+        "name": "FXNow",
+        "logoPath": "/m4KUe3UoTnLgN4g6txYMnBqeUI5.jpg"
+      },
+      {
+        "name": "Starz Apple TV channel",
+        "logoPath": "/1C5EVCWyQD798CE1DFfcm6oAbxP.jpg"
       }
     ],
-    "DO": [
-      {
-        "name": "VIX ",
-        "logoPath": "/jwRPknT20dfU1GeVqbcDXFyvtdG.jpg"
-      }
-    ]
+    "DO": []
   },
   "doctor-strange-multiverse-of-madness": {
     "US": [
       {
         "name": "Disney Plus",
         "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      },
+      {
+        "name": "fuboTV",
+        "logoPath": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg"
+      },
+      {
+        "name": "YouTube TV",
+        "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
       }
     ],
     "DO": [
@@ -1716,5 +1691,231 @@
   "avengers-secret-wars": {
     "US": [],
     "DO": []
+  },
+  "x-men-first-class": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      },
+      {
+        "name": "HBO Max Amazon Channel",
+        "logoPath": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg"
+      },
+      {
+        "name": "Cinemax Amazon Channel",
+        "logoPath": "/ohcwolMl8E743CkS8MnhmJKOlRj.jpg"
+      },
+      {
+        "name": "HBO Max",
+        "logoPath": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+      },
+      {
+        "name": "Cinemax Apple TV channel",
+        "logoPath": "/zXCdY4pczONheFCU9GkrMbGI1o5.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "x-men-days-of-future-past": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "x-men-origins-wolverine": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "x-men-apocalypse": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "dark-phoenix": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      },
+      {
+        "name": "fuboTV",
+        "logoPath": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg"
+      },
+      {
+        "name": "YouTube TV",
+        "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "the-new-mutants": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      },
+      {
+        "name": "fuboTV",
+        "logoPath": "/9BgaNQRMDvVlji1JBZi6tcfxpKx.jpg"
+      },
+      {
+        "name": "YouTube TV",
+        "logoPath": "/x9zOHTUkQzt3PgPVKbMH9CKBwLK.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "x-men": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "x2": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      },
+      {
+        "name": "FlixOlé",
+        "logoPath": "/ozMgkAAoi6aDI5ce8KKA2k8TGvB.jpg"
+      }
+    ]
+  },
+  "x-men-the-last-stand": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "the-wolverine": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "deadpool": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "deadpool-2": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      },
+      {
+        "name": "HBO Max Amazon Channel",
+        "logoPath": "/embS4GPK7c8pjbuY2O2irV5rYch.jpg"
+      },
+      {
+        "name": "HBO Max",
+        "logoPath": "/jbe4gVSfRlbPTdESXhEKpornsfu.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
+  },
+  "logan": {
+    "US": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ],
+    "DO": [
+      {
+        "name": "Disney Plus",
+        "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg"
+      }
+    ]
   }
 }

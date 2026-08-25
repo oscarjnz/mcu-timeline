@@ -2,12 +2,14 @@ export type EntryType = "movie" | "tv" | "one-shot" | "special";
 
 export type TmdbMediaType = "movie" | "tv";
 
+export type PhaseNumber = 0 | 1 | 2 | 3 | 4 | 5 | 6;
+
 export interface TimelineEntry {
   id: string;
   titleEn: string;
   titleEs: string;
   type: EntryType;
-  phase: 1 | 2 | 3 | 4 | 5 | 6;
+  phase: PhaseNumber;
   order: number;
   dateLabelEn: string;
   dateLabelEs: string;
@@ -25,10 +27,12 @@ export interface TimelineEntry {
   triviaEn?: string[];
   triviaEs?: string[];
   hasFutureSpoilers?: boolean;
+  /** Part of Disney+'s official "Countdown to Avengers: Doomsday" essential watchlist. */
+  inDoomsdayCountdown?: boolean;
 }
 
 export interface Phase {
-  number: 1 | 2 | 3 | 4 | 5 | 6;
+  number: PhaseNumber;
   nameEn: string;
   nameEs: string;
   subtitleEn: string;

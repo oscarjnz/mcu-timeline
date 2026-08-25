@@ -9,19 +9,25 @@ interface PhaseSectionProps {
   phase: Phase;
   entries: TimelineEntry[];
   onOpenEntry: (id: string) => void;
+  /** DOM id for this section. Only the first run of a given phase should use `phase-{number}`, so PhaseNav's anchors keep working when a phase is split into several runs. */
+  sectionId: string;
 }
 
-export function PhaseSection({ phase, entries, onOpenEntry }: PhaseSectionProps) {
+export function PhaseSection({ phase, entries, onOpenEntry, sectionId }: PhaseSectionProps) {
   const { language } = useLanguage();
   const colors = phaseColors[phase.number];
 
   return (
-    <section id={`phase-${phase.number}`} className="scroll-mt-20 py-8">
+    <section id={sectionId} data-phase-number={phase.number} className="scroll-mt-20 py-8">
       <header className="mb-4">
         <h2 className={`text-2xl font-bold ${colors.accentText}`}>
-          {language === "es"
-            ? `Fase ${phase.number}: ${phase.nameEs}`
-            : `Phase ${phase.number}: ${phase.nameEn}`}
+          {phase.number === 0
+            ? language === "es"
+              ? phase.nameEs
+              : phase.nameEn
+            : language === "es"
+              ? `Fase ${phase.number}: ${phase.nameEs}`
+              : `Phase ${phase.number}: ${phase.nameEn}`}
         </h2>
         <p className="text-sm text-zinc-500 dark:text-zinc-400">
           {language === "es" ? phase.subtitleEs : phase.subtitleEn}

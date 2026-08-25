@@ -35,6 +35,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 1,
     order: 2,
+    inDoomsdayCountdown: true,
     dateLabelEn: "1940s - 2011",
     dateLabelEs: "Década de 1940 - 2011",
     justificationEn:
@@ -143,6 +144,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 1,
     order: 6,
+    inDoomsdayCountdown: true,
     dateLabelEn: "1960s (Earth-828)",
     dateLabelEs: "Década de 1960 (Earth-828)",
     justificationEn:
@@ -374,6 +376,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 1,
     order: 14,
+    inDoomsdayCountdown: true,
     dateLabelEn: "May 2012",
     dateLabelEs: "Mayo de 2012",
     justificationEn: "Set in May 2012.",
@@ -1719,6 +1722,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 3,
     order: 70,
+    inDoomsdayCountdown: true,
     dateLabelEn: "2018",
     dateLabelEs: "2018",
     justificationEn: "Set in 2018.",
@@ -1793,6 +1797,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 3,
     order: 73,
+    inDoomsdayCountdown: true,
     dateLabelEn: "2023",
     dateLabelEs: "2023",
     justificationEn:
@@ -1826,6 +1831,7 @@ export const timeline: TimelineEntry[] = [
     type: "tv",
     phase: 4,
     order: 74,
+    inDoomsdayCountdown: true,
     dateLabelEn: "Outside of Time",
     dateLabelEs: "Fuera del Tiempo",
     justificationEn: "Its events cause a multiversal outbreak.",
@@ -1965,6 +1971,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 4,
     order: 79,
+    inDoomsdayCountdown: true,
     dateLabelEn: "2024",
     dateLabelEs: "2024",
     justificationEn: "Set in late March or early April, allowing time to reach one of the Seven Heavenly Cities.",
@@ -2123,6 +2130,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 4,
     order: 85,
+    inDoomsdayCountdown: true,
     dateLabelEn: "2024",
     dateLabelEs: "2024",
     justificationEn: "Picks up directly after Far From Home; the ending is set in December.",
@@ -2155,6 +2163,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 4,
     order: 86,
+    inDoomsdayCountdown: true,
     dateLabelEn: "2024",
     dateLabelEs: "2024",
     justificationEn: "Fall foliage in New York and direct references to the events of No Way Home.",
@@ -2235,6 +2244,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 4,
     order: 89,
+    inDoomsdayCountdown: true,
     dateLabelEn: "2025",
     dateLabelEs: "2025",
     justificationEn:
@@ -2535,6 +2545,7 @@ export const timeline: TimelineEntry[] = [
     type: "tv",
     phase: 5,
     order: 101,
+    inDoomsdayCountdown: true,
     dateLabelEn: "Outside of Time",
     dateLabelEs: "Fuera del Tiempo",
     justificationEn: "Loki gains control of the multiverse through Victor Timely.",
@@ -2612,6 +2623,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 5,
     order: 104,
+    inDoomsdayCountdown: true,
     dateLabelEn: "Outside of Time (2024 in the Fox-Men timeline)",
     dateLabelEs: "Fuera del Tiempo (2024 en la línea temporal Fox-Men)",
     justificationEn: "Outside of time, but narratively placed after Loki Season 2 and What If...?",
@@ -2717,6 +2729,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 5,
     order: 108,
+    inDoomsdayCountdown: true,
     dateLabelEn: "2027",
     dateLabelEs: "2027",
     justificationEn:
@@ -2745,6 +2758,7 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 5,
     order: 109,
+    inDoomsdayCountdown: true,
     dateLabelEn: "2027",
     dateLabelEs: "2027",
     justificationEn:
@@ -2881,5 +2895,395 @@ export const timeline: TimelineEntry[] = [
     tmdbYear: 2027,
     universeEn: "The point where the converging multiverse timelines are set to collide directly.",
     universeEs: "El punto donde las líneas temporales del multiverso que están convergiendo colisionan de forma directa.",
+  },
+
+  // ============== X-MEN (EARTH-10005) ==============
+  // Las 13 peliculas de X-Men de la era Fox (2000-2020), intercaladas en el
+  // timeline por su propia fecha in-universe. Earth-10005 es el nombre oficial
+  // del universo, confirmado en pantalla en Deadpool & Wolverine (2024); ese
+  // cruce y el regreso confirmado del elenco original (Patrick Stewart, Ian
+  // McKellen, Alan Cumming, Rebecca Romijn, James Marsden y Kelsey Grammer)
+  // como variantes en Avengers: Doomsday (2026) son la razon de incluirlas.
+  {
+    id: "x-men-first-class",
+    titleEn: "X-Men: First Class",
+    titleEs: "X-Men: First Class",
+    type: "movie",
+    phase: 0,
+    order: 6.1,
+    dateLabelEn: "1962 (Earth-10005)",
+    dateLabelEs: "1962 (Earth-10005)",
+    justificationEn:
+      "Set during a fictionalized Cuban Missile Crisis in 1962, in Earth-10005, the Fox X-Men universe that a future TVA incursion would later confirm crosses into the main MCU timeline.",
+    justificationEs:
+      "Transcurre durante una version ficcionada de la Crisis de los Misiles de Cuba en 1962, en Earth-10005, el universo X-Men de Fox que una futura incursion de la AVT confirmaria despues que se cruza con la linea temporal principal del UCM.",
+    tmdbSearchTitle: "X-Men: First Class",
+    tmdbMediaType: "movie",
+    tmdbYear: 2011,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "The film is a prequel showing a young Charles Xavier and Erik Lehnsherr before they became Professor X and Magneto, years before the original 2000 film.",
+      "James McAvoy and Michael Fassbender both said they studied Patrick Stewart and Ian McKellen's earlier performances to ground their younger versions of the same characters.",
+    ],
+    postCreditsEn:
+      "There is no post-credits scene in this film.",
+    postCreditsEs:
+      "Esta pelicula no tiene escena post-creditos.",
+  },
+  {
+    id: "x-men-days-of-future-past",
+    titleEn: "X-Men: Days of Future Past",
+    titleEs: "X-Men: Days of Future Past",
+    type: "movie",
+    phase: 0,
+    order: 6.2,
+    dateLabelEn: "1973, with a dystopian 2023 frame story (Earth-10005)",
+    dateLabelEs: "1973, con una historia marco en un 2023 distopico (Earth-10005)",
+    justificationEn:
+      "Wolverine's consciousness is sent back to 1973 to prevent a war between humans and mutants that leads to a dystopian 2023, rewriting Earth-10005's history and merging the original trilogy and First Class eras into one continuity.",
+    justificationEs:
+      "La conciencia de Wolverine es enviada a 1973 para evitar una guerra entre humanos y mutantes que desemboca en un 2023 distopico, reescribiendo la historia de Earth-10005 y fusionando la trilogia original y la era de First Class en una sola continuidad.",
+    tmdbSearchTitle: "X-Men: Days of Future Past",
+    tmdbMediaType: "movie",
+    tmdbYear: 2014,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "The film unites the casts of the original 2000s trilogy and the First Class prequel era in the same movie for the first time.",
+      "Its altered ending retroactively erases the events of X-Men: The Last Stand and X-Men Origins: Wolverine as they had previously played out, folding the whole Fox X-Men catalog into a single continuity.",
+    ],
+    triviaEs: [
+      "La pelicula une por primera vez en la misma cinta al elenco de la trilogia original de los 2000 y al de la era precuela de First Class.",
+      "Su final alterado borra retroactivamente los eventos de X-Men: The Last Stand y X-Men Origins: Wolverine tal como habian ocurrido antes, uniendo todo el catalogo de X-Men de Fox en una sola continuidad.",
+    ],
+    postCreditsEn:
+      "In a mid-credits scene set in ancient Egypt, the first mutant, En Sabah Nur, is worshipped by followers who build pyramids around him, setting up his return as the villain of X-Men: Apocalypse.",
+    postCreditsEs:
+      "En una escena a mitad de creditos ambientada en el Antiguo Egipto, el primer mutante, En Sabah Nur, es venerado por seguidores que construyen piramides a su alrededor, preparando su regreso como el villano de X-Men: Apocalypse.",
+  },
+  {
+    id: "x-men-origins-wolverine",
+    titleEn: "X-Men Origins: Wolverine",
+    titleEs: "X-Men Origins: Wolverine",
+    type: "movie",
+    phase: 0,
+    order: 6.3,
+    dateLabelEn: "1845-1979, climaxing in 1979 (Earth-10005)",
+    dateLabelEs: "1845-1979, con clímax en 1979 (Earth-10005)",
+    justificationEn:
+      "Chronicles Logan and Victor Creed's history across more than a century of conflicts, climaxing in 1979 at the Weapon X facility where Wolverine receives his adamantium skeleton.",
+    justificationEs:
+      "Narra la historia de Logan y Victor Creed a lo largo de mas de un siglo de conflictos, con climax en 1979 en la instalacion Weapon X donde Wolverine recibe su esqueleto de adamantium.",
+    tmdbSearchTitle: "X-Men Origins: Wolverine",
+    tmdbMediaType: "movie",
+    tmdbYear: 2009,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "An unfinished workprint of the film leaked online about a month before release, becoming one of the highest-profile movie piracy incidents of its era.",
+      "Ryan Reynolds' brief appearance here as Wade Wilson bears little resemblance to the comics' Deadpool, something Reynolds himself has repeatedly joked about in the character's later solo films.",
+    ],
+    triviaEs: [
+      "Una copia de trabajo sin terminar de la pelicula se filtro en internet cerca de un mes antes de su estreno, convirtiendose en uno de los casos de pirateria de cine mas sonados de su epoca.",
+      "La breve aparicion de Ryan Reynolds como Wade Wilson en esta cinta se parece poco al Deadpool de los comics, algo de lo que el propio Reynolds ha bromeado repetidamente en las peliculas en solitario posteriores del personaje.",
+    ],
+  },
+  {
+    id: "x-men-apocalypse",
+    titleEn: "X-Men: Apocalypse",
+    titleEs: "X-Men: Apocalypse",
+    type: "movie",
+    phase: 0,
+    order: 6.4,
+    dateLabelEn: "1983 (Earth-10005)",
+    dateLabelEs: "1983 (Earth-10005)",
+    justificationEn:
+      "Set nine years after Days of Future Past. The ancient mutant En Sabah Nur awakens and recruits four horsemen to remake the world.",
+    justificationEs:
+      "Transcurre nueve anos despues de Days of Future Past. El mutante ancestral En Sabah Nur despierta y recluta a cuatro jinetes para rehacer el mundo.",
+    tmdbSearchTitle: "X-Men: Apocalypse",
+    tmdbMediaType: "movie",
+    tmdbYear: 2016,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "Oscar Isaac plays the title villain under heavy prosthetic makeup that reportedly took hours to apply each shooting day.",
+      "In a self-aware joke, several characters visit a movie theater showing X-Men: The Last Stand and mock it as the worst film in the trilogy.",
+    ],
+    triviaEs: [
+      "Oscar Isaac interpreta al villano titular bajo una pesada protesis de maquillaje que reportadamente tomaba horas de aplicar cada dia de rodaje.",
+      "En una broma autoconsciente, varios personajes visitan un cine que proyecta X-Men: The Last Stand y se burlan de ella por ser la peor pelicula de la trilogia.",
+    ],
+  },
+  {
+    id: "dark-phoenix",
+    titleEn: "Dark Phoenix",
+    titleEs: "Dark Phoenix",
+    type: "movie",
+    phase: 0,
+    order: 6.5,
+    dateLabelEn: "1992 (Earth-10005)",
+    dateLabelEs: "1992 (Earth-10005)",
+    justificationEn:
+      "Set nine years after Apocalypse. Jean Grey is possessed by a cosmic force that unleashes her full potential and pushes her toward darkness, adapted from the comics' Dark Phoenix Saga.",
+    justificationEs:
+      "Transcurre nueve anos despues de Apocalypse. Jean Grey es poseida por una fuerza cosmica que libera todo su potencial y la empuja hacia la oscuridad, adaptando la Dark Phoenix Saga de los comics.",
+    tmdbSearchTitle: "Dark Phoenix",
+    tmdbMediaType: "movie",
+    tmdbYear: 2019,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "It was the second attempt to adapt the Dark Phoenix Saga after X-Men: The Last Stand, following years of criticism that the earlier film had rushed the storyline.",
+      "The film underwent extensive reshoots roughly a year before release, reportedly reworking its climax after test screenings.",
+    ],
+    triviaEs: [
+      "Fue el segundo intento de adaptar la Dark Phoenix Saga despues de X-Men: The Last Stand, tras anos de criticas de que aquella pelicula habia apresurado la trama.",
+      "La pelicula paso por extensas repeticiones de rodaje cerca de un ano antes de su estreno, reformulando reportadamente su climax despues de las proyecciones de prueba.",
+    ],
+  },
+  {
+    id: "the-new-mutants",
+    titleEn: "The New Mutants",
+    titleEs: "The New Mutants",
+    type: "movie",
+    phase: 0,
+    order: 6.6,
+    dateLabelEn: "Undated, commonly placed after Dark Phoenix (Earth-10005)",
+    dateLabelEs: "Sin fecha exacta, ubicada por lo general despues de Dark Phoenix (Earth-10005)",
+    justificationEn:
+      "A group of young mutants are held in a secret facility for observation, framed as a horror film rather than a traditional superhero movie. Its own timeframe is never pinned to an exact year on screen.",
+    justificationEs:
+      "Un grupo de jovenes mutantes es retenido en una instalacion secreta en observacion, planteada como una pelicula de terror en vez de una cinta de superheroes tradicional. Su propia epoca nunca se fija a un ano exacto en pantalla.",
+    tmdbSearchTitle: "The New Mutants",
+    tmdbMediaType: "movie",
+    tmdbYear: 2020,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "Director Josh Boone conceived the film as a horror movie set within the X-Men universe, citing 1980s teen horror films as a bigger influence than prior X-Men movies.",
+      "Its release was delayed multiple times over two years, caught between reshoot plans, Disney's acquisition of Fox, and finally the COVID-19 pandemic, before arriving as the last Fox X-Men film.",
+    ],
+    triviaEs: [
+      "El director Josh Boone concibio la pelicula como una cinta de terror ambientada en el universo X-Men, citando el terror adolescente de los anos ochenta como una influencia mayor que las peliculas previas de X-Men.",
+      "Su estreno se retraso varias veces durante mas de dos anos, entre planes de repeticion de rodaje, la adquisicion de Fox por Disney y finalmente la pandemia de COVID-19, antes de llegar como la ultima pelicula de X-Men de Fox.",
+    ],
+  },
+  {
+    id: "x-men",
+    titleEn: "X-Men",
+    titleEs: "X-Men",
+    type: "movie",
+    phase: 0,
+    order: 7.5,
+    dateLabelEn: "2000 (Earth-10005)",
+    dateLabelEs: "2000 (Earth-10005)",
+    justificationEn:
+      "Set in the present day of its release. Professor X's school is already operating and Wolverine has just arrived, in the earliest point of the original trilogy era of Earth-10005.",
+    justificationEs:
+      "Transcurre en el presente de su estreno. La escuela del Profesor X ya esta en funcionamiento y Wolverine acaba de llegar, en el punto mas temprano de la era de la trilogia original de Earth-10005.",
+    tmdbSearchTitle: "X-Men",
+    tmdbMediaType: "movie",
+    tmdbYear: 2000,
+    earthVariant: "Earth-10005",
+    universeEn:
+      "Earth-10005 (the Fox X-Men universe), officially confirmed on screen in Deadpool & Wolverine (2024) to cross into the main MCU timeline through the TVA.",
+    universeEs:
+      "Earth-10005 (el universo X-Men de Fox), confirmado oficialmente en pantalla en Deadpool & Wolverine (2024) como parte del cruce a la linea temporal principal del UCM a traves de la AVT.",
+    triviaEn: [
+      "This film is widely credited, alongside Blade (1998), with reviving Hollywood's interest in comic book adaptations after years of decline, launching the modern superhero movie boom.",
+      "Hugh Jackman was a late replacement for Dougray Scott as Wolverine, cast only weeks before filming began after Scott dropped out due to scheduling conflicts on Mission: Impossible II.",
+    ],
+    triviaEs: [
+      "Esta pelicula, junto a Blade (1998), suele recibir el credito de revivir el interes de Hollywood por las adaptaciones de comics tras anos de decadencia, lanzando el auge moderno de las peliculas de superheroes.",
+      "Hugh Jackman fue un reemplazo de ultimo momento para interpretar a Wolverine tras la salida de Dougray Scott, contratado apenas semanas antes de iniciar el rodaje por conflictos de agenda de Scott con Mission: Impossible II.",
+    ],
+    inDoomsdayCountdown: true,
+  },
+  {
+    id: "x2",
+    titleEn: "X2",
+    titleEs: "X2",
+    type: "movie",
+    phase: 0,
+    order: 7.6,
+    dateLabelEn: "2003 (Earth-10005)",
+    dateLabelEs: "2003 (Earth-10005)",
+    justificationEn:
+      "Set shortly after X-Men. Magneto escapes his plastic prison and Nightcrawler attacks the White House, opening a wider conflict between mutants and the government.",
+    justificationEs:
+      "Transcurre poco despues de X-Men. Magneto escapa de su prision de plastico y Nightcrawler ataca la Casa Blanca, abriendo un conflicto mas amplio entre los mutantes y el gobierno.",
+    tmdbSearchTitle: "X2",
+    tmdbMediaType: "movie",
+    tmdbYear: 2003,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "Alan Cumming's transformation into Nightcrawler required hours in makeup each day for the character's blue skin, tail, and scarification designs.",
+      "The film's opening sequence, Nightcrawler's attack on the White House, is frequently ranked among the best action scenes of any X-Men film.",
+    ],
+    triviaEs: [
+      "La transformacion de Alan Cumming en Nightcrawler requeria horas de maquillaje cada dia para la piel azul, la cola y las cicatrices del personaje.",
+      "La secuencia inicial de la pelicula, el ataque de Nightcrawler a la Casa Blanca, suele figurar entre las mejores escenas de accion de cualquier pelicula de X-Men.",
+    ],
+    inDoomsdayCountdown: true,
+  },
+  {
+    id: "x-men-the-last-stand",
+    titleEn: "X-Men: The Last Stand",
+    titleEs: "X-Men: The Last Stand",
+    type: "movie",
+    phase: 0,
+    order: 7.7,
+    dateLabelEn: "2006 (Earth-10005)",
+    dateLabelEs: "2006 (Earth-10005)",
+    justificationEn:
+      "Set three years after X2. A \"cure\" for the mutant gene triggers conflict between Xavier's and Magneto's factions as Jean Grey returns as the Phoenix.",
+    justificationEs:
+      "Transcurre tres anos despues de X2. Una \"cura\" para el gen mutante desata el conflicto entre las facciones de Xavier y Magneto mientras Jean Grey regresa como Phoenix.",
+    tmdbSearchTitle: "X-Men: The Last Stand",
+    tmdbMediaType: "movie",
+    tmdbYear: 2006,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "Director Bryan Singer left the franchise to direct Superman Returns, and Brett Ratner replaced him for this installment.",
+      "This was originally meant as the finale of the original trilogy, killing off both Professor X and Cyclops, before X-Men: Days of Future Past later revived Xavier through time travel.",
+    ],
+    triviaEs: [
+      "El director Bryan Singer dejo la franquicia para dirigir Superman Returns, y Brett Ratner lo reemplazo en esta entrega.",
+      "Originalmente estaba pensada como el cierre de la trilogia original, matando tanto al Profesor X como a Cyclops, antes de que X-Men: Days of Future Past reviviera despues a Xavier mediante viajes en el tiempo.",
+    ],
+  },
+  {
+    id: "the-wolverine",
+    titleEn: "The Wolverine",
+    titleEs: "The Wolverine",
+    type: "movie",
+    phase: 0,
+    order: 20.5,
+    dateLabelEn: "2013 (Earth-10005)",
+    dateLabelEs: "2013 (Earth-10005)",
+    justificationEn:
+      "Set some time after X-Men: The Last Stand. Logan travels to Japan and confronts his own mortality after being stripped of his healing factor, loosely based on the 1982 Wolverine comic miniseries.",
+    justificationEs:
+      "Transcurre algun tiempo despues de X-Men: The Last Stand. Logan viaja a Japon y enfrenta su propia mortalidad tras perder su factor curativo, basada libremente en la miniserie de comics Wolverine de 1982.",
+    tmdbSearchTitle: "The Wolverine",
+    tmdbMediaType: "movie",
+    tmdbYear: 2013,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "The film is loosely based on the 1982 Wolverine miniseries written by Chris Claremont and drawn by Frank Miller.",
+    ],
+    triviaEs: [
+      "La pelicula esta basada libremente en la miniserie de comics Wolverine de 1982, escrita por Chris Claremont y dibujada por Frank Miller.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, set two years later, Logan is approached by Magneto and a healthy Professor X, who warn him of a coming threat, directly setting up the plot of X-Men: Days of Future Past.",
+    postCreditsEs:
+      "En la escena a mitad de creditos, ambientada dos anos despues, Logan es abordado por Magneto y un Profesor X saludable, que le advierten sobre una amenaza inminente, preparando directamente la trama de X-Men: Days of Future Past.",
+  },
+  {
+    id: "deadpool",
+    titleEn: "Deadpool",
+    titleEs: "Deadpool",
+    type: "movie",
+    phase: 0,
+    order: 45.5,
+    dateLabelEn: "2016 (Earth-10005)",
+    dateLabelEs: "2016 (Earth-10005)",
+    justificationEn:
+      "Mercenary Wade Wilson becomes the regenerating antihero Deadpool after an experimental treatment, set in present-day New York and breaking the fourth wall throughout.",
+    justificationEs:
+      "El mercenario Wade Wilson se convierte en el antiheroe regenerativo Deadpool tras un tratamiento experimental, ambientada en la Nueva York contemporanea y rompiendo la cuarta pared todo el tiempo.",
+    tmdbSearchTitle: "Deadpool",
+    tmdbMediaType: "movie",
+    tmdbYear: 2016,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "Test footage shot years earlier leaked online in 2014 and generated enough fan demand that it reportedly helped convince the studio to greenlight the film.",
+      "It became, at the time, the highest-grossing R-rated film ever released, a record its own sequel later broke.",
+    ],
+    triviaEs: [
+      "Material de prueba filmado anos antes se filtro en internet en 2014 y genero suficiente demanda de los fans como para ayudar, reportadamente, a que el estudio diera luz verde a la pelicula.",
+      "Se convirtio, en su momento, en la pelicula clasificacion R de mayor recaudacion jamas estrenada, un record que su propia secuela rompio despues.",
+    ],
+    postCreditsEn:
+      "In the post-credits scene, a bathrobe-clad Deadpool parodies the ending of Ferris Bueller's Day Off, addressing the audience directly to joke about an unlikely Cable cameo.",
+    postCreditsEs:
+      "En la escena post-creditos, un Deadpool en bata parodia el final de Ferris Bueller's Day Off, dirigiendose directamente al publico para bromear sobre una improbable aparicion de Cable.",
+  },
+  {
+    id: "deadpool-2",
+    titleEn: "Deadpool 2",
+    titleEs: "Deadpool 2",
+    type: "movie",
+    phase: 0,
+    order: 68.5,
+    dateLabelEn: "2018 (Earth-10005)",
+    dateLabelEs: "2018 (Earth-10005)",
+    justificationEn:
+      "Set shortly after the first film. Wade Wilson forms the mutant team X-Force and travels back in time to protect a young mutant from the time-traveling soldier Cable.",
+    justificationEs:
+      "Transcurre poco despues de la primera pelicula. Wade Wilson forma el equipo mutante X-Force y viaja en el tiempo para proteger a un joven mutante del soldado viajero del tiempo Cable.",
+    tmdbSearchTitle: "Deadpool 2",
+    tmdbMediaType: "movie",
+    tmdbYear: 2018,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "Josh Brolin played both Cable in this film and Thanos in Avengers: Infinity War the same year, a coincidence the film jokes about directly.",
+      "Its extended credits sequence is one of the longest in the genre, using Cable's time machine for a string of gags that undo deaths, alter the ending of X-Men Origins: Wolverine, and kill off Ryan Reynolds' earlier role in Green Lantern.",
+    ],
+    triviaEs: [
+      "Josh Brolin interpreto tanto a Cable en esta pelicula como a Thanos en Avengers: Infinity War el mismo ano, una coincidencia de la que la propia cinta bromea directamente.",
+      "Su extensa secuencia de creditos es una de las mas largas del genero, usando la maquina del tiempo de Cable para una serie de gags que deshacen muertes, alteran el final de X-Men Origins: Wolverine y matan al personaje que Ryan Reynolds interpreto antes en Green Lantern.",
+    ],
+    postCreditsEn:
+      "The extended credits use Cable's time machine for a series of gags: saving X-Force members who died minutes earlier, giving Deadpool's creator Rob Liefeld art notes, erasing the events of X-Men Origins: Wolverine, and killing Ryan Reynolds' character from the 2011 film Green Lantern.",
+    postCreditsEs:
+      "Los creditos extendidos usan la maquina del tiempo de Cable para una serie de gags: salvar a miembros de X-Force que habian muerto minutos antes, darle notas de dibujo a Rob Liefeld, creador de Deadpool, borrar los eventos de X-Men Origins: Wolverine y matar al personaje que Ryan Reynolds interpreto en la pelicula de 2011 Green Lantern.",
+  },
+  {
+    id: "logan",
+    titleEn: "Logan",
+    titleEs: "Logan",
+    type: "movie",
+    phase: 0,
+    order: 115,
+    dateLabelEn: "2029 (Earth-10005)",
+    dateLabelEs: "2029 (Earth-10005)",
+    justificationEn:
+      "Set in a near future where mutants have nearly gone extinct. An aging, ailing Logan cares for an elderly Professor X while protecting a young mutant girl, in Hugh Jackman's final performance as Wolverine.",
+    justificationEs:
+      "Transcurre en un futuro cercano donde los mutantes casi se han extinguido. Un Logan envejecido y enfermo cuida de un Profesor X anciano mientras protege a una joven mutante, en la ultima interpretacion de Hugh Jackman como Wolverine.",
+    tmdbSearchTitle: "Logan",
+    tmdbMediaType: "movie",
+    tmdbYear: 2017,
+    earthVariant: "Earth-10005",
+    universeEn: "Earth-10005 (the Fox X-Men universe).",
+    universeEs: "Earth-10005 (el universo X-Men de Fox).",
+    triviaEn: [
+      "Hugh Jackman announced this would be his final performance as Wolverine, closing out a role he had played across nearly two decades.",
+      "It became the first live-action superhero film nominated for an Academy Award for its screenplay, competing for Best Adapted Screenplay.",
+    ],
+    triviaEs: [
+      "Hugh Jackman anuncio que esta seria su ultima interpretacion de Wolverine, cerrando un papel que habia interpretado durante casi dos decadas.",
+      "Se convirtio en la primera pelicula de superheroes en accion real nominada al Oscar por su guion, compitiendo por mejor guion adaptado.",
+    ],
   },
 ];

@@ -16,6 +16,7 @@ interface TmdbCacheEntry {
   posterPath: string | null;
   backdropPath: string | null;
   releaseYear: number | null;
+  releaseDate: string | null;
   overviewEn: string | null;
   overviewEs: string | null;
   tagline: string | null;
@@ -47,6 +48,10 @@ export function getBackdropUrl(id: string, size: TmdbImageSize = "w780"): string
 
 export function getReleaseYear(id: string): number | null {
   return cache[id]?.releaseYear ?? null;
+}
+
+export function getReleaseDate(id: string): string | null {
+  return cache[id]?.releaseDate ?? null;
 }
 
 export function getOverview(id: string, language: "es" | "en"): string | null {

@@ -2,6 +2,13 @@ import type { Phase } from "../types/timeline";
 
 export const phases: Phase[] = [
   {
+    number: 0,
+    nameEn: "X-Men (Earth-10005)",
+    nameEs: "X-Men (Earth-10005)",
+    subtitleEn: "The Fox X-Men universe, later confirmed to cross into the MCU",
+    subtitleEs: "El universo X-Men de Fox, confirmado despues como parte del cruce al UCM",
+  },
+  {
     number: 1,
     nameEn: "The Avengers",
     nameEs: "The Avengers",

@@ -6,7 +6,14 @@ export interface PhaseColor {
   badgeText: string;
 }
 
-export const phaseColors: Record<1 | 2 | 3 | 4 | 5 | 6, PhaseColor> = {
+export const phaseColors: Record<0 | 1 | 2 | 3 | 4 | 5 | 6, PhaseColor> = {
+  0: {
+    accentBg: "bg-yellow-500",
+    accentBorder: "border-yellow-500",
+    accentText: "text-yellow-600 dark:text-yellow-400",
+    badgeBg: "bg-yellow-100 dark:bg-yellow-950",
+    badgeText: "text-yellow-800 dark:text-yellow-300",
+  },
   1: {
     accentBg: "bg-red-600",
     accentBorder: "border-red-600",

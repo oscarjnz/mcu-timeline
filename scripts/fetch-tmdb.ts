@@ -56,6 +56,8 @@ export interface TmdbCacheEntry {
   posterPath: string | null;
   backdropPath: string | null;
   releaseYear: number | null;
+  /** Fecha exacta de estreno real (ISO, YYYY-MM-DD), para ordenar por estreno con precision de dia. */
+  releaseDate: string | null;
   overviewEn: string | null;
   overviewEs: string | null;
   tagline: string | null;
@@ -113,7 +115,7 @@ function getSeasonNumber(entry: TimelineEntry): number {
 // serie completa (temporada 1). Para no mostrar "estreno 2013" en una entrada
 // de la temporada 6, se resuelve el numero de temporada desde el titulo y se
 // pide la fecha de estreno de esa temporada puntual.
-async function fetchSeasonAirYear(tmdbId: number, entry: TimelineEntry): Promise<number | null> {
+async function fetchSeasonAirDate(tmdbId: number, entry: TimelineEntry): Promise<string | null> {
   const seasonNumber = getSeasonNumber(entry);
   const response = await fetch(
     `https://api.themoviedb.org/3/tv/${tmdbId}/season/${seasonNumber}`,
@@ -121,8 +123,7 @@ async function fetchSeasonAirYear(tmdbId: number, entry: TimelineEntry): Promise
   );
   if (!response.ok) return null;
   const data = (await response.json()) as TmdbSeasonResponse;
-  if (!data.air_date) return null;
-  return Number(data.air_date.slice(0, 4));
+  return data.air_date || null;
 }
 
 // Mismo problema que arriba pero para la sinopsis: el endpoint de serie
@@ -157,6 +158,29 @@ async function searchTmdb(entry: TimelineEntry): Promise<TmdbSearchResult | null
   const data = (await response.json()) as TmdbSearchResponse;
   if (data.results.length === 0) return null;
 
+  // La API ordena por popularidad, no por coincidencia de titulo: un resultado mas
+  // popular pero con nombre distinto (ej. un documental o featurette con un titulo
+  // parecido, "X-Men: The Mutant Watch" en vez de "X-Men") puede aparecer antes que
+  // la entrada exacta que buscamos, incluso compartiendo el mismo ano de estreno.
+  // Por eso el match exacto de titulo tiene prioridad sobre el match de ano: el ano
+  // solo desempata entre varios resultados que ya matchean el titulo exacto.
+  const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, "");
+  const wantedTitle = normalize(entry.tmdbSearchTitle);
+  const exactMatches = data.results.filter(
+    (result) => normalize(result.title ?? result.name ?? "") === wantedTitle,
+  );
+
+  if (exactMatches.length > 0) {
+    if (entry.tmdbYear) {
+      const wanted = String(entry.tmdbYear);
+      const yearMatch = exactMatches.find((result) =>
+        result.release_date?.startsWith(wanted) || result.first_air_date?.startsWith(wanted),
+      );
+      if (yearMatch) return yearMatch;
+    }
+    return exactMatches[0];
+  }
+
   if (entry.tmdbYear) {
     const wanted = String(entry.tmdbYear);
     const yearMatch = data.results.find((result) =>
@@ -165,20 +189,10 @@ async function searchTmdb(entry: TimelineEntry): Promise<TmdbSearchResult | null
     if (yearMatch) return yearMatch;
   }
 
-  // La API ordena por popularidad, no por coincidencia de titulo: un resultado mas
-  // popular pero con nombre distinto (ej. una serie posterior del mismo universo)
-  // puede aparecer antes que la entrada exacta que buscamos.
-  const normalize = (value: string) => value.toLowerCase().replace(/[^a-z0-9]/g, "");
-  const wantedTitle = normalize(entry.tmdbSearchTitle);
-  const exactMatch = data.results.find(
-    (result) => normalize(result.title ?? result.name ?? "") === wantedTitle,
-  );
-  if (exactMatch) return exactMatch;
-
   return data.results[0];
 }
 
-async function fetchDetails(entry: TimelineEntry, tmdbId: number): Promise<Omit<TmdbCacheEntry, "tmdbId" | "posterPath" | "backdropPath" | "releaseYear">> {
+async function fetchDetails(entry: TimelineEntry, tmdbId: number): Promise<Omit<TmdbCacheEntry, "tmdbId" | "posterPath" | "backdropPath" | "releaseYear" | "releaseDate">> {
   const endpoint = entry.tmdbMediaType === "movie" ? "movie" : "tv";
 
   const mainUrl = new URL(`https://api.themoviedb.org/3/${endpoint}/${tmdbId}`);
@@ -250,12 +264,13 @@ async function main() {
       continue;
     }
 
-    let releaseYear: number | null = null;
+    let releaseDate: string | null = null;
     if (entry.tmdbMediaType === "tv") {
-      releaseYear = await fetchSeasonAirYear(result.id, entry);
+      releaseDate = await fetchSeasonAirDate(result.id, entry);
     } else if (result.release_date) {
-      releaseYear = Number(result.release_date.slice(0, 4));
+      releaseDate = result.release_date;
     }
+    const releaseYear = releaseDate ? Number(releaseDate.slice(0, 4)) : null;
 
     const details = await fetchDetails(entry, result.id);
 
@@ -264,6 +279,7 @@ async function main() {
       posterPath: result.poster_path,
       backdropPath: result.backdrop_path,
       releaseYear,
+      releaseDate,
       ...details,
     };
     await new Promise((resolve) => setTimeout(resolve, 80));
