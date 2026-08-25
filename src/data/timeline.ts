@@ -1192,12 +1192,12 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
     triviaEn: [
-      "Brett Dalton plays a dual role for most of the season, appearing as both Grant Ward and, after his possession, the ancient Inhuman parasite Hive, whose personality overtakes Ward's body from the inside.",
+      "Brett Dalton plays a dual role for the second half of the season, appearing as both Grant Ward and, after his possession, the ancient Inhuman parasite Hive, whose personality overtakes Ward's body from the inside.",
       "Lincoln Campbell's death in this two-part finale was Luke Mitchell's last appearance as a series regular, closing out an arc for the character that had begun back in season 2.",
       "The finale's closing scene introduces Dr. Radcliffe's artificial intelligence AIDA, a plot thread season 4 would build its entire Life Model Decoy storyline around.",
     ],
     triviaEs: [
-      "Brett Dalton interpreta un doble papel durante buena parte de la temporada, apareciendo como Grant Ward y, tras su posesión, como el inhumano parásito ancestral Hive, cuya personalidad domina el cuerpo de Ward desde adentro.",
+      "Brett Dalton interpreta un doble papel durante la segunda mitad de la temporada, apareciendo como Grant Ward y, tras su posesión, como el inhumano parásito ancestral Hive, cuya personalidad domina el cuerpo de Ward desde adentro.",
       "La muerte de Lincoln Campbell en este final de dos partes fue la última aparición de Luke Mitchell como personaje regular de la serie, cerrando un arco que había empezado en la temporada 2.",
       "La escena final del episodio presenta a AIDA, la inteligencia artificial del doctor Radcliffe, un hilo argumental sobre el que la temporada 4 construiría toda su trama de los Life Model Decoys.",
     ],
