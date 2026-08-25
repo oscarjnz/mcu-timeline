@@ -1813,9 +1813,9 @@ export const timeline: TimelineEntry[] = [
       "Los hermanos Russo coordinaron cameos y referencias de las 21 películas anteriores, incluyendo un plano cerca de la batalla final donde todos los héroes que habían aparecido hasta entonces se reúnen en pantalla a la vez.",
     ],
     postCreditsEn:
-      "Unlike most Marvel films, Endgame has no scene after the credits; directors Anthony and Joe Russo deliberately left one out to underline the story's sense of finality, but as the credits end the sound design cuts to the clang of metal on metal, the sound of Tony Stark building his first Iron Man suit back in 2008, a last minute addition suggested by Kevin Feige as a tribute to the character.",
+      "Unlike most Marvel films, Endgame has no scene after the credits; directors Anthony and Joe Russo deliberately left one out to underline the story's sense of finality, but as the credits end the sound design cuts to the clang of metal on metal, the same sound of Tony Stark building his first Iron Man suit back in 2008, a deliberate bookend that closes his arc as a quiet tribute to the character.",
     postCreditsEs:
-      "A diferencia de la mayoría de las películas de Marvel, Endgame no tiene ninguna escena después de los créditos; los directores Anthony y Joe Russo dejaron deliberadamente afuera una escena para subrayar la sensación de cierre de la historia, pero al terminar los créditos el sonido corta al golpeteo de metal contra metal, el sonido de Tony Stark construyendo su primer traje de Iron Man allá por 2008, un añadido de último momento sugerido por Kevin Feige como homenaje al personaje.",
+      "A diferencia de la mayoría de las películas de Marvel, Endgame no tiene ninguna escena después de los créditos; los directores Anthony y Joe Russo dejaron deliberadamente afuera una escena para subrayar la sensación de cierre de la historia, pero al terminar los créditos el sonido corta al golpeteo de metal contra metal, el mismo sonido de Tony Stark construyendo su primer traje de Iron Man allá por 2008, un cierre deliberado que redondea su arco como un homenaje silencioso al personaje.",
   },
 
   // ===================== FASE 4: AFTERMATH =====================
