@@ -12,9 +12,28 @@ const geistMono = Geist_Mono({
   subsets: ["latin"],
 });
 
+const siteUrl = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+
+const title = "MARVEL — Timeline del UCM";
+const description =
+  "Orden cronológico y narrativo completo del universo cinematográfico de Marvel, con X-Men (Earth-10005) intercalado.";
+
 export const metadata: Metadata = {
+  metadataBase: new URL(siteUrl),
   title: "MCU Timeline",
   description: "Orden cronológico y narrativo completo del universo cinematográfico de Marvel",
+  openGraph: {
+    title,
+    description,
+    type: "website",
+    locale: "es_ES",
+    siteName: "MCU Timeline",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title,
+    description,
+  },
 };
 
 export default function RootLayout({
