@@ -1192,14 +1192,14 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
     triviaEn: [
-      "These three episodes make up the season 3 finale trilogy, in which Grant Ward's Hive-possessed body hijacks a captured Zephyr jet loaded with newly Terrigenesis-transformed Inhumans to breach Earth's atmosphere.",
-      "Luke Mitchell's Lincoln Campbell sacrifices himself to stop Hive, a death that reshaped Daisy Johnson's arc going into the following season.",
-      "News footage referencing the Sokovia Accords and the Civil War airport battle is used to anchor the finale's timing directly to Captain America: Civil War.",
+      "Brett Dalton plays a dual role for most of the season, appearing as both Grant Ward and, after his possession, the ancient Inhuman parasite Hive, whose personality overtakes Ward's body from the inside.",
+      "Lincoln Campbell's death in this two-part finale was Luke Mitchell's last appearance as a series regular, closing out an arc for the character that had begun back in season 2.",
+      "The finale's closing scene introduces Dr. Radcliffe's artificial intelligence AIDA, a plot thread season 4 would build its entire Life Model Decoy storyline around.",
     ],
     triviaEs: [
-      "Estos tres episodios forman la trilogía final de la temporada 3, en la que el cuerpo de Grant Ward poseído por Hive secuestra un Zephyr capturado, cargado de Inhumanos recién transformados por Terrigénesis, para atravesar la atmósfera terrestre.",
-      "Lincoln Campbell, interpretado por Luke Mitchell, se sacrifica para detener a Hive, una muerte que reformuló el arco de Daisy Johnson de cara a la temporada siguiente.",
-      "Se usa material de noticiero que menciona los Acuerdos de Sokovia y la batalla del aeropuerto de Civil War para anclar el momento del final de temporada directamente a Captain America: Civil War.",
+      "Brett Dalton interpreta un doble papel durante buena parte de la temporada, apareciendo como Grant Ward y, tras su posesión, como el inhumano parásito ancestral Hive, cuya personalidad domina el cuerpo de Ward desde adentro.",
+      "La muerte de Lincoln Campbell en este final de dos partes fue la última aparición de Luke Mitchell como personaje regular de la serie, cerrando un arco que había empezado en la temporada 2.",
+      "La escena final del episodio presenta a AIDA, la inteligencia artificial del doctor Radcliffe, un hilo argumental sobre el que la temporada 4 construiría toda su trama de los Life Model Decoys.",
     ],
   },
   {
@@ -1448,14 +1448,14 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
     triviaEn: [
-      "This first stretch of season 5 sends the team 90 years into the future, trapped aboard the Lighthouse, a mining station orbiting the wreckage of a destroyed Earth in the year 2091, the show's biggest structural swing yet.",
-      "Much of the space station and alien world material was built on redressed studio sets, leaning on matte paintings and practical detail over full CG environments to keep the show's TV budget workable.",
-      "The arc introduces the Kree soldier Kasius and starts unpacking a season long prophecy about who ends up destroying Earth.",
+      "The \"team stranded decades in the future\" concept for this arc began as a plan to send the characters into space before the writers' room reworked it into a ruined future Earth instead.",
+      "The Lighthouse, the standing set built for this stretch at Culver Studios, replaced the Playground base destroyed during season 4's Life Model Decoy storyline, and parts of its design were later reused for the show's present day headquarters.",
+      "Executive producer Maurissa Tancharoen described the shift in art direction, sets and tone for this arc as one of the biggest overhauls in the show's history.",
     ],
     triviaEs: [
-      "Este primer tramo de la temporada 5 envía al equipo 90 años al futuro, atrapados en el Lighthouse, una estación minera que orbita los restos de una Tierra destruida en el año 2091, el giro estructural más grande de la serie hasta ese momento.",
-      "Buena parte del material de la estación espacial y el mundo alienígena se construyó sobre sets de estudio reutilizados, apoyándose en mate paintings y detalle práctico en vez de entornos totalmente generados por computadora, para mantener manejable el presupuesto televisivo de la serie.",
-      "El arco presenta al soldado kree Kasius y empieza a desarrollar una profecía de toda la temporada sobre quién termina destruyendo la Tierra.",
+      "El concepto de \"equipo varado décadas en el futuro\" de este tramo empezó como un plan para enviar a los personajes al espacio, antes de que el cuarto de guionistas lo reformulara como una Tierra futura en ruinas.",
+      "El Lighthouse, el set fijo construido para este tramo en Culver Studios, reemplazó a la base Playground destruida durante la trama de los Life Model Decoys de la temporada 4, y parte de su diseño se reutilizó después para la sede de la serie en el presente.",
+      "La productora ejecutiva Maurissa Tancharoen describió el cambio de dirección artística, sets y tono de este tramo como uno de los reinicios más grandes en la historia de la serie.",
     ],
   },
   {
@@ -1650,14 +1650,14 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
     triviaEn: [
-      "This stretch brings the team back from the Lighthouse to present day Earth, where the writers introduce General Hale, played by Catherine Dent, as the season's human facing antagonist working on behalf of a hidden alien collective called the Confederacy.",
-      "The Confederacy plotline ties back to a season 2 reveal that ancient alien races seeded early human civilization, giving the show's ongoing conspiracy arc a throughline several seasons deep.",
-      "Coulson's terminal illness from his exposure to Kree blood, introduced back in season 4, becomes a ticking clock across this stretch of the season, quietly building toward the season finale.",
+      "Ruby Hale, the season's breakout secondary antagonist introduced in this stretch, is played by Dove Cameron, a Disney Channel star known for Liv and Maddie and Descendants, in a sharp departure from her earlier family friendly roles.",
+      "Catherine Dent, cast as the militaristic General Hale, had spent seven seasons playing patrol officer Danny Sofer on the FX crime drama The Shield, a very different kind of role.",
+      "Qovas, leader of the alien Remorath who arrive as part of the Confederacy in this stretch, is played by Peter Mensah, known to genre audiences as Oenomaus in Spartacus: Blood and Sand.",
     ],
     triviaEs: [
-      "Este tramo trae de vuelta al equipo del Lighthouse a la Tierra del presente, donde los guionistas presentan a la general Hale, interpretada por Catherine Dent, como la antagonista humana de la temporada, al servicio de un colectivo alienígena oculto llamado la Confederacy.",
-      "La trama de la Confederacy se conecta con una revelación de la temporada 2 sobre razas alienígenas antiguas que sembraron la civilización humana temprana, dándole al arco conspirativo de la serie un hilo conductor de varias temporadas de profundidad.",
-      "La enfermedad terminal de Coulson, causada por su exposición a sangre kree e introducida en la temporada 4, se convierte en un reloj en cuenta regresiva a lo largo de este tramo, construyendo en silencio hacia el final de temporada.",
+      "Ruby Hale, la antagonista secundaria revelación de la temporada presentada en este tramo, es interpretada por Dove Cameron, una estrella de Disney Channel conocida por Liv and Maddie y Descendants, en un cambio marcado respecto a sus papeles familiares anteriores.",
+      "Catherine Dent, elegida como la militar general Hale, había pasado siete temporadas interpretando a la oficial de policía Danny Sofer en el drama policial de FX The Shield, un papel muy distinto.",
+      "Qovas, líder de los Remorath alienígenas que llegan como parte de la Confederacy en este tramo, es interpretado por Peter Mensah, conocido por el público de género como Oenomaus en Spartacus: Blood and Sand.",
     ],
   },
   {
@@ -1702,14 +1702,14 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
     triviaEn: [
-      "The season 5 finale ties directly into Avengers: Infinity War's New York battle, one of the most literal real time crossovers between the show and the mainline films up to that point.",
-      "This stretch resolves the Kree villain Kasius' storyline from earlier in the season and pays off the season long prophecy about Daisy Johnson's role in the world's fate.",
-      "It also reveals that General Talbot, until then an ally, becomes host to Graviton, an Inhuman powered antagonist, closing out his multi season arc.",
+      "Marvel Television head Jeph Loeb later explained that tying this finale directly into Avengers: Infinity War's New York battle was meant as a safe bet, since the studio had no idea yet what the post-Snap world would look like when the episodes were shot, a decision that complicated the show's next two seasons once it was unexpectedly renewed.",
+      "This finale, written by Jed Whedon and Maurissa Tancharoen and directed by Whedon, was originally crafted as a potential series ending, since ABC did not confirm a sixth season until after it aired.",
+      "For Glenn Talbot's transformation into Graviton, producer Jed Whedon and actor Adrian Pasdar deliberately modeled the costume on the character's original 1977 design from The Avengers #158.",
     ],
     triviaEs: [
-      "El final de la temporada 5 se conecta directamente con la batalla de Nueva York de Avengers: Infinity War, uno de los cruces en tiempo real más literales entre la serie y las películas principales hasta ese momento.",
-      "Este tramo resuelve la trama del villano kree Kasius planteada antes en la temporada y paga la profecía de toda la temporada sobre el papel de Daisy Johnson en el destino del mundo.",
-      "También revela que el general Talbot, hasta entonces un aliado, se convierte en el huésped de Graviton, un antagonista con poderes inhumanos, cerrando su arco de varias temporadas.",
+      "El jefe de Marvel Television, Jeph Loeb, explicó después que conectar este final directamente con la batalla de Nueva York de Avengers: Infinity War fue una apuesta segura, ya que el estudio todavía no sabía cómo sería el mundo posterior al Chasquido cuando se rodaron los episodios, una decisión que complicó las siguientes dos temporadas de la serie una vez que se renovó de forma inesperada.",
+      "Este final, escrito por Jed Whedon y Maurissa Tancharoen y dirigido por Whedon, se concibió originalmente como un posible cierre definitivo de la serie, ya que ABC no confirmó una sexta temporada hasta después de su emisión.",
+      "Para la transformación de Glenn Talbot en Graviton, el productor Jed Whedon y el actor Adrian Pasdar diseñaron el vestuario deliberadamente inspirado en el diseño original del personaje de 1977 en The Avengers #158.",
     ],
   },
   {
