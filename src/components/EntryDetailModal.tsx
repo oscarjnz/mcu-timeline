@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import Image from "next/image";
 import type { TimelineEntry } from "@/types/timeline";
 import { useLanguage } from "@/lib/language-context";
@@ -39,10 +39,13 @@ export function EntryDetailModal({ entry, onClose }: EntryDetailModalProps) {
   const { language } = useLanguage();
   const [trailerLoaded, setTrailerLoaded] = useState(false);
   const [postCreditsRevealed, setPostCreditsRevealed] = useState(false);
+  const closeButtonRef = useRef<HTMLButtonElement>(null);
 
   useEffect(() => {
     const previousOverflow = document.body.style.overflow;
+    const previouslyFocused = document.activeElement as HTMLElement | null;
     document.body.style.overflow = "hidden";
+    closeButtonRef.current?.focus();
     function handleKeyDown(event: KeyboardEvent) {
       if (event.key === "Escape") onClose();
     }
@@ -50,6 +53,7 @@ export function EntryDetailModal({ entry, onClose }: EntryDetailModalProps) {
     return () => {
       document.body.style.overflow = previousOverflow;
       window.removeEventListener("keydown", handleKeyDown);
+      previouslyFocused?.focus();
     };
   }, [onClose]);
 
@@ -84,11 +88,15 @@ export function EntryDetailModal({ entry, onClose }: EntryDetailModalProps) {
       onClick={onClose}
     >
       <div
+        role="dialog"
+        aria-modal="true"
+        aria-labelledby="entry-detail-title"
         className="relative w-full max-w-2xl rounded-lg bg-white shadow-xl dark:bg-zinc-950"
         onClick={(event) => event.stopPropagation()}
       >
         <button
           type="button"
+          ref={closeButtonRef}
           onClick={onClose}
           aria-label={language === "es" ? "Cerrar" : "Close"}
           className="absolute right-3 top-3 z-10 flex h-8 w-8 items-center justify-center rounded-full bg-black/50 text-lg text-white hover:bg-black/70"
@@ -116,7 +124,7 @@ export function EntryDetailModal({ entry, onClose }: EntryDetailModalProps) {
             </div>
             <div className="flex flex-1 flex-col gap-1.5">
               <div className="flex flex-wrap items-center gap-2">
-                <h2 className="text-lg font-bold text-zinc-900 dark:text-zinc-50">{title}</h2>
+                <h2 id="entry-detail-title" className="text-lg font-bold text-zinc-900 dark:text-zinc-50">{title}</h2>
                 <span className={`rounded-full px-2 py-0.5 text-xs font-medium ${colors.badgeBg} ${colors.badgeText}`}>
                   {language === "es" ? typeLabels[entry.type].es : typeLabels[entry.type].en}
                 </span>

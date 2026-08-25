@@ -144,25 +144,25 @@ export const timeline: TimelineEntry[] = [
     phase: 1,
     order: 6,
     dateLabelEn: "1960s (Earth-828)",
-    dateLabelEs: "Década de 1960 (Tierra-828)",
+    dateLabelEs: "Década de 1960 (Earth-828)",
     justificationEn:
       "The entire film takes place in the 1960s, but on Earth-828, a parallel Earth distinct from the main MCU timeline (Earth-616).",
     justificationEs:
-      "Toda la película transcurre en la década de 1960, pero en la Tierra-828, una Tierra paralela distinta de la línea temporal principal del UCM (Tierra-616).",
+      "Toda la película transcurre en la década de 1960, pero en la Earth-828, una Tierra paralela distinta de la línea temporal principal del UCM (Earth-616).",
     tmdbSearchTitle: "The Fantastic Four: First Steps",
     tmdbMediaType: "movie",
-    earthVariant: "Tierra-828",
+    earthVariant: "Earth-828",
     universeEn:
       "Earth-828, a parallel Earth with a retro-futuristic 1960s aesthetic, separate from the MCU's main timeline (Earth-616).",
     universeEs:
-      "Tierra-828, una Tierra paralela con una estética retrofuturista de los años sesenta, separada de la línea temporal principal del UCM (Tierra-616).",
+      "Earth-828, una Tierra paralela con una estética retrofuturista de los años sesenta, separada de la línea temporal principal del UCM (Earth-616).",
     triviaEn: [
       "Unlike most MCU films, the entire story is set on Earth-828 rather than the main timeline, giving the movie a distinct retro-futuristic 1960s look.",
       "The mid-credits scene, set four years later, shows a cloaked figure holding Doctor Doom's mask in front of young Franklin Richards, setting up Robert Downey Jr.'s return as Victor von Doom in Avengers: Doomsday.",
       "A separate scene after the final credits is a hand-drawn, retro-style animated tribute to the classic 1967 Fantastic Four cartoon.",
     ],
     triviaEs: [
-      "A diferencia de la mayoría de las películas del UCM, toda la historia transcurre en la Tierra-828 en lugar de la línea temporal principal, lo que le da a la película una estética retrofuturista propia de los años sesenta.",
+      "A diferencia de la mayoría de las películas del UCM, toda la historia transcurre en la Earth-828 en lugar de la línea temporal principal, lo que le da a la película una estética retrofuturista propia de los años sesenta.",
       "La escena a mitad de los créditos, ambientada cuatro años después, muestra a una figura encapuchada sosteniendo la máscara del Doctor Doom frente a un pequeño Franklin Richards, preparando el regreso de Robert Downey Jr. como Victor von Doom en Avengers: Doomsday.",
       "Tras los créditos finales hay otra escena aparte, un homenaje animado con estilo retro dibujado a mano a la clásica serie animada de Fantastic Four de 1967.",
     ],
@@ -2545,7 +2545,7 @@ export const timeline: TimelineEntry[] = [
     universeEn:
       "The Time Variance Authority and the branched timelines of the Sacred Timeline, existing outside the main Earth-616 continuity.",
     universeEs:
-      "La Autoridad de Variación Temporal (AVT) y las líneas temporales ramificadas de la Línea Temporal Sagrada, que existen fuera de la continuidad principal de Earth-616.",
+      "La Time Variance Authority (TVA) y las líneas temporales ramificadas de la Línea Temporal Sagrada, que existen fuera de la continuidad principal de Earth-616.",
     triviaEn: [
       "Ke Huy Quan joined the cast as Ouroboros (O.B.) shortly after winning his Academy Award for Everything Everywhere All at Once.",
       "Jonathan Majors plays both He Who Remains and his earlier variant Victor Timely across the season. This was his last MCU appearance before Marvel Studios dropped him following his 2023 conviction, and the franchise's next two Avengers films were built around Robert Downey Jr.'s Doctor Doom instead of a new Kang actor.",
@@ -2620,7 +2620,7 @@ export const timeline: TimelineEntry[] = [
     tmdbMediaType: "movie",
     outsideTime: true,
     universeEn: "Earth-10005 (the Fox/Deadpool universe) crossing into the main MCU timeline via the TVA.",
-    universeEs: "Earth-10005 (el universo de Fox/Deadpool) cruzándose con la línea temporal principal del UCM a través de la AVT.",
+    universeEs: "Earth-10005 (el universo de Fox/Deadpool) cruzándose con la línea temporal principal del UCM a través de la TVA.",
     triviaEn: [
       "This is the first R-rated film to be part of the official MCU timeline rather than treated as a separate continuity.",
       "Several actors reprise roles from 20th Century Fox's X-Men films as \"variants\", officially folding decades of Fox Marvel movies into the MCU multiverse.",
@@ -2632,7 +2632,7 @@ export const timeline: TimelineEntry[] = [
     postCreditsEn:
       "In the TVA archives, Deadpool plays back footage proving he told Cassandra Nova exactly what Johnny Storm said about her, confirming he did not lie, even though it still got Johnny killed.",
     postCreditsEs:
-      "En los archivos de la AVT, Deadpool reproduce una grabación que demuestra que le dijo a Cassandra Nova exactamente lo que Johnny Storm había dicho de ella, confirmando que no mintió, aunque de todas formas eso provocó la muerte de Johnny.",
+      "En los archivos de la TVA, Deadpool reproduce una grabación que demuestra que le dijo a Cassandra Nova exactamente lo que Johnny Storm había dicho de ella, confirmando que no mintió, aunque de todas formas eso provocó la muerte de Johnny.",
   },
   {
     id: "guardians-of-the-galaxy-vol-3",

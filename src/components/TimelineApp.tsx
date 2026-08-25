@@ -34,14 +34,18 @@ function TimelineContent() {
   function openEntry(id: string) {
     const url = new URL(window.location.href);
     url.searchParams.set("entry", id);
-    window.history.pushState({}, "", url);
+    window.history.pushState({ entryModal: true }, "", url);
     setSelectedEntryId(id);
   }
 
   function closeEntry() {
+    if ((window.history.state as { entryModal?: boolean } | null)?.entryModal) {
+      window.history.back();
+      return;
+    }
     const url = new URL(window.location.href);
     url.searchParams.delete("entry");
-    window.history.pushState({}, "", url);
+    window.history.replaceState({}, "", url);
     setSelectedEntryId(null);
   }
 
