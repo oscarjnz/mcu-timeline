@@ -437,6 +437,20 @@ export const timeline: TimelineEntry[] = [
       "El prólogo ocurre el 31/12/1999. Killian invitó a Tony a unirse a A.I.M. hace trece años, y Maya Hansen vuelve a la vida de Stark trece años después. Trece años después de 1999 es 2012; la película transcurre en Navidad.",
     tmdbSearchTitle: "Iron Man 3",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Director Shane Black had previously worked with Robert Downey Jr. on the 2005 film Kiss Kiss Bang Bang, and wrote much of Tony Stark's rapid-fire, self-deprecating banter with that earlier collaboration in mind.",
+      "The twist revealing Ben Kingsley's Mandarin as a hired actor named Trevor Slattery, with the real villain being Aldrich Killian, was one of the most divisive choices in the MCU and was later addressed directly in the one-shot All Hail the King.",
+      "For the climactic \"House Party Protocol\" battle, Tony pilots dozens of different Iron Man armors remotely at once, the first time the MCU showed off the character's full suit collection.",
+    ],
+    triviaEs: [
+      "El director Shane Black ya había trabajado con Robert Downey Jr. en la película de 2005 Kiss Kiss Bang Bang, y escribió buena parte de los diálogos rápidos y autocríticos de Tony Stark pensando en esa colaboración anterior.",
+      "El giro que revela que el Mandarín de Ben Kingsley es en realidad un actor contratado llamado Trevor Slattery, mientras el verdadero villano es Aldrich Killian, fue una de las decisiones más divisivas del UCM y se abordó directamente en el one-shot All Hail the King.",
+      "En la batalla final del \"House Party Protocol\", Tony pilotea a control remoto docenas de armaduras distintas de Iron Man al mismo tiempo, la primera vez que el UCM mostró toda su colección de trajes.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Tony reveals he has been narrating the entire film to Bruce Banner, who has fallen asleep in his chair during the retelling.",
+    postCreditsEs:
+      "En la escena a mitad de los créditos, se revela que Tony le ha estado contando toda la película a Bruce Banner, quien se quedó dormido en su silla durante el relato.",
   },
   {
     id: "one-shot-all-hail-the-king",
@@ -451,6 +465,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Poco después de Iron Man 3, el Mandarín secuestra a Trevor Slattery.",
     tmdbSearchTitle: "Marvel One-Shot: All Hail the King",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Written and directed by Drew Pearce, who co-wrote Iron Man 3, the short is framed as a documentary filmmaker interviewing Trevor Slattery in prison.",
+      "It was released on the Thor: The Dark World home video release in February 2014, continuing the Marvel One-Shots tradition of bonus Blu-ray shorts.",
+      "The final scene, in which a mysterious operative visits Slattery in his cell, retroactively set up the real Ten Rings organization that would not pay off on screen until Shang-Chi and the Legend of the Ten Rings arrived years later.",
+    ],
+    triviaEs: [
+      "Escrito y dirigido por Drew Pearce, quien también coescribió Iron Man 3, el corto está planteado como un documentalista entrevistando a Trevor Slattery en la cárcel.",
+      "Se incluyó en el lanzamiento en video casero de Thor: The Dark World en febrero de 2014, siguiendo la tradición de los Marvel One-Shots como extras de Blu-ray.",
+      "La escena final, en la que un operativo misterioso visita a Slattery en su celda, sentó en secreto las bases de la verdadera organización Ten Rings, que no tendría pago en pantalla hasta Shang-Chi and the Legend of the Ten Rings, años después.",
+    ],
   },
   {
     id: "aos-s1-1-7",
@@ -465,6 +489,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Da el orden correcto para el inicio de la Fase 2 y referencia eventos de Iron Man 3.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The pilot was co-written and directed by Joss Whedon, fresh off directing The Avengers, and marked the MCU's first live-action television series.",
+      "Clark Gregg reprises Phil Coulson, whose death in The Avengers is treated as a mystery the show slowly unravels rather than immediately explained.",
+      "Ming-Na Wen, cast as Agent Melinda May, was already a genre veteran from Stargate Universe and voicing Mulan, and the writers built May's reputation as \"The Cavalry\" around a backstory revealed gradually across the season.",
+    ],
+    triviaEs: [
+      "El piloto fue coescrito y dirigido por Joss Whedon, recién salido de dirigir The Avengers, y marcó la primera serie de televisión de acción real del UCM.",
+      "Clark Gregg retoma a Phil Coulson, cuya muerte en The Avengers se trata como un misterio que la serie va revelando poco a poco en lugar de explicar de inmediato.",
+      "Ming-Na Wen, elegida como la agente Melinda May, ya era una veterana del género por Stargate Universe y por poner la voz a Mulan, y los guionistas construyeron la reputación de May como \"La Caballería\" con un pasado que se revela poco a poco a lo largo de la temporada.",
+    ],
   },
   {
     id: "thor-dark-world",
@@ -479,6 +513,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre en 2013.",
     tmdbSearchTitle: "Thor: The Dark World",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Alan Taylor, known for directing several episodes of Game of Thrones, took over as director; both Chris Hemsworth and Tom Hiddleston have said the shoot was troubled by extensive reshoots and a compressed schedule.",
+      "Christopher Eccleston, who played the villain Malekith, spent hours in prosthetic makeup each day and has said he found the experience physically punishing.",
+      "The mid-credits scene, in which the Collector receives the Aether, was written specifically to set up Guardians of the Galaxy and the wider Infinity Stones storyline the studio was building toward.",
+    ],
+    triviaEs: [
+      "Alan Taylor, conocido por dirigir varios episodios de Game of Thrones, se hizo cargo de la dirección; tanto Chris Hemsworth como Tom Hiddleston han contado que el rodaje se vio afectado por muchas repeticiones de escenas y un calendario apretado.",
+      "Christopher Eccleston, quien interpreta al villano Malekith, pasaba horas cada día bajo maquillaje protésico y ha dicho que la experiencia fue físicamente agotadora.",
+      "La escena a mitad de los créditos, en la que el Coleccionista recibe el Éter, se escribió específicamente para preparar Guardians of the Galaxy y la trama más amplia de las Gemas del Infinito que el estudio estaba construyendo.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Sif and Volstagg deliver the Aether to the Collector for safekeeping, and he remarks \"one down, five to go,\" hinting at the other Infinity Stones. In the scene after the final credits, a creature that escaped to Earth during the final battle is still running loose in Greenwich while Thor and Jane reunite.",
+    postCreditsEs:
+      "En la escena a mitad de los créditos, Sif y Volstagg le entregan el Éter al Coleccionista para que lo resguarde, y él comenta \"una menos, faltan cinco\", en referencia a las demás Gemas del Infinito. En la escena tras los créditos finales, una criatura que escapó a la Tierra durante la batalla final sigue suelta en Greenwich mientras Thor y Jane se reencuentran.",
   },
   {
     id: "aos-s1-8-16",
@@ -493,6 +541,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Trata las secuelas de The Dark World y enlaza con The Winter Soldier.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "This stretch develops the \"T.A.H.I.T.I.\" mystery, the classified project that revived Coulson after his death in The Avengers, one of the season's central slow-burn arcs.",
+      "Several episodes tie directly into Iron Man 3, following black-market trafficking of Extremis technology as a season-long plot thread rather than a one-episode reference.",
+      "Critics and fans at the time frequently complained this stretch felt too episodic and disconnected from the wider MCU, a criticism the show would address dramatically once Captain America: The Winter Soldier hit theaters.",
+    ],
+    triviaEs: [
+      "Este tramo desarrolla el misterio de \"T.A.H.I.T.I.\", el proyecto clasificado que revivió a Coulson tras su muerte en The Avengers, una de las tramas centrales de desarrollo lento de la temporada.",
+      "Varios episodios se conectan directamente con Iron Man 3, siguiendo el tráfico en el mercado negro de la tecnología Extremis como un hilo argumental de toda la temporada y no solo una referencia puntual.",
+      "En su momento, críticos y fans se quejaban seguido de que este tramo se sentía demasiado episódico y desconectado del resto del UCM, una crítica que la serie respondería de forma drástica en cuanto Captain America: The Winter Soldier llegó a los cines.",
+    ],
   },
   {
     id: "captain-america-winter-soldier",
@@ -507,6 +565,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre en 2014.",
     tmdbSearchTitle: "Captain America: The Winter Soldier",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "The Russo brothers, hired after directing mostly comedy on shows like Community, pitched the film to Marvel as a 1970s political thriller in the vein of Three Days of the Condor.",
+      "The elevator fight scene, in which Cap takes on a group of Hydra agents in a confined space, is frequently cited as one of the best fight scenes in the MCU and was choreographed to feel brutal and grounded rather than stylized.",
+      "Robert Redford, a lead actor from that same genre of 1970s thrillers, was cast as Alexander Pierce specifically to evoke that era.",
+    ],
+    triviaEs: [
+      "Los hermanos Russo, contratados después de dirigir sobre todo comedia en series como Community, presentaron la película a Marvel como un thriller político al estilo de los años setenta, en la línea de Three Days of the Condor.",
+      "La pelea en el ascensor, en la que Cap enfrenta a un grupo de agentes de Hydra en un espacio reducido, suele citarse como una de las mejores escenas de pelea del UCM, coreografiada para sentirse brutal y realista en vez de estilizada.",
+      "Robert Redford, protagonista habitual de ese mismo género de thrillers de los setenta, fue elegido como Alexander Pierce justamente para evocar esa época.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Baron von Strucker and List examine two enhanced prisoners, twins later revealed as Quicksilver and Scarlet Witch, in a Hydra facility alongside Loki's scepter. In the scene after the final credits, Bucky Barnes visits a Captain America exhibit at the Smithsonian and stares at his own display as the Winter Soldier.",
+    postCreditsEs:
+      "En la escena a mitad de los créditos, el Barón von Strucker y List examinan a dos prisioneros potenciados, más tarde revelados como Quicksilver y Scarlet Witch, en unas instalaciones de Hydra junto al cetro de Loki. En la escena tras los créditos finales, Bucky Barnes visita una exhibición del Capitán América en el Smithsonian y se queda mirando su propia vitrina como el Soldado de Invierno.",
   },
   {
     id: "aos-s1-17-22",
@@ -521,6 +593,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Muestra las consecuencias de la caída de S.H.I.E.L.D.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The episode \"Turn, Turn, Turn\" aired on April 8, 2014, days after Captain America: The Winter Soldier's theatrical release, and directly dramatized S.H.I.E.L.D. agents learning their organization had been infiltrated by Hydra.",
+      "Grant Ward, established since the pilot as a loyal S.H.I.E.L.D. agent, is revealed in this stretch to be a Hydra double agent, a twist the writers kept hidden from most of the cast until shortly before filming.",
+      "Low ratings had the series' renewal in doubt through much of the back half of the season, and the finale's twists are widely credited with helping secure a second season.",
+    ],
+    triviaEs: [
+      "El episodio \"Turn, Turn, Turn\" se emitió el 8 de abril de 2014, pocos días después del estreno en cines de Captain America: The Winter Soldier, y dramatizó de forma directa el momento en que los agentes de S.H.I.E.L.D. descubren que Hydra había infiltrado la organización.",
+      "Grant Ward, presentado desde el piloto como un agente leal de S.H.I.E.L.D., se revela en este tramo como agente doble de Hydra, un giro que los guionistas mantuvieron oculto para casi todo el elenco hasta poco antes de filmarlo.",
+      "El bajo rating puso en duda la renovación de la serie durante buena parte de la segunda mitad de la temporada, y los giros del final se consideran clave para asegurar una segunda temporada.",
+    ],
   },
   {
     id: "guardians-of-the-galaxy",
@@ -535,6 +617,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre en 2014.",
     tmdbSearchTitle: "Guardians of the Galaxy",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "James Gunn cast Chris Pratt, then known mainly for comedic roles like Parks and Recreation, and had him undergo an intense physical transformation to play a leading-man action hero.",
+      "The Awesome Mix Vol. 1 soundtrack of 1970s and 1980s pop songs, chosen as Peter Quill's one link to Earth, became a chart-topping album in its own right and set a template Marvel reused across the franchise.",
+      "Vin Diesel voiced Groot despite the character having only one line of dialogue, \"I am Groot\"; Diesel recorded the line dozens of times with different emotional inflections so editors could convey meaning through delivery alone.",
+    ],
+    triviaEs: [
+      "James Gunn eligió a Chris Pratt, conocido hasta entonces sobre todo por papeles de comedia como en Parks and Recreation, y lo hizo pasar por una transformación física intensa para convertirlo en protagonista de acción.",
+      "El álbum Awesome Mix Vol. 1, con canciones pop de los años setenta y ochenta y pensado como el único vínculo de Peter Quill con la Tierra, se convirtió en un éxito de ventas por sí mismo y marcó una fórmula que Marvel repitió en el resto de la franquicia.",
+      "Vin Diesel puso la voz a Groot pese a que el personaje solo tiene una línea de diálogo, \"I am Groot\"; Diesel la grabó decenas de veces con distintos matices emocionales para que el montaje pudiera transmitir significado solo con la entonación.",
+    ],
+    postCreditsEn:
+      "After the credits, back at his ruined base on Knowhere, the Collector is visited by two of his former exhibits, Cosmo the dog and Howard the Duck, in a comedic coda.",
+    postCreditsEs:
+      "Tras los créditos, en su base destruida en Knowhere, el Coleccionista recibe la visita de dos de sus antiguas piezas de colección, el perro Cosmo y Howard the Duck, en una escena cómica de cierre.",
   },
   {
     id: "guardians-of-the-galaxy-vol-2",
@@ -549,6 +645,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "James Gunn declaró que ambas películas ocurren casi seguidas, las dos en 2014 dentro del universo.",
     tmdbSearchTitle: "Guardians of the Galaxy Vol. 2",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "The film includes five separate post-credits scenes, a record for the MCU at the time, ranging from a comedic gag to a direct setup for a future film.",
+      "One scene reunites Yondu's old Ravager crew, including Stakar Ogord, Aleta Ogord, Charlie-27, Krugarr and Mainframe, several played by actors with their own genre pedigree such as Michelle Yeoh and Sylvester Stallone.",
+      "The final scene shows Ayesha, leader of the Sovereign, unveiling a golden cocoon and naming its occupant Adam Warlock, setting up a character for a future film.",
+    ],
+    triviaEs: [
+      "La película incluye cinco escenas post-créditos distintas, un récord para el UCM en su momento, que van desde un chiste cómico hasta la preparación directa de una película futura.",
+      "Una de las escenas reúne a la vieja tripulación Ravager de Yondu, entre ellos Stakar Ogord, Aleta Ogord, Charlie-27, Krugarr y Mainframe, varios interpretados por actores con trayectoria propia en el género, como Michelle Yeoh y Sylvester Stallone.",
+      "La escena final muestra a Ayesha, líder de los Sovereign, revelando un capullo dorado y nombrando a su ocupante Adam Warlock, preparando a un personaje para una película futura.",
+    ],
+    postCreditsEn:
+      "Among the film's five post-credits scenes, the most significant shows Ayesha of the Sovereign unveiling a cocoon she names Adam Warlock, and another reunites Yondu's original Ravager crew to honor his memory.",
+    postCreditsEs:
+      "Entre las cinco escenas post-créditos de la película, la más relevante muestra a Ayesha de los Sovereign revelando un capullo al que llama Adam Warlock, y otra reúne a la tripulación Ravager original de Yondu para honrar su memoria.",
   },
   {
     id: "daredevil-s1",
@@ -564,6 +674,16 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
     tmdbYear: 2015,
+    triviaEn: [
+      "Marvel's Daredevil, released on Netflix on April 10, 2015, was the first of the Marvel-Netflix series and set a darker, more grounded tone than the theatrical MCU films.",
+      "The single-take hallway fight in episode two, \"Cut Man\", filmed to look like one continuous shot, became one of the most acclaimed action sequences in the franchise and influenced fight choreography across the rest of the Netflix shows.",
+      "Vincent D'Onofrio plays Wilson Fisk with a deliberately unusual, halting speech pattern, a choice he developed himself to make the character's occasional outbursts of violence feel more unsettling.",
+    ],
+    triviaEs: [
+      "Marvel's Daredevil, estrenada en Netflix el 10 de abril de 2015, fue la primera de las series de Marvel para Netflix y estableció un tono más oscuro y realista que las películas del UCM en cines.",
+      "La pelea en un pasillo filmada en plano secuencia del episodio dos, \"Cut Man\", pensada para verse como una sola toma continua, se convirtió en una de las secuencias de acción más elogiadas de la franquicia e influyó en la coreografía de peleas del resto de las series de Netflix.",
+      "Vincent D'Onofrio interpreta a Wilson Fisk con un patrón de habla deliberadamente inusual y entrecortado, una decisión que él mismo desarrolló para que sus estallidos ocasionales de violencia se sintieran más inquietantes.",
+    ],
   },
   {
     id: "jessica-jones-s1",
@@ -578,6 +698,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Claire Temple conecta Daredevil y la primera temporada de Jessica Jones.",
     tmdbSearchTitle: "Jessica Jones",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Krysten Ritter was cast as Jessica Jones after the role went through a long search process; showrunner Melissa Rosenberg built the season around Jessica as a hard-drinking private investigator with PTSD rather than a typical superhero.",
+      "David Tennant plays Kilgrave, a villain with mind-control powers; Tennant has said he approached the role less as a supervillain and more as an ordinary, entitled man whose powers let him act on his worst impulses.",
+      "The season was widely read as an allegory for abuse and coercive control, with Kilgrave's ability to force compliance through his voice frequently cited by critics as one of the more effective metaphors in the MCU.",
+    ],
+    triviaEs: [
+      "Krysten Ritter fue elegida como Jessica Jones tras un proceso de casting largo; la showrunner Melissa Rosenberg construyó la temporada alrededor de Jessica como una investigadora privada bebedora y con estrés postraumático, en lugar de una superheroína típica.",
+      "David Tennant interpreta a Kilgrave, un villano con poder de control mental; Tennant ha contado que abordó el papel menos como un supervillano y más como un hombre común y con sentido de merecimiento cuyo poder le permite actuar sobre sus peores impulsos.",
+      "La temporada se leyó ampliamente como una alegoría del abuso y el control coercitivo, y la capacidad de Kilgrave de forzar obediencia con su voz fue citada seguido por la crítica como una de las metáforas más efectivas del UCM.",
+    ],
   },
   {
     id: "aos-s2-1-19",
@@ -592,6 +722,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Enlaza directamente con Avengers: Age of Ultron.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "This stretch centers on Terrigenesis, the process that unlocks Inhuman powers, expanding the Inhumans concept that would recur across the rest of Marvel television.",
+      "Kyle MacLachlan joins as Calvin Zabo, Skye's estranged and dangerous father, adding a horror-tinged family drama to the espionage plot.",
+      "The season builds directly toward Avengers: Age of Ultron, with S.H.I.E.L.D.'s activities kept deliberately vague in places so the show would not step on the film's own reveals.",
+    ],
+    triviaEs: [
+      "Este tramo gira en torno a la Terrigénesis, el proceso que despierta los poderes Inhumanos, y expande un concepto que se repetiría en el resto de la televisión de Marvel.",
+      "Kyle MacLachlan se une como Calvin Zabo, el padre distanciado y peligroso de Skye, sumando un drama familiar con tintes de horror a la trama de espionaje.",
+      "La temporada avanza directamente hacia Avengers: Age of Ultron, y las actividades de S.H.I.E.L.D. se dejaron deliberadamente vagas en algunos puntos para no adelantarse a las revelaciones propias de la película.",
+    ],
   },
   {
     id: "avengers-age-of-ultron",
@@ -606,6 +746,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre en 2015.",
     tmdbSearchTitle: "Avengers: Age of Ultron",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Joss Whedon has said the pressure of following up The Avengers and juggling an ever-larger cast contributed to his decision to leave the director's chair after this film, his last as an MCU director.",
+      "James Spader voiced and performed motion capture for Ultron; rather than a traditional voice-only role, his physical performance was digitally mapped onto the character to preserve his exact line delivery and body language.",
+      "The mid-credits scene shows Thanos putting on the Infinity Gauntlet himself; Marvel's writers later clarified this was a practice gauntlet Thanos already had, since the real one was not forged by Eitri on Nidavellir until closer to Infinity War.",
+    ],
+    triviaEs: [
+      "Joss Whedon ha dicho que la presión de estar a la altura de The Avengers y manejar un elenco cada vez más grande influyó en su decisión de dejar la dirección tras esta película, la última suya en el UCM.",
+      "James Spader puso la voz y también hizo la captura de movimiento de Ultron; en lugar de un doblaje tradicional, su actuación física se mapeó digitalmente sobre el personaje para conservar exactamente su entonación y su lenguaje corporal.",
+      "En la escena a mitad de los créditos, Thanos se coloca él mismo el guantelete del infinito; los guionistas de Marvel aclararon después que era un guantelete de práctica que Thanos ya tenía, ya que el real no lo forjó Eitri en Nidavellir hasta un momento más cercano a Infinity War.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Thanos retrieves a practice Infinity Gauntlet and puts it on himself, declaring \"Fine. I'll do it myself,\" a direct tease of his growing involvement in the saga.",
+    postCreditsEs:
+      "En la escena a mitad de los créditos, Thanos toma un guantelete del infinito de práctica y se lo coloca él mismo, declarando \"Bien. Lo haré yo mismo\", un adelanto directo de su creciente participación en la saga.",
   },
   {
     id: "aos-s2-20-22",
@@ -620,6 +774,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Explica el resurgimiento de Nick Fury con un helitransporte y S.H.I.E.L.D.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "This stretch explains how Nick Fury quietly rebuilt a version of S.H.I.E.L.D. and acquired a new Helicarrier after the fall of the original organization in Captain America: The Winter Soldier.",
+      "The finale sets up the Secret Warriors concept from the comics, gathering a small team of Inhuman operatives around Daisy Johnson well before that idea became prominent elsewhere in Marvel media.",
+      "Samuel L. Jackson appears as Nick Fury in a rare live-action television guest appearance, something Marvel used sparingly to keep the film characters feeling distinct from the TV side of the franchise.",
+    ],
+    triviaEs: [
+      "Este tramo explica cómo Nick Fury reconstruyó en secreto una versión de S.H.I.E.L.D. y consiguió un nuevo helitransporte tras la caída de la organización original en Captain America: The Winter Soldier.",
+      "El final de temporada sienta las bases del concepto de los Secret Warriors de los cómics, reuniendo a un pequeño equipo de operativos Inhumanos alrededor de Daisy Johnson, mucho antes de que esa idea se volviera protagonista en otros productos de Marvel.",
+      "Samuel L. Jackson aparece como Nick Fury en una de sus pocas apariciones de invitado en televisión de acción real, algo que Marvel usó con moderación para que los personajes de las películas se sintieran distintos al lado televisivo de la franquicia.",
+    ],
   },
   {
     id: "ant-man",
@@ -636,6 +800,20 @@ export const timeline: TimelineEntry[] = [
       "Referencia los eventos de Age of Ultron; se menciona a Spider-Man, ubicando la película dentro de los seis meses previos a Civil War.",
     tmdbSearchTitle: "Ant-Man",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Edgar Wright developed Ant-Man for nearly a decade and co-wrote its original script, but left the director's chair in 2014 over creative differences with Marvel Studios; Peyton Reed took over and Paul Rudd helped rewrite the script.",
+      "Michael Douglas plays the original Ant-Man, Hank Pym, giving the film a rare MCU structure with two generations of the same superhero on screen.",
+      "The film leans into a heist-movie structure rather than a traditional superhero origin story, something Marvel has cited as a deliberate attempt to keep the expanding franchise tonally varied.",
+    ],
+    triviaEs: [
+      "Edgar Wright desarrolló Ant-Man durante casi una década y coescribió su guion original, pero dejó la dirección en 2014 por diferencias creativas con Marvel Studios; Peyton Reed tomó el relevo y Paul Rudd ayudó a reescribir el guion.",
+      "Michael Douglas interpreta al Ant-Man original, Hank Pym, lo que le da a la película una estructura poco común en el UCM con dos generaciones del mismo superhéroe en pantalla.",
+      "La película se apoya en una estructura de película de atracos en lugar de la típica historia de origen de superhéroe, algo que Marvel ha señalado como un intento deliberado de mantener variado el tono de la franquicia en expansión.",
+    ],
+    postCreditsEn:
+      "In the first mid-credits scene, Hank Pym shows Hope van Dyne the Wasp suit he has been developing, telling her she is ready to take up her mother's legacy. In the second, Captain America and Falcon interrogate a captured Winter Soldier and Falcon suggests calling in Ant-Man for help, foreshadowing Captain America: Civil War.",
+    postCreditsEs:
+      "En la primera escena a mitad de los créditos, Hank Pym le muestra a Hope van Dyne el traje de Wasp que ha estado desarrollando y le dice que está lista para asumir el legado de su madre. En la segunda, el Capitán América y Falcon interrogan al Soldado de Invierno capturado, y Falcon propone llamar a Ant-Man para que ayude, anticipando Captain America: Civil War.",
   },
   {
     id: "aos-s3-1-10",
@@ -650,6 +828,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Referencia los eventos de Ant-Man.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The season 3 premiere picks up six months after Terrigen crystals were released into the world's oceans, turning Inhuman emergence into a global phenomenon the show explores for the rest of the series.",
+      "The season introduces Lash, a monstrous Inhuman antagonist whose true identity, Dr. Andrew Garner, Agent Melinda May's ex-husband, is one of the show's most talked-about reveals.",
+      "The stretch ends with the midseason finale \"Maveth\", in which Coulson kills Grant Ward on an alien planet, only for an ancient entity to reanimate Ward's body, setting up the season's real villain, Hive.",
+    ],
+    triviaEs: [
+      "El estreno de la temporada 3 arranca seis meses después de que los cristales de Terrigen se liberaran en los océanos del mundo, convirtiendo la aparición de Inhumanos en un fenómeno global que la serie explora durante el resto de su recorrido.",
+      "La temporada presenta a Lash, un antagonista Inhumano monstruoso cuya verdadera identidad, el Dr. Andrew Garner, exesposo de la agente Melinda May, es una de las revelaciones más comentadas de la serie.",
+      "El tramo cierra con el final de mitad de temporada \"Maveth\", en el que Coulson mata a Grant Ward en un planeta alienígena, solo para que una entidad ancestral reanime su cuerpo, dando pie al verdadero villano de la temporada, Hive.",
+    ],
   },
   {
     id: "daredevil-s2-1-6",
@@ -666,6 +854,16 @@ export const timeline: TimelineEntry[] = [
       "Los eventos de la primera mitad se referencian en un noticiero en Agents of S.H.I.E.L.D. Temporada 3, episodios 11-19.",
     tmdbSearchTitle: "Marvel's Daredevil",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Season 2 introduces Jon Bernthal as Frank Castle, the Punisher, and Elodie Yung as Elektra Natchios, doubling the show's cast of major comics characters in a single season.",
+      "Jon Bernthal trained extensively with military and firearms consultants to give Frank Castle's combat scenes a colder, more methodical feel than Daredevil's own fighting style.",
+      "The season premiered on Netflix on March 18, 2016, with all thirteen episodes released at once, continuing the platform's binge-release model for Marvel's shows.",
+    ],
+    triviaEs: [
+      "La segunda temporada presenta a Jon Bernthal como Frank Castle, el Punisher, y a Elodie Yung como Elektra Natchios, duplicando en una sola temporada el elenco de personajes importantes de los cómics.",
+      "Jon Bernthal entrenó extensamente con consultores militares y de armas de fuego para que las escenas de combate de Frank Castle se sintieran más frías y metódicas que el propio estilo de pelea de Daredevil.",
+      "La temporada se estrenó en Netflix el 18 de marzo de 2016, con los trece episodios disponibles al mismo tiempo, siguiendo el modelo de estreno para maratonear de las series de Marvel en la plataforma.",
+    ],
   },
   {
     id: "aos-s3-11-19",
@@ -680,6 +878,17 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Un noticiero referencia la Guerra de Pandillas de Daredevil Temporada 2, en concreto a los Perros de Guerra.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    hasFutureSpoilers: true,
+    triviaEn: [
+      "This stretch deals with the aftermath of Grant Ward's death and resurrection as the host of Hive, an ancient Inhuman entity that becomes the season's central threat.",
+      "A newsreel referencing the Gang War and the vigilante group Dogs of War from Daredevil Season 2 is one of several small nods the show used to acknowledge events happening on the Netflix side of the shared universe.",
+      "Brett Dalton, who plays Ward, has said the character's transformation into Hive let him play a fundamentally different, more overtly monstrous role than the human antagonist he had portrayed in earlier seasons.",
+    ],
+    triviaEs: [
+      "Este tramo trata las consecuencias de la muerte y resurrección de Grant Ward como huésped de Hive, una entidad Inhumana ancestral que se convierte en la amenaza central de la temporada.",
+      "Un noticiero que menciona la Guerra de Pandillas y al grupo de vigilantes Dogs of War de Daredevil Temporada 2 es uno de varios guiños pequeños que la serie usó para reconocer eventos ocurridos en el lado de Netflix del universo compartido.",
+      "Brett Dalton, quien interpreta a Ward, ha dicho que la transformación del personaje en Hive le permitió interpretar un papel fundamentalmente distinto, más abiertamente monstruoso que el antagonista humano que había interpretado en temporadas anteriores.",
+    ],
   },
   {
     id: "daredevil-s2-7",
@@ -708,6 +917,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Entrelazado con Daredevil Temporada 2.",
     tmdbSearchTitle: "Luke Cage",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Mike Colter reprises Luke Cage after his first appearance in Jessica Jones Season 1, making this the first MCU project built around a Black superhero as the lead.",
+      "Each episode of the season is named after a song by the hip-hop duo Gang Starr, reflecting the show's deep grounding in Harlem culture and music.",
+      "Showrunner Cheo Hodari Coker deliberately set much of the season's dialogue and imagery around Harlem landmarks and Black cultural history, treating the neighborhood itself as a character.",
+    ],
+    triviaEs: [
+      "Mike Colter retoma a Luke Cage tras su primera aparición en la primera temporada de Jessica Jones, lo que convierte a esta serie en el primer proyecto del UCM protagonizado por un superhéroe negro.",
+      "Cada episodio de la temporada lleva el nombre de una canción del dúo de hip hop Gang Starr, reflejando el fuerte arraigo de la serie en la cultura de Harlem.",
+      "El showrunner Cheo Hodari Coker construyó a propósito buena parte del diálogo y las imágenes de la temporada alrededor de lugares emblemáticos de Harlem y de la historia cultural negra, tratando al propio barrio como un personaje más.",
+    ],
   },
   {
     id: "daredevil-s2-8",
@@ -834,6 +1053,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre casi inmediatamente después de Luke Cage Temporada 1.",
     tmdbSearchTitle: "Marvel's Iron Fist",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Finn Jones was cast as Danny Rand after Marvel considered and ultimately declined pressure to recast the historically white comics character as Asian American, a decision that generated significant public controversy before the show even premiered.",
+      "Jessica Henwick, who plays Colleen Wing, trained extensively in sword and martial arts choreography and has said she pushed for her character's fight scenes to be taken as seriously as Danny's.",
+      "The season was the most critically panned of the Marvel-Netflix shows, with reviewers frequently singling out its fight choreography as weaker than Daredevil's or Luke Cage's.",
+    ],
+    triviaEs: [
+      "Finn Jones fue elegido como Danny Rand después de que Marvel considerara, y finalmente descartara, la presión por convertir en asiático americano a este personaje de cómic históricamente blanco, una decisión que generó una controversia pública importante incluso antes del estreno de la serie.",
+      "Jessica Henwick, quien interpreta a Colleen Wing, entrenó extensamente en coreografía de espada y artes marciales, y ha dicho que insistió en que las peleas de su personaje se tomaran tan en serio como las de Danny.",
+      "La temporada fue la peor recibida por la crítica de todas las series de Marvel para Netflix, y los críticos señalaron seguido que su coreografía de peleas era más débil que la de Daredevil o Luke Cage.",
+    ],
   },
   {
     id: "the-defenders",
@@ -848,6 +1077,14 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Continúa semanas después de Iron Fist; sus eventos se referencian en Punisher.",
     tmdbSearchTitle: "Marvel's The Defenders",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The Defenders is the first live-action team-up in Marvel TV history, bringing together the leads of four separate Netflix series.",
+      "Sigourney Weaver plays Alexandra, leader of The Hand, in her first major television role.",
+    ],
+    triviaEs: [
+      "The Defenders es el primer equipo de superhéroes en acción real de la TV de Marvel, uniendo a los protagonistas de cuatro series distintas de Netflix.",
+      "Sigourney Weaver interpreta a Alexandra, líder de La Mano, en su primer papel televisivo importante.",
+    ],
   },
 
   // ===================== FASE 3: DISASSEMBLED =====================
