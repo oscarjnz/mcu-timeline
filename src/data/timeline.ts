@@ -2465,12 +2465,12 @@ export const timeline: TimelineEntry[] = [
     tmdbMediaType: "movie",
     triviaEn: [
       "It was composer Michael Giacchino's directorial debut, and the first Marvel Studios Special Presentation ever released.",
-      "The special was shot and is presented almost entirely in black and white as a deliberate homage to classic Universal horror films, only shifting to color near the very end.",
+      "The special was actually shot in color, then converted and presented almost entirely in black and white as a deliberate homage to classic Universal horror films, only shifting back to color near the very end.",
       "It has no post-credits scene, an unusual choice for the MCU at the time; producers said they wanted the story to feel self-contained rather than tease what comes next.",
     ],
     triviaEs: [
       "Fue el debut como director del compositor Michael Giacchino, y el primer Marvel Studios Special Presentation lanzado.",
-      "El especial se filmó y se presenta casi por completo en blanco y negro como homenaje deliberado a las películas clásicas de terror de Universal, y solo pasa a color cerca del final.",
+      "El especial en realidad se filmó a color, y luego se convirtió y se presenta casi por completo en blanco y negro como homenaje deliberado a las películas clásicas de terror de Universal, volviendo al color solo cerca del final.",
       "No tiene escena post-créditos, una decisión inusual para el UCM en ese momento; los productores explicaron que querían que la historia se sintiera autocontenida en vez de anunciar lo que vendría después.",
     ],
   },
@@ -2648,12 +2648,12 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Guardians of the Galaxy Vol. 3",
     tmdbMediaType: "movie",
     triviaEn: [
-      "It was writer-director James Gunn's farewell to the MCU; he left partway through post-production to become co-CEO of DC Studios.",
+      "It was writer-director James Gunn's farewell to the MCU; he took the job as co-CEO of DC Studios while the film was still in post-production, but stayed on to finish it himself before its 2023 release.",
       "The film gives Rocket a full origin story, revealing his creator, the High Evolutionary, played by Chukwudi Iwuji.",
       "\"Come and Get Your Love\" by Redbone, the song that opened the first Guardians film in 2014, returns in the closing scene to bookend the trilogy.",
     ],
     triviaEs: [
-      "Fue la despedida del UCM del guionista y director James Gunn, quien dejó el proyecto a mitad de la posproducción para convertirse en co-CEO de DC Studios.",
+      "Fue la despedida del UCM del guionista y director James Gunn, quien asumió el puesto de co-CEO de DC Studios mientras la película todavía estaba en posproducción, pero se quedó para terminarla él mismo antes de su estreno en 2023.",
       "La película le da a Rocket un origen completo, revelando a su creador, el High Evolutionary, interpretado por Chukwudi Iwuji.",
       "\"Come and Get Your Love\" de Redbone, la canción que abrió la primera película de Guardians en 2014, regresa en la escena final para cerrar la trilogía.",
     ],
