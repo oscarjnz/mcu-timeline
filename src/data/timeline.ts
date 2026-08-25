@@ -2860,6 +2860,8 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Avengers: Doomsday",
     tmdbMediaType: "movie",
     tmdbYear: 2026,
+    universeEn: "Multiple Earths of the multiverse converging, including variants from the Fox X-Men universe.",
+    universeEs: "Convergencia de múltiples Earths del multiverso, incluidas variantes del universo de X-Men de Fox.",
   },
   {
     id: "avengers-secret-wars",
@@ -2877,5 +2879,7 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Avengers: Secret Wars",
     tmdbMediaType: "movie",
     tmdbYear: 2027,
+    universeEn: "The point where the converging multiverse timelines are set to collide directly.",
+    universeEs: "El punto donde las líneas temporales del multiverso que están convergiendo colisionan de forma directa.",
   },
 ];
