@@ -1833,6 +1833,20 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Loki",
     tmdbMediaType: "tv",
     outsideTime: true,
+    universeEn:
+      "Set largely outside the Sacred Timeline, inside the Time Variance Authority and its Void and Citadel at the End of Time, locations that exist beyond Earth-616's own timeline.",
+    universeEs:
+      "Transcurre en gran parte fuera de la Línea Temporal Sagrada, dentro de la Time Variance Authority y su Vacío y la Ciudadela al Final del Tiempo, lugares que existen fuera de la línea temporal de Earth-616.",
+    triviaEn: [
+      "The Time Variance Authority (TVA) is adapted from the Marvel Comics organization of the same name, first introduced in the 1980s.",
+      "Owen Wilson's character Mobius M. Mobius is also drawn directly from the comics.",
+      "Jonathan Majors' appearance as He Who Remains in the season finale was his first role in the MCU, introducing the character later known as Kang the Conqueror.",
+    ],
+    triviaEs: [
+      "La Time Variance Authority (TVA) está adaptada de la organización homónima de los cómics de Marvel, introducida por primera vez en los años 80.",
+      "El personaje de Owen Wilson, Mobius M. Mobius, también viene directamente de los cómics.",
+      "La aparición de Jonathan Majors como He Who Remains en el final de temporada fue su primer papel en el UCM, presentando al personaje luego conocido como Kang the Conqueror.",
+    ],
   },
   {
     id: "what-if-s1",
@@ -1848,6 +1862,20 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "What If...?",
     tmdbMediaType: "tv",
     outsideTime: true,
+    universeEn:
+      "An anthology of alternate timelines and realities branching off the Sacred Timeline, narrated by The Watcher; none of its episodes take place on Earth-616 itself.",
+    universeEs:
+      "Una antología de líneas temporales y realidades alternas que se ramifican de la Línea Temporal Sagrada, narrada por The Watcher; ninguno de sus episodios transcurre en la propia Earth-616.",
+    triviaEn: [
+      "Voice actors reprised most of their film and TV roles, including Chris Hemsworth as Thor and Samuel L. Jackson as Nick Fury, one of the first times MCU actors voiced animated versions of their own characters.",
+      "The season finale brings several variants together as the Guardians of the Multiverse, a nod to the comics tradition of alternate-universe team-ups.",
+      "Chadwick Boseman recorded his episode as Star-Lord T'Challa before his death in 2020; the season is dedicated to his memory.",
+    ],
+    triviaEs: [
+      "La mayoría de los actores de voz repitieron sus papeles de las películas y series, incluyendo a Chris Hemsworth como Thor y Samuel L. Jackson como Nick Fury, una de las primeras veces que actores del UCM doblaron versiones animadas de sus propios personajes.",
+      "El final de temporada reúne a varias variantes como los Guardians of the Multiverse, un guiño a la tradición de los cómics de equipos de universos alternos.",
+      "Chadwick Boseman grabó su episodio como Star-Lord T'Challa antes de morir en 2020; la temporada está dedicada a su memoria.",
+    ],
   },
   {
     id: "marvel-zombies",
@@ -1863,6 +1891,18 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Marvel Zombies",
     tmdbMediaType: "tv",
     outsideTime: true,
+    universeEn:
+      "Set in an alternate zombie-apocalypse reality first seen in What If...? Season 1, not on Earth-616.",
+    universeEs:
+      "Transcurre en una realidad alterna de apocalipsis zombi vista primero en What If...? Temporada 1, no en Earth-616.",
+    triviaEn: [
+      "The series is a direct continuation of the zombie-outbreak episode from What If...? Season 1, expanded into its own miniseries.",
+      "It carries a TV-MA rating, more graphic than most other Marvel Studios animated projects, aimed at an older audience.",
+    ],
+    triviaEs: [
+      "La serie es una continuación directa del episodio del brote zombi de What If...? Temporada 1, expandido en su propia miniserie.",
+      "Tiene clasificación TV-MA, más gráfica que la mayoría de los proyectos animados de Marvel Studios, pensada para un público más adulto.",
+    ],
   },
   {
     id: "wandavision",
@@ -1877,6 +1917,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Halloween juega un papel importante en uno de los episodios finales.",
     tmdbSearchTitle: "WandaVision",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The season blends pastiches of American sitcoms across decades, from black-and-white 1950s single-camera shows to 2000s mockumentary style, each matching the era WandaVision recreates.",
+      "It was the first Marvel Studios series released on Disney+, premiering before Falcon and Winter Soldier and Loki.",
+      "Kathryn Hahn's Agnes is confirmed as Agatha Harkness only in the finale, spinning off into her own series, Agatha All Along.",
+    ],
+    triviaEs: [
+      "La temporada mezcla parodias de sitcoms estadounidenses de distintas décadas, desde comedias en blanco y negro de los años 50 hasta el estilo de falso documental de los 2000, cada una acorde a la época que WandaVision recrea.",
+      "Fue la primera serie de Marvel Studios estrenada en Disney+, antes que Falcon and Winter Soldier y Loki.",
+      "El personaje de Agnes, interpretado por Kathryn Hahn, se confirma como Agatha Harkness solo en el final de temporada, lo que deriva en su propia serie, Agatha All Along.",
+    ],
   },
   {
     id: "eternals",
@@ -1893,6 +1943,20 @@ export const timeline: TimelineEntry[] = [
       "Cinco años desde el chasquido; varios personajes referencian el Blip como algo reciente. Las calabazas y los anuncios sugieren fines de noviembre o inicio de diciembre, extendiéndose hacia 2024.",
     tmdbSearchTitle: "Eternals",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Chloé Zhao, who won the Best Director Oscar for Nomadland the same year this film released, was the first woman of color to direct an MCU film.",
+      "The cast includes the MCU's first deaf superhero, Makkari, played by deaf actress Lauren Ridloff, and its first openly gay superhero couple, Phastos and his husband Ben.",
+      "Kit Harington's Dane Whitman is set up as the future Black Knight, wielding the Ebony Blade shown in the credits scene.",
+    ],
+    triviaEs: [
+      "Chloé Zhao, quien ganó el Óscar a mejor dirección por Nomadland ese mismo año, fue la primera mujer de color en dirigir una película del UCM.",
+      "El elenco incluye a la primera superheroína sorda del UCM, Makkari, interpretada por la actriz sorda Lauren Ridloff, y a la primera pareja superheroica abiertamente gay, Phastos y su esposo Ben.",
+      "Dane Whitman, interpretado por Kit Harington, queda establecido como el futuro Black Knight, empuñando la Ebony Blade que se muestra en la escena post-créditos.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Thena, Makkari and Druig meet Eros (Starfox), Thanos's brother, and the Eternal Pip the Troll, who tell them where to find the rest of the missing Eternals. In the post-credits scene, Dane Whitman is about to tell Sersi about his family's legacy when he stops himself, and a hand reaches for the Ebony Blade.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, Thena, Makkari y Druig conocen a Eros (Starfox), hermano de Thanos, y al Eterno Pip the Troll, quienes les dicen dónde encontrar al resto de los Eternals desaparecidos. En la escena post-créditos, Dane Whitman está a punto de contarle a Sersi sobre el legado de su familia cuando se detiene, y una mano toma la Ebony Blade.",
   },
   {
     id: "shang-chi",
@@ -1907,6 +1971,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre a fines de marzo o inicios de abril, dejando tiempo para llegar a una de las Siete Ciudades Celestiales.",
     tmdbSearchTitle: "Shang-Chi and the Legend of the Ten Rings",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Simu Liu publicly campaigned for the role for years, including tweeting at Marvel Studios in 2018 that they should cast him as Shang-Chi.",
+      "Tony Leung, one of Hong Kong cinema's most acclaimed actors, made his English-language feature debut playing Wenwu, the father of Shang-Chi.",
+      "The film is the first MCU movie to feature a predominantly Asian and Asian-American cast.",
+    ],
+    triviaEs: [
+      "Simu Liu hizo campaña públicamente por el papel durante años, incluyendo un tuit de 2018 en el que le pedía a Marvel Studios que lo contratara como Shang-Chi.",
+      "Tony Leung, uno de los actores más aclamados del cine de Hong Kong, hizo su debut en un largometraje en inglés interpretando a Wenwu, el padre de Shang-Chi.",
+      "Es la primera película del UCM con un elenco mayoritariamente asiático y asiático-americano.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Shang-Chi and Katy meet Wong, Bruce Banner and Captain Marvel, who examine the Ten Rings and reveal they are sending out a signal, an unresolved mystery. In the post-credits scene, Shang-Chi and Katy go out drinking with Wong.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, Shang-Chi y Katy se reúnen con Wong, Bruce Banner y Captain Marvel, quienes examinan los Diez Anillos y revelan que están emitiendo una señal, un misterio sin resolver. En la escena post-créditos, Shang-Chi y Katy salen a beber con Wong.",
   },
   {
     id: "falcon-and-winter-soldier",
@@ -1921,6 +1999,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre seis meses después de Avengers: Endgame, entre abril y junio.",
     tmdbSearchTitle: "The Falcon and the Winter Soldier",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The series marks the live-action debut of John Walker as the government-appointed Captain America, and Wyatt Russell's casting drew comparisons to a mix of his mother Goldie Hawn and father Kurt Russell's looks.",
+      "Daniel Brühl reprises Baron Zemo from Captain America: Civil War, and the show gave him his comics-accurate purple mask for the first time.",
+      "The finale sees Sam Wilson formally take up the shield and the Captain America mantle, the first time in the MCU that a legacy hero fully replaces the original.",
+    ],
+    triviaEs: [
+      "La serie marca el debut en acción real de John Walker como el Captain America designado por el gobierno, y el casting de Wyatt Russell generó comparaciones con la mezcla de los rasgos de su madre Goldie Hawn y su padre Kurt Russell.",
+      "Daniel Brühl retoma a Baron Zemo de Captain America: Civil War, y la serie le dio por primera vez su máscara púrpura fiel a los cómics.",
+      "En el final, Sam Wilson toma formalmente el escudo y el manto de Captain America, la primera vez en el UCM que un héroe heredero reemplaza por completo al original.",
+    ],
   },
   {
     id: "thor-love-and-thunder",
@@ -1937,6 +2025,20 @@ export const timeline: TimelineEntry[] = [
       "La muestra de sangre con cáncer de Jane está fechada el 30 de abril. Considerando el propio Blip de Jane y los años transcurridos que menciona la película, la historia ocurre alrededor de mayo de 2024, coincidiendo con las fases lunares de Moon Knight y las noticias sobre la turbulencia política en la Nueva Asgard.",
     tmdbSearchTitle: "Thor: Love and Thunder",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Christian Bale's Gorr the God Butcher was inspired by his own children's fear of the dark, which he channeled into the character's design and voice.",
+      "Natalie Portman trained extensively to portray a physically transformed Jane Foster as the Mighty Thor, a role adapted from Jason Aaron's comic run.",
+      "Russell Crowe plays Zeus with a Greek accent he has said was inspired partly by his own family history.",
+    ],
+    triviaEs: [
+      "El Gorr the God Butcher de Christian Bale se inspiró en el propio miedo a la oscuridad de los hijos del actor, que canalizó en el diseño y la voz del personaje.",
+      "Natalie Portman entrenó intensamente para interpretar a una Jane Foster físicamente transformada en Mighty Thor, un rol adaptado de la etapa de cómics de Jason Aaron.",
+      "Russell Crowe interpreta a Zeus con un acento griego que, según ha dicho, se inspiró en parte en su propia historia familiar.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, a wounded Zeus sends his son Hercules to hunt down Thor for revenge. In the post-credits scene, Jane Foster, having sacrificed herself, arrives in Valhalla and is welcomed by Heimdall.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, un Zeus herido envía a su hijo Hercules a cazar a Thor para vengarse. En la escena post-créditos, Jane Foster, tras sacrificarse, llega al Valhalla y es recibida por Heimdall.",
   },
   {
     id: "moon-knight",
@@ -1953,6 +2055,16 @@ export const timeline: TimelineEntry[] = [
       "Los dioses egipcios ausentes en la reunión probablemente fueron asesinados por Gorr; las fases lunares de junio de 2024 en la serie coinciden con las fases lunares reales de junio de 2024.",
     tmdbSearchTitle: "Moon Knight",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Oscar Isaac performed multiple distinct voices and physicalities for Marc Spector, Steven Grant and Jake Lockley without relying on voice-altering technology in post-production.",
+      "The show is one of the first Marvel Studios projects with a predominantly Egyptian and Middle Eastern cast and crew, including director Mohamed Diab.",
+      "May Calamawy's Layla El-Faouly becomes the superhero Scarlet Scarab, Taweret's champion, in the finale.",
+    ],
+    triviaEs: [
+      "Oscar Isaac interpretó varias voces y formas de moverse distintas para Marc Spector, Steven Grant y Jake Lockley sin depender de tecnología de alteración de voz en la posproducción.",
+      "La serie es uno de los primeros proyectos de Marvel Studios con un elenco y equipo mayoritariamente egipcio y de Medio Oriente, incluyendo al director Mohamed Diab.",
+      "El personaje de Layla El-Faouly, interpretado por May Calamawy, se convierte en la superheroína Scarlet Scarab, la campeona de Taweret, en el final de temporada.",
+    ],
   },
   {
     id: "one-shot-peters-to-do-list",
@@ -1967,6 +2079,14 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Un corto ligado directamente a los eventos de Far From Home.",
     tmdbSearchTitle: "Peter's To-Do List",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Despite being billed as a Marvel One-Shot, it's technically not part of the official One-Shot program; director Jon Watts said it was assembled from scenes originally cut from Far From Home.",
+      "It was released alongside the Spider-Man: Far From Home home video in September 2019, running about three minutes.",
+    ],
+    triviaEs: [
+      "A pesar de presentarse como un Marvel One-Shot, técnicamente no forma parte del programa oficial de One-Shots; el director Jon Watts dijo que se armó con escenas originalmente cortadas de Far From Home.",
+      "Se lanzó junto con el video doméstico de Spider-Man: Far From Home en septiembre de 2019, con una duración de unos tres minutos.",
+    ],
   },
   {
     id: "spider-man-far-from-home",
@@ -1981,6 +2101,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre ocho meses después del Blip; el noreste sale de clases en junio, ocho meses después de octubre.",
     tmdbSearchTitle: "Spider-Man: Far From Home",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Jake Gyllenhaal's Mysterio uses illusion sequences created with practical, in-camera effects mixed with CG, an approach the visual effects team compared to psychedelic concert visuals.",
+      "The mid-credits scene reveals that the Nick Fury and Maria Hill seen throughout the film were actually Skrulls, Talos and Soren in disguise, retroactively recontextualizing the whole story.",
+      "J.K. Simmons reprises J. Jonah Jameson from Sam Raimi's Spider-Man trilogy, now reimagined as a conspiracy-driven online host rather than a newspaper editor.",
+    ],
+    triviaEs: [
+      "Las secuencias de ilusión de Mysterio, interpretado por Jake Gyllenhaal, se crearon con efectos prácticos filmados en cámara combinados con CGI, un enfoque que el equipo de efectos visuales comparó con las proyecciones psicodélicas de un concierto.",
+      "La escena de mitad de créditos revela que Nick Fury y Maria Hill, vistos durante toda la película, en realidad eran los skrulls Talos y Soren disfrazados, lo que recontextualiza toda la historia.",
+      "J.K. Simmons retoma a J. Jonah Jameson de la trilogía de Spider-Man de Sam Raimi, ahora reinventado como un presentador de conspiraciones en internet en vez de editor de periódico.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, J. Jonah Jameson broadcasts a doctored video that reveals Spider-Man's identity as Peter Parker and frames him for Mysterio's death. In the post-credits scene, Nick Fury and Maria Hill are revealed to actually be the Skrulls Talos and Soren, with the real Fury shown to be on a Skrull ship in space.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, J. Jonah Jameson transmite un video manipulado que revela la identidad de Spider-Man como Peter Parker y lo culpa por la muerte de Mysterio. En la escena post-créditos, se revela que Nick Fury y Maria Hill en realidad son los skrulls Talos y Soren, mientras que el verdadero Fury aparece en una nave skrull en el espacio.",
   },
   {
     id: "spider-man-no-way-home",
@@ -1995,6 +2129,24 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Continúa justo después de Far From Home; el final transcurre en diciembre.",
     tmdbSearchTitle: "Spider-Man: No Way Home",
     tmdbMediaType: "movie",
+    universeEn:
+      "Mainly Earth-616, briefly touched by variants pulled in from other universes: Peter Parker (Tobey Maguire) and Peter Parker (Andrew Garfield) from earlier Spider-Man film universes, and villains like Green Goblin, Doc Ock, Electro, Sandman and Lizard.",
+    universeEs:
+      "Principalmente Earth-616, tocada brevemente por variantes traídas de otros universos: Peter Parker (Tobey Maguire) y Peter Parker (Andrew Garfield) de universos cinematográficos anteriores de Spider-Man, y villanos como Green Goblin, Doc Ock, Electro, Sandman y Lizard.",
+    triviaEn: [
+      "Tobey Maguire and Andrew Garfield's returns were kept secret through the entire marketing campaign, with both actors publicly denying involvement in interviews before release.",
+      "The film is the first in cinema history to bring together three separate actors who played the same superhero across three different film franchises in the same movie.",
+      "Alfred Molina and Willem Dafoe reprise Doc Ock and Green Goblin from Sam Raimi's Spider-Man 2 (2004) and Spider-Man (2002), nearly two decades after their original appearances.",
+    ],
+    triviaEs: [
+      "El regreso de Tobey Maguire y Andrew Garfield se mantuvo en secreto durante toda la campaña de marketing, y ambos actores negaron públicamente estar involucrados en entrevistas antes del estreno.",
+      "Es la primera película en la historia del cine en reunir a tres actores distintos que interpretaron al mismo superhéroe en tres franquicias de cine diferentes en la misma película.",
+      "Alfred Molina y Willem Dafoe retoman a Doc Ock y Green Goblin de Spider-Man 2 (2004) y Spider-Man (2002) de Sam Raimi, casi dos décadas después de sus apariciones originales.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, a small sample of Eddie Brock's symbiote is left behind on Earth-616 after he is pulled back to his own universe, setting up its eventual bonding with someone new. In the post-credits scene, a trailer for Doctor Strange in the Multiverse of Madness plays, showing that Strange's spell fractured reality even further.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, una pequeña muestra del simbionte de Eddie Brock queda en Earth-616 después de que él regresa a su propio universo, dejando planteado que eventualmente se una a alguien nuevo. En la escena post-créditos se muestra un adelanto de Doctor Strange in the Multiverse of Madness, revelando que el hechizo de Strange fracturó aún más la realidad.",
   },
   {
     id: "doctor-strange-multiverse-of-madness",
@@ -2009,6 +2161,22 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "El follaje de otoño en Nueva York y las referencias directas a los eventos de No Way Home.",
     tmdbSearchTitle: "Doctor Strange in the Multiverse of Madness",
     tmdbMediaType: "movie",
+    universeEn:
+      "Mainly Earth-616, with an extended detour into Earth-838 (the Illuminati's universe).",
+    universeEs:
+      "Principalmente Earth-616, con una incursión extendida en Earth-838 (el universo de los Illuminati).",
+    triviaEn: [
+      "Earth-838 introduces the Illuminati, a team led by a variant of Professor X, with Patrick Stewart reprising the role from the original X-Men films.",
+      "This is the first MCU film directed by Sam Raimi, known for the original Spider-Man trilogy and the Evil Dead horror franchise, which shows in the film's horror influences.",
+    ],
+    triviaEs: [
+      "Earth-838 presenta a los Illuminati, un equipo liderado por una variante del Profesor X, con Patrick Stewart retomando el papel de las películas originales de X-Men.",
+      "Es la primera película del UCM dirigida por Sam Raimi, conocido por la trilogía original de Spider-Man y la saga de terror Evil Dead, lo cual se nota en las influencias de horror de la película.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Clea, played by Charlize Theron, appears before a newly three-eyed Doctor Strange and recruits him to help fix an incursion he unknowingly caused, pulling him into the Dark Dimension. In the post-credits scene, street vendor Pizza Poppa, played by Sam Raimi regular Bruce Campbell, is confronted by a hexed variant of himself in a comedic coda that ends with a nod to Raimi's Evil Dead films.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, Clea, interpretada por Charlize Theron, se le aparece a un Doctor Strange que ahora tiene un tercer ojo y lo recluta para ayudar a resolver una incursión que él mismo provocó sin saberlo, llevándolo a la Dark Dimension. En la escena post-créditos, el vendedor callejero Pizza Poppa, interpretado por Bruce Campbell (habitual colaborador de Sam Raimi), es confrontado por una variante hechizada de sí mismo en una escena cómica que termina con un guiño a las películas Evil Dead de Raimi.",
   },
   {
     id: "hawkeye",
@@ -2023,6 +2191,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre en la temporada navideña.",
     tmdbSearchTitle: "Hawkeye",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Florence Pugh reprises Yelena Belova from Black Widow, and the show reveals she was hired by Contessa Valentina Allegra de Fontaine to hunt Clint Barton for Natasha's death.",
+      "Hailee Steinfeld's Kate Bishop is the first live-action version of the character, who inherits the Hawkeye mantle in the comics created by Allan Heinberg and Jim Cheung.",
+      "Alaqua Cox makes her acting debut as Maya Lopez/Echo, a deaf actress playing a deaf character, later spun off into her own series.",
+    ],
+    triviaEs: [
+      "Florence Pugh retoma a Yelena Belova de Black Widow, y la serie revela que Contessa Valentina Allegra de Fontaine la contrató para cazar a Clint Barton por la muerte de Natasha.",
+      "Kate Bishop, interpretada por Hailee Steinfeld, es la primera versión en acción real del personaje, quien hereda el manto de Hawkeye en los cómics creados por Allan Heinberg y Jim Cheung.",
+      "Alaqua Cox debuta como actriz interpretando a Maya Lopez/Echo, una actriz sorda dando vida a un personaje sordo, luego protagonista de su propia serie.",
+    ],
   },
   {
     id: "she-hulk-1-3",
@@ -2039,6 +2217,16 @@ export const timeline: TimelineEntry[] = [
       "El choque de autos ocurre en octubre de 2024; el Festival de Sundance se realiza en enero, ubicando estos episodios en primavera.",
     tmdbSearchTitle: "She-Hulk: Attorney at Law",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Tatiana Maslany required extensive body-double and CGI work to play both the human Jennifer Walters and her fully computer-generated She-Hulk form, a technical challenge Marvel Studios later acknowledged led to some of the show's uneven visual effects.",
+      "The series is the MCU's first legal comedy and breaks the fourth wall repeatedly, with Jennifer addressing the audience directly, a device borrowed from John Byrne's celebrated 1980s comic run on The Sensational She-Hulk.",
+      "Mark Ruffalo reprises Bruce Banner/Hulk as Jennifer's cousin and mentor, marking his first major TV appearance as the character.",
+    ],
+    triviaEs: [
+      "Tatiana Maslany requirió mucho trabajo de dobles de cuerpo y CGI para interpretar tanto a la humana Jennifer Walters como a su forma de She-Hulk totalmente generada por computadora, un desafío técnico que Marvel Studios luego reconoció que causó parte de los efectos visuales irregulares de la serie.",
+      "La serie es la primera comedia legal del UCM y rompe la cuarta pared repetidamente, con Jennifer dirigiéndose directamente a la audiencia, un recurso tomado de la aclamada etapa de cómics de John Byrne en The Sensational She-Hulk en los años 80.",
+      "Mark Ruffalo retoma a Bruce Banner/Hulk como primo y mentor de Jennifer, en su primera aparición importante en TV como el personaje.",
+    ],
   },
   {
     id: "black-panther-wakanda-forever",
@@ -2055,6 +2243,20 @@ export const timeline: TimelineEntry[] = [
       "T'Challa vuelve del Blip y muere en mayo de 2024; transcurre un año, con ropa de fines de primavera vista en Virginia y Boston.",
     tmdbSearchTitle: "Black Panther: Wakanda Forever",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "The film was made after Chadwick Boseman's death in 2020; Ryan Coogler rewrote the script to center Shuri's grief rather than recast T'Challa.",
+      "Namor, played by Tenoch Huerta, is reimagined here as Mesoamerican and Yucatec Maya rather than the Atlantean Greco-Roman version from the comics, tying him to the fictional underwater nation of Talokan.",
+      "Angela Bassett's performance as Ramonda earned her an Academy Award nomination for Best Supporting Actress, the first acting nomination for a Marvel Studios film.",
+    ],
+    triviaEs: [
+      "La película se hizo después de la muerte de Chadwick Boseman en 2020; Ryan Coogler reescribió el guion para centrarlo en el duelo de Shuri en vez de recastear a T'Challa.",
+      "Namor, interpretado por Tenoch Huerta, se reimagina aquí como mesoamericano y maya yucateco en vez de la versión atlante grecorromana de los cómics, vinculándolo a la nación submarina ficticia de Talokan.",
+      "La actuación de Angela Bassett como Ramonda le valió una nominación al Óscar a mejor actriz de reparto, la primera nominación actoral para una película de Marvel Studios.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Shuri performs a traditional burial ritual for her mother Ramonda. In the post-credits scene, set some time later, Nakia introduces Shuri to her and T'Challa's young son Toussaint on a beach in Haiti, revealing his Wakandan name is also T'Challa.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, Shuri realiza un ritual funerario tradicional por su madre Ramonda. En la escena post-créditos, algún tiempo después, Nakia le presenta a Shuri a su hijo con T'Challa, Toussaint, en una playa de Haití, revelando que su nombre wakandiano también es T'Challa.",
   },
   {
     id: "echo",
@@ -2071,6 +2273,16 @@ export const timeline: TimelineEntry[] = [
       "Cinco meses después de Hawkeye la ubican a fines de mayo. Daredevil y Kingpin sobrevivieron al chasquido, y Fisk empezó a reconstruir su imperio, obligando a Matt a volver a ser Daredevil.",
     tmdbSearchTitle: "Echo",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Alaqua Cox, who is deaf, Indigenous and a below-the-knee amputee, first played Maya Lopez in Hawkeye before headlining her own series here, in her first-ever acting role.",
+      "Echo is Marvel Studios' first project to carry a TV-MA rating, more explicit than any prior series or film in the franchise.",
+      "Because Vincent D'Onofrio's Kingpin doesn't know sign language in the story, the show gives Maya a contact lens that translates his speech into sign for the audience.",
+    ],
+    triviaEs: [
+      "Alaqua Cox, quien es sorda, indígena y amputada bajo la rodilla, interpretó por primera vez a Maya Lopez en Hawkeye antes de protagonizar esta serie, en su primer papel actoral.",
+      "Echo es el primer proyecto de Marvel Studios con clasificación TV-MA, más explícito que cualquier serie o película anterior de la franquicia.",
+      "Como el Kingpin de Vincent D'Onofrio no sabe lenguaje de señas en la historia, la serie le da a Maya un lente de contacto que traduce lo que él dice a señas para el público.",
+    ],
   },
   {
     id: "she-hulk-4-6",
@@ -2099,6 +2311,14 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Una nota adhesiva dice 8/16; Abomination está en Kamar-Taj.",
     tmdbSearchTitle: "She-Hulk: Attorney at Law",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The season finale breaks the fourth wall further than any other MCU project, with Jennifer walking into a fictionalized Marvel Studios building and confronting a CGI executive named K.E.V.I.N., a satirical stand-in for the studio's real decision-making process.",
+      "Charlie Cox and Jon Bernthal appear as Daredevil and the Punisher, marking some of the first crossovers between the former Netflix Marvel shows and the mainline MCU continuity.",
+    ],
+    triviaEs: [
+      "El final de temporada rompe la cuarta pared más que cualquier otro proyecto del UCM, con Jennifer entrando a un edificio ficticio de Marvel Studios y enfrentándose a un ejecutivo generado por computadora llamado K.E.V.I.N., una sátira del proceso real de decisiones del estudio.",
+      "Charlie Cox y Jon Bernthal aparecen como Daredevil y el Punisher, marcando uno de los primeros cruces entre las antiguas series de Marvel en Netflix y la continuidad principal del UCM.",
+    ],
   },
   {
     id: "ms-marvel",
@@ -2115,6 +2335,16 @@ export const timeline: TimelineEntry[] = [
       "Transcurre al inicio del año escolar; las clases en el noreste empiezan en septiembre, y Kamala tiene 16 años.",
     tmdbSearchTitle: "Ms. Marvel",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Iman Vellani was cast as an unknown newcomer after a global search, and has said she first heard she got the role of Kamala Khan while still in school.",
+      "The show changed Kamala's comic-book shapeshifting Inhuman powers to a bracelet-based hard-light power set tied to her family's history, a deliberate MCU-only alteration explained in the finale.",
+      "Ms. Marvel is the first Muslim superhero to headline her own Marvel Studios series, adapted from the character co-created by G. Willow Wilson, Sana Amanat and others in 2013.",
+    ],
+    triviaEs: [
+      "Iman Vellani fue elegida tras una búsqueda global sin ser conocida previamente, y según ha contado, se enteró de que consiguió el papel de Kamala Khan mientras aún estaba en el colegio.",
+      "La serie cambió los poderes de metamorfa inhumana de Kamala de los cómics por un set de poderes de luz dura ligados a un brazalete y a la historia de su familia, una alteración exclusiva del UCM explicada en el final de temporada.",
+      "Ms. Marvel es la primera superheroína musulmana en protagonizar su propia serie de Marvel Studios, adaptada del personaje co-creado por G. Willow Wilson, Sana Amanat y otros en 2013.",
+    ],
   },
 
   // ===================== FASE 5: VARIANCE =====================
