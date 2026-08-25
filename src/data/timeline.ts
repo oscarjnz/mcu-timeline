@@ -1649,6 +1649,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Ant-Man and the Wasp debe transcurrir antes de los episodios 19-22.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "This stretch brings the team back from the Lighthouse to present day Earth, where the writers introduce General Hale, played by Catherine Dent, as the season's human facing antagonist working on behalf of a hidden alien collective called the Confederacy.",
+      "The Confederacy plotline ties back to a season 2 reveal that ancient alien races seeded early human civilization, giving the show's ongoing conspiracy arc a throughline several seasons deep.",
+      "Coulson's terminal illness from his exposure to Kree blood, introduced back in season 4, becomes a ticking clock across this stretch of the season, quietly building toward the season finale.",
+    ],
+    triviaEs: [
+      "Este tramo trae de vuelta al equipo del Lighthouse a la Tierra del presente, donde los guionistas presentan a la general Hale, interpretada por Catherine Dent, como la antagonista humana de la temporada, al servicio de un colectivo alienígena oculto llamado la Confederacy.",
+      "La trama de la Confederacy se conecta con una revelación de la temporada 2 sobre razas alienígenas antiguas que sembraron la civilización humana temprana, dándole al arco conspirativo de la serie un hilo conductor de varias temporadas de profundidad.",
+      "La enfermedad terminal de Coulson, causada por su exposición a sangre kree e introducida en la temporada 4, se convierte en un reloj en cuenta regresiva a lo largo de este tramo, construyendo en silencio hacia el final de temporada.",
+    ],
   },
   {
     id: "ant-man-and-the-wasp",
@@ -1663,6 +1673,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre semanas o días antes de la llegada de Thanos.",
     tmdbSearchTitle: "Ant-Man and the Wasp",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Evangeline Lilly's Wasp receiving equal billing in the title made this the first MCU film to put a female hero's name in its title.",
+      "Michelle Pfeiffer plays Janet van Dyne, the original comics era Wasp, a piece of casting that plays on Pfeiffer's own decades long screen legacy going back to the 1980s and 1990s.",
+      "Randall Park's FBI agent Jimmy Woo, introduced here monitoring Scott Lang's house arrest, would go on to be one of the more recurring supporting characters in later MCU projects.",
+    ],
+    triviaEs: [
+      "Que Evangeline Lilly, como Wasp, recibiera crédito igualitario en el título convirtió a esta película en la primera del UCM en llevar el nombre de una heroína en el título.",
+      "Michelle Pfeiffer interpreta a Janet van Dyne, la Wasp original de la era clásica de los cómics, un acierto de casting que juega con la propia trayectoria de décadas de Pfeiffer desde los años ochenta y noventa.",
+      "El agente del FBI Jimmy Woo, interpretado por Randall Park y presentado aquí vigilando el arresto domiciliario de Scott Lang, se convertiría en uno de los personajes secundarios más recurrentes de proyectos posteriores del UCM.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, set during the Snap from Avengers: Infinity War, Hank Pym, Hope van Dyne and Janet van Dyne disintegrate while Scott Lang is inside the Quantum Realm collecting healing particles, leaving him stranded there with no way to reach the surface.",
+    postCreditsEs:
+      "En la escena a mitad de los créditos, ambientada durante el Chasquido de Avengers: Infinity War, Hank Pym, Hope van Dyne y Janet van Dyne se desintegran mientras Scott Lang está dentro del Reino Cuántico recolectando partículas curativas, dejándolo varado allí sin forma de salir a la superficie.",
   },
   {
     id: "aos-s5-19-22",
@@ -1677,6 +1701,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Ocurre antes y en simultáneo con el ataque de la Orden Negra a Nueva York.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The season 5 finale ties directly into Avengers: Infinity War's New York battle, one of the most literal real time crossovers between the show and the mainline films up to that point.",
+      "This stretch resolves the Kree villain Kasius' storyline from earlier in the season and pays off the season long prophecy about Daisy Johnson's role in the world's fate.",
+      "It also reveals that General Talbot, until then an ally, becomes host to Graviton, an Inhuman powered antagonist, closing out his multi season arc.",
+    ],
+    triviaEs: [
+      "El final de la temporada 5 se conecta directamente con la batalla de Nueva York de Avengers: Infinity War, uno de los cruces en tiempo real más literales entre la serie y las películas principales hasta ese momento.",
+      "Este tramo resuelve la trama del villano kree Kasius planteada antes en la temporada y paga la profecía de toda la temporada sobre el papel de Daisy Johnson en el destino del mundo.",
+      "También revela que el general Talbot, hasta entonces un aliado, se convierte en el huésped de Graviton, un antagonista con poderes inhumanos, cerrando su arco de varias temporadas.",
+    ],
   },
   {
     id: "avengers-infinity-war",
@@ -1691,6 +1725,18 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre en 2018.",
     tmdbSearchTitle: "Avengers: Infinity War",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Thanos snapping his fingers to wipe out half of all life, known online as \"the Snap\" or \"the Blip\", became one of the most quoted moments in modern film.",
+      "The Russo brothers shot Infinity War and Endgame back to back as a single production to keep continuity between both films.",
+    ],
+    triviaEs: [
+      "El chasquido de Thanos que borra a la mitad de toda la vida, conocido como \"el Chasquido\" o \"el Blip\", se volvió uno de los momentos más citados del cine moderno.",
+      "Los hermanos Russo filmaron Infinity War y Endgame de forma consecutiva como una sola producción para mantener la continuidad entre ambas películas.",
+    ],
+    postCreditsEn:
+      "Nick Fury and Maria Hill turn to dust from the Snap while trying to send a distress signal; the last thing sent is a page displaying Captain Marvel's symbol.",
+    postCreditsEs:
+      "Nick Fury y Maria Hill se desintegran por el Chasquido mientras intentan enviar una señal de auxilio; lo último que se envía es una página con el símbolo de Captain Marvel.",
   },
   {
     id: "aos-s6",
@@ -1705,6 +1751,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Una etiqueta de \"un año después\" abre la temporada.",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Clark Gregg plays a new character, Sarge, who looks exactly like Coulson but behaves in a colder, more ruthless way, with the show withholding his true nature for most of the season.",
+      "A \"one year later\" time jump opens the season, letting the writers skip past the immediate aftermath of Coulson's death at the end of season 5.",
+      "Season 6 was cut down to 13 episodes, shorter than the show's usual 22, reflecting ABC's declining commitment to the series in its final two years.",
+    ],
+    triviaEs: [
+      "Clark Gregg interpreta a un nuevo personaje, Sarge, que se ve exactamente igual a Coulson pero se comporta de forma más fría y despiadada, con la serie ocultando su verdadera naturaleza durante gran parte de la temporada.",
+      "Un salto temporal de \"un año después\" abre la temporada, lo que permite a los guionistas saltarse las consecuencias inmediatas de la muerte de Coulson al final de la temporada 5.",
+      "La temporada 6 se redujo a 13 episodios, menos que los 22 habituales de la serie, reflejando el compromiso decreciente de ABC con el programa en sus dos últimos años.",
+    ],
   },
   {
     id: "aos-s7",
@@ -1719,6 +1775,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Otro salto de \"un año después\".",
     tmdbSearchTitle: "Agents of S.H.I.E.L.D.",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The final season sends the team time traveling through several decades of S.H.I.E.L.D.'s own history, opening in 1930s New York and later visiting the 1950s and 1980s, to stop the Chronicoms from rewriting the timeline.",
+      "It closes the series after seven seasons and 136 episodes, making Agents of S.H.I.E.L.D. the longest running series produced under the Marvel Television banner.",
+      "The series finale aired on August 12, 2020, by which point the show had outlasted every other Marvel TV series that had been airing alongside it, including all five original Marvel Netflix shows.",
+    ],
+    triviaEs: [
+      "La temporada final envía al equipo a viajar en el tiempo por varias décadas de la propia historia de S.H.I.E.L.D., abriendo en la Nueva York de los años treinta y visitando después los cincuenta y los ochenta, para detener a los Chronicoms antes de que reescriban la línea temporal.",
+      "Cierra la serie tras siete temporadas y 136 episodios, con lo que Agents of S.H.I.E.L.D. se convirtió en la serie más larga producida bajo el sello de Marvel Television.",
+      "El final de la serie se emitió el 12 de agosto de 2020, momento para el cual el programa ya había superado en duración a cualquier otra serie de Marvel que se emitiera junto a ella, incluidas las cinco series originales de Marvel en Netflix.",
+    ],
   },
   {
     id: "avengers-endgame",
@@ -1735,6 +1801,21 @@ export const timeline: TimelineEntry[] = [
       "Los eventos de esta película provocan que Loki escape, obligando a la TVA a intervenir. Ms. Marvel indica que todos volvieron en octubre.",
     tmdbSearchTitle: "Avengers: Endgame",
     tmdbMediaType: "movie",
+    hasFutureSpoilers: true,
+    triviaEn: [
+      "Endgame overtook Avatar to become the highest grossing film of all time in July 2019, helped by a theatrical re-release in June that added a deleted scene and a tribute to Stan Lee to push its total past Avatar's record; Avatar reclaimed the record with its own 2021 re-release.",
+      "Stan Lee's cameo, shot before his death in November 2018, shows him driving a car and shouting \"Make love, not war\" past a young Tony Stark in a 1970 flashback, his final Marvel cameo appearance.",
+      "The Russo brothers coordinated cameos and callbacks from across the prior 21 films, including a shot near the final battle where every hero who had appeared up to that point assembles on screen at once.",
+    ],
+    triviaEs: [
+      "Endgame superó a Avatar como la película más taquillera de la historia en julio de 2019, ayudada por un reestreno en cines en junio que añadió una escena eliminada y un homenaje a Stan Lee para superar el récord de Avatar; Avatar recuperó el récord con su propio reestreno de 2021.",
+      "El cameo de Stan Lee, filmado antes de su muerte en noviembre de 2018, lo muestra manejando un auto y gritando \"Make love, not war\" junto a un joven Tony Stark en un flashback de 1970, su última aparición cameo en Marvel.",
+      "Los hermanos Russo coordinaron cameos y referencias de las 21 películas anteriores, incluyendo un plano cerca de la batalla final donde todos los héroes que habían aparecido hasta entonces se reúnen en pantalla a la vez.",
+    ],
+    postCreditsEn:
+      "Unlike most Marvel films, Endgame has no scene after the credits; directors Anthony and Joe Russo deliberately left one out to underline the story's sense of finality, but as the credits end the sound design cuts to the clang of metal on metal, the sound of Tony Stark building his first Iron Man suit back in 2008, a last minute addition suggested by Kevin Feige as a tribute to the character.",
+    postCreditsEs:
+      "A diferencia de la mayoría de las películas de Marvel, Endgame no tiene ninguna escena después de los créditos; los directores Anthony y Joe Russo dejaron deliberadamente afuera una escena para subrayar la sensación de cierre de la historia, pero al terminar los créditos el sonido corta al golpeteo de metal contra metal, el sonido de Tony Stark construyendo su primer traje de Iron Man allá por 2008, un añadido de último momento sugerido por Kevin Feige como homenaje al personaje.",
   },
 
   // ===================== FASE 4: AFTERMATH =====================
