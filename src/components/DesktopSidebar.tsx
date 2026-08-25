@@ -31,7 +31,7 @@ export function DesktopSidebar({
   const { language } = useLanguage();
 
   return (
-    <aside className="hidden shrink-0 lg:sticky lg:top-8 lg:flex lg:h-[calc(100vh-4rem)] lg:w-64 lg:flex-col lg:gap-6 lg:overflow-y-auto lg:pb-8">
+    <aside className="thin-scrollbar hidden shrink-0 lg:sticky lg:top-8 lg:flex lg:h-[calc(100vh-4rem)] lg:w-72 lg:flex-col lg:gap-6 lg:overflow-y-auto lg:pr-2 lg:pb-8">
       <div>
         <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
           {language === "es" ? "Timeline del UCM" : "MCU Timeline"}

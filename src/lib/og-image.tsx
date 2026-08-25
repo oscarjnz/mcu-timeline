@@ -1,4 +1,5 @@
 import { readFile } from "node:fs/promises";
+import path from "node:path";
 import { ImageResponse } from "next/og";
 
 export const OG_IMAGE_SIZE = { width: 1200, height: 630 };
@@ -13,7 +14,7 @@ const PHASE_DOT_COLORS = [
   "#e7e5e4",
 ];
 
-const antonFont = readFile(new URL("./fonts/Anton-Regular.ttf", import.meta.url));
+const antonFont = readFile(path.join(process.cwd(), "src/lib/fonts/Anton-Regular.ttf"));
 
 export async function renderOgImage() {
   const fontData = await antonFont;
