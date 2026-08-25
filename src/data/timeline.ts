@@ -2361,6 +2361,14 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Un personaje dice claramente que es octubre; la mayor parte de la serie transcurre ese mes.",
     tmdbSearchTitle: "Ironheart",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Riri Williams appears on Marvel's own official ranking of its universe's smartest characters, placed seventh, just behind Hank Pym and ahead of the X-Men's Beast.",
+      "The series is the first extended MCU story set in Riri's hometown of Chicago, picking up after her introduction in Black Panther: Wakanda Forever.",
+    ],
+    triviaEs: [
+      "Riri Williams aparece en el ranking oficial de Marvel de los personajes más inteligentes de su universo, en el séptimo puesto, justo detrás de Hank Pym y por delante de Beast de los X-Men.",
+      "La serie es la primera historia extensa del UCM ambientada en Chicago, la ciudad natal de Riri, y retoma su historia tras la presentación del personaje en Black Panther: Wakanda Forever.",
+    ],
   },
   {
     id: "secret-invasion",
@@ -2377,6 +2385,16 @@ export const timeline: TimelineEntry[] = [
       "El Día de la Unidad es el 4 de noviembre, treinta años después de Captain Marvel. La invasión comenzó después de que todos volvieran en Endgame, y ocurre cronológicamente antes de The Marvels.",
     tmdbSearchTitle: "Secret Invasion",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "The show's title sequence used AI-generated imagery, a choice that drew significant backlash from fans and became one of the most discussed aspects of its release.",
+      "Olivia Colman's character, Sonya Falsworth, was created specifically for the series rather than adapted from an existing comics character.",
+      "Ben Mendelsohn reprises Talos more than five years after introducing the character in Captain Marvel.",
+    ],
+    triviaEs: [
+      "La secuencia de título de la serie utilizó imágenes generadas por inteligencia artificial, una decisión que generó una fuerte reacción negativa entre los fans y se convirtió en uno de los aspectos más comentados de su estreno.",
+      "El personaje de Olivia Colman, Sonya Falsworth, fue creado específicamente para la serie en vez de adaptarse de un personaje ya existente en los cómics.",
+      "Ben Mendelsohn retoma el papel de Talos más de cinco años después de presentar al personaje en Captain Marvel.",
+    ],
   },
   {
     id: "the-marvels",
@@ -2391,6 +2409,18 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Los guionistas confirmaron que ocurre cronológicamente después de Secret Invasion; Kamala sigue teniendo 16 años.",
     tmdbSearchTitle: "The Marvels",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Director Nia DaCosta became the first Black woman to direct a film with a nine-figure production budget in Hollywood history.",
+      "The film became the lowest-grossing theatrical release in MCU history at the domestic box office.",
+    ],
+    triviaEs: [
+      "La directora Nia DaCosta se convirtió en la primera mujer negra en dirigir una película con un presupuesto de producción de nueve cifras en la historia de Hollywood.",
+      "La película se convirtió en el estreno de taquilla nacional más bajo de la historia del UCM.",
+    ],
+    postCreditsEn:
+      "Monica Rambeau wakes up in an alternate universe and is greeted by Beast, who tells her she needs to report to someone named Charles, revealing that a version of the X-Men exists somewhere in the multiverse.",
+    postCreditsEs:
+      "Monica Rambeau despierta en un universo alterno y es recibida por Beast, quien le dice que debe reportarse ante alguien llamado Charles, revelando que existe una versión de los X-Men en algún punto del multiverso.",
   },
   {
     id: "gotg-holiday-special",
@@ -2405,6 +2435,18 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre en la temporada navideña.",
     tmdbSearchTitle: "The Guardians of the Galaxy Holiday Special",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Kevin Bacon plays an exaggerated version of himself, kidnapped by Drax and Mantis as a Christmas gift for a heartbroken Peter Quill.",
+      "At around 44 minutes, it is one of the shortest pieces of MCU content released to date.",
+    ],
+    triviaEs: [
+      "Kevin Bacon interpreta una versión exagerada de sí mismo, secuestrado por Drax y Mantis como regalo de Navidad para un Peter Quill con el corazón roto.",
+      "Con cerca de 44 minutos de duración, es una de las piezas de contenido más cortas que ha lanzado el UCM.",
+    ],
+    postCreditsEn:
+      "Rocket, Cosmo and Groot try to decorate Groot as a Christmas tree, but the ornaments keep falling off; Rocket breaks the fourth wall to joke that they will need to do another holiday special.",
+    postCreditsEs:
+      "Rocket, Cosmo y Groot intentan decorar a Groot como árbol de Navidad, pero los adornos se le siguen cayendo; Rocket rompe la cuarta pared para bromear que van a necesitar hacer otro especial navideño.",
   },
   {
     id: "werewolf-by-night",
@@ -2421,6 +2463,16 @@ export const timeline: TimelineEntry[] = [
       "Ulysses Bloodstone murió en la última luna llena del año, que en 2025 cae el 5 de diciembre; cinco días hasta la siguiente luna llena ubican el especial el 29 de diciembre de 2025.",
     tmdbSearchTitle: "Werewolf by Night",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "It was composer Michael Giacchino's directorial debut, and the first Marvel Studios Special Presentation ever released.",
+      "The special was shot and is presented almost entirely in black and white as a deliberate homage to classic Universal horror films, only shifting to color near the very end.",
+      "It has no post-credits scene, an unusual choice for the MCU at the time; producers said they wanted the story to feel self-contained rather than tease what comes next.",
+    ],
+    triviaEs: [
+      "Fue el debut como director del compositor Michael Giacchino, y el primer Marvel Studios Special Presentation lanzado.",
+      "El especial se filmó y se presenta casi por completo en blanco y negro como homenaje deliberado a las películas clásicas de terror de Universal, y solo pasa a color cerca del final.",
+      "No tiene escena post-créditos, una decisión inusual para el UCM en ese momento; los productores explicaron que querían que la historia se sintiera autocontenida en vez de anunciar lo que vendría después.",
+    ],
   },
   {
     id: "wonder-man",
@@ -2437,6 +2489,14 @@ export const timeline: TimelineEntry[] = [
       "Trevor dice varias veces que lleva trece años sobrio; trece años después de diciembre de 2012 es diciembre de 2025 o inicios de 2026. La mayor parte de la serie transcurre a lo largo de 2026, y el estreno de la película dentro del universo ocurre en el verano de 2027.",
     tmdbSearchTitle: "Wonder Man",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Ben Kingsley reprises Trevor Slattery from Iron Man 3, now working as Simon Williams' mentor in a Hollywood satire about a superhero trying to become an actor.",
+      "Disney+ released all eight episodes of the season at once on January 27, 2026, a binge-model release unusual for Marvel Television's earlier Disney+ shows.",
+    ],
+    triviaEs: [
+      "Ben Kingsley retoma a Trevor Slattery de Iron Man 3, ahora como mentor de Simon Williams en una sátira de Hollywood sobre un superhéroe que intenta convertirse en actor.",
+      "Disney+ lanzó los ocho episodios de la temporada de una sola vez el 27 de enero de 2026, un modelo de estreno tipo maratón inusual para las series anteriores de Marvel Television en Disney+.",
+    ],
   },
   {
     id: "ant-man-quantumania",
@@ -2453,6 +2513,20 @@ export const timeline: TimelineEntry[] = [
       "Cassie cumple 18 años el 24 de julio. La escena postcréditos de Victor Timely lleva directo a Loki Temporada 2.",
     tmdbSearchTitle: "Ant-Man and the Wasp: Quantumania",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Jonathan Majors plays multiple Kang variants in the film, including a mid-credits Council of Kangs made up of Immortus, Rama-Tut and the Scarlet Centurion.",
+      "The film introduces M.O.D.O.K., revealed to be a mutated Darren Cross, reprised by Corey Stoll from the first Ant-Man film nearly eight years earlier.",
+      "This was Majors' last appearance as Kang before Marvel Studios dropped him from the franchise following his 2023 assault conviction; the previously announced Avengers: The Kang Dynasty was scrapped, and the studio's next two Avengers films were built around Robert Downey Jr.'s Doctor Doom instead.",
+    ],
+    triviaEs: [
+      "Jonathan Majors interpreta a varias variantes de Kang en la película, incluido un Consejo de Kangs en la escena de mitad de créditos formado por Immortus, Rama-Tut y el Scarlet Centurion.",
+      "La película presenta a M.O.D.O.K., revelado como una mutación de Darren Cross, interpretado de nuevo por Corey Stoll casi ocho años después de la primera Ant-Man.",
+      "Fue la última aparición de Majors como Kang antes de que Marvel Studios lo apartara de la franquicia tras su condena por agresión en 2023; la entonces anunciada Avengers: The Kang Dynasty se descartó, y las siguientes dos películas de Avengers del estudio se construyeron en torno al Doctor Doom de Robert Downey Jr.",
+    ],
+    postCreditsEn:
+      "In a mid-credits scene, a Council of Kangs made up of other variants of the character discusses the death of the Kang seen in the film. In the post-credits scene, a version of the character calling himself Victor Timely is shown demonstrating futuristic technology in the early twentieth century.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, un Consejo de Kangs formado por otras variantes del personaje comenta la muerte del Kang visto en la película. En la escena post-créditos se muestra a una variante que se hace llamar Victor Timely mostrando tecnología futurista a inicios del siglo veinte.",
   },
   {
     id: "loki-s2",
@@ -2468,6 +2542,18 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Loki",
     tmdbMediaType: "tv",
     outsideTime: true,
+    universeEn:
+      "The Time Variance Authority and the branched timelines of the Sacred Timeline, existing outside the main Earth-616 continuity.",
+    universeEs:
+      "La Autoridad de Variación Temporal (AVT) y las líneas temporales ramificadas de la Línea Temporal Sagrada, que existen fuera de la continuidad principal de Earth-616.",
+    triviaEn: [
+      "Ke Huy Quan joined the cast as Ouroboros (O.B.) shortly after winning his Academy Award for Everything Everywhere All at Once.",
+      "Jonathan Majors plays both He Who Remains and his earlier variant Victor Timely across the season. This was his last MCU appearance before Marvel Studios dropped him following his 2023 conviction, and the franchise's next two Avengers films were built around Robert Downey Jr.'s Doctor Doom instead of a new Kang actor.",
+    ],
+    triviaEs: [
+      "Ke Huy Quan se unió al elenco como Ouroboros (O.B.) poco después de ganar su premio Óscar por Everything Everywhere All at Once.",
+      "Jonathan Majors interpreta tanto a He Who Remains como a su variante anterior Victor Timely a lo largo de la temporada. Fue su última aparición en el UCM antes de que Marvel Studios lo apartara tras su condena de 2023, y las siguientes dos películas de Avengers se construyeron en torno al Doctor Doom de Robert Downey Jr. en vez de un nuevo actor para Kang.",
+    ],
   },
   {
     id: "what-if-s2",
@@ -2483,6 +2569,16 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "What If...?",
     tmdbMediaType: "tv",
     outsideTime: true,
+    universeEn: "An anthology of alternate-reality branches of the multiverse, none of them Earth-616.",
+    universeEs: "Una antología de ramas de realidad alterna del multiverso, ninguna de ellas Earth-616.",
+    triviaEn: [
+      "The season includes \"What If... Kahhori Reawakened the World?\", featuring an original Mohawk superhero created for the series and voiced by Devery Jacobs, built around a distinct animation style rooted in her culture.",
+      "Unlike most of Season 1, several Season 2 episodes form ongoing arcs across non-consecutive episodes, including a multi-part Captain Carter storyline.",
+    ],
+    triviaEs: [
+      "La temporada incluye el episodio \"What If... Kahhori Reawakened the World?\", con una superheroína mohawk original creada para la serie y con la voz de Devery Jacobs, con un estilo de animación distintivo basado en su cultura.",
+      "A diferencia de la mayor parte de la Temporada 1, varios episodios de la Temporada 2 forman arcos que continúan en episodios no consecutivos, incluida una historia de Captain Carter en varias partes.",
+    ],
   },
   {
     id: "what-if-s3",
@@ -2498,6 +2594,16 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "What If...?",
     tmdbMediaType: "tv",
     outsideTime: true,
+    universeEn: "An anthology of alternate-reality branches of the multiverse, none of them Earth-616.",
+    universeEs: "Una antología de ramas de realidad alterna del multiverso, ninguna de ellas Earth-616.",
+    triviaEn: [
+      "Marvel Studios billed Season 3 as the animated series' finale, closing the show out with a multiverse-spanning team called the Guardians of the Multiverse.",
+      "Devery Jacobs voices Kahhori again this season while also playing Bonnie, a live-action character in the Earth-616 series Echo, linking an alternate-universe character's voice actor to the Sacred Timeline.",
+    ],
+    triviaEs: [
+      "Marvel Studios presentó la Temporada 3 como el final de la serie animada, y la cerró con un equipo multiversal llamado los Guardianes del Multiverso.",
+      "Devery Jacobs vuelve a ponerle voz a Kahhori esta temporada mientras también interpreta a Bonnie, un personaje de acción real de la serie de la Línea Temporal Sagrada Echo, lo que conecta a la actriz de un personaje alterno con Earth-616.",
+    ],
   },
   {
     id: "deadpool-and-wolverine",
@@ -2513,6 +2619,20 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Deadpool & Wolverine",
     tmdbMediaType: "movie",
     outsideTime: true,
+    universeEn: "Earth-10005 (the Fox/Deadpool universe) crossing into the main MCU timeline via the TVA.",
+    universeEs: "Earth-10005 (el universo de Fox/Deadpool) cruzándose con la línea temporal principal del UCM a través de la AVT.",
+    triviaEn: [
+      "This is the first R-rated film to be part of the official MCU timeline rather than treated as a separate continuity.",
+      "Several actors reprise roles from 20th Century Fox's X-Men films as \"variants\", officially folding decades of Fox Marvel movies into the MCU multiverse.",
+    ],
+    triviaEs: [
+      "Es la primera película clasificación R que forma parte oficial de la línea temporal del UCM en vez de tratarse como una continuidad aparte.",
+      "Varios actores retoman papeles de las películas de X-Men de 20th Century Fox como \"variantes\", incorporando oficialmente décadas de películas de Marvel de Fox al multiverso del UCM.",
+    ],
+    postCreditsEn:
+      "In the TVA archives, Deadpool plays back footage proving he told Cassandra Nova exactly what Johnny Storm said about her, confirming he did not lie, even though it still got Johnny killed.",
+    postCreditsEs:
+      "En los archivos de la AVT, Deadpool reproduce una grabación que demuestra que le dijo a Cassandra Nova exactamente lo que Johnny Storm había dicho de ella, confirmando que no mintió, aunque de todas formas eso provocó la muerte de Johnny.",
   },
   {
     id: "guardians-of-the-galaxy-vol-3",
@@ -2527,6 +2647,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Continúa el Holiday Special; un recorte de periódico tiene fecha del 14 de septiembre de 2026.",
     tmdbSearchTitle: "Guardians of the Galaxy Vol. 3",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "It was writer-director James Gunn's farewell to the MCU; he left partway through post-production to become co-CEO of DC Studios.",
+      "The film gives Rocket a full origin story, revealing his creator, the High Evolutionary, played by Chukwudi Iwuji.",
+      "\"Come and Get Your Love\" by Redbone, the song that opened the first Guardians film in 2014, returns in the closing scene to bookend the trilogy.",
+    ],
+    triviaEs: [
+      "Fue la despedida del UCM del guionista y director James Gunn, quien dejó el proyecto a mitad de la posproducción para convertirse en co-CEO de DC Studios.",
+      "La película le da a Rocket un origen completo, revelando a su creador, el High Evolutionary, interpretado por Chukwudi Iwuji.",
+      "\"Come and Get Your Love\" de Redbone, la canción que abrió la primera película de Guardians en 2014, regresa en la escena final para cerrar la trilogía.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, a new Guardians lineup led by Rocket, alongside Kraglin, Cosmo, Adam Warlock and Phyla-Vell, is shown together on a mission; there is no additional scene after the final credits.",
+    postCreditsEs:
+      "En la escena de mitad de créditos se muestra a una nueva formación de los Guardianes liderada por Rocket, junto a Kraglin, Cosmo, Adam Warlock y Phyla-Vell, en una misión juntos; no hay ninguna escena adicional tras los créditos finales.",
   },
   {
     id: "agatha-all-along",
@@ -2543,6 +2677,14 @@ export const timeline: TimelineEntry[] = [
       "Agatha estuvo bajo el hechizo de Wanda durante tres años, de octubre/noviembre de 2023 a octubre/noviembre de 2026; el alma de Tommy es transferida a Thomas Shepard.",
     tmdbSearchTitle: "Agatha All Along",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Aubrey Plaza's character Rio Vidal is revealed midway through the season to be Death itself, in a literal, personified form drawn from the comics.",
+      "The season is a direct sequel to WandaVision, resolving what happened to Billy Maximoff's soul after that series' finale.",
+    ],
+    triviaEs: [
+      "El personaje de Aubrey Plaza, Rio Vidal, se revela a mitad de temporada como la propia Muerte, en una forma literal y personificada tomada de los cómics.",
+      "La temporada es una secuela directa de WandaVision, y resuelve qué pasó con el alma de Billy Maximoff tras el final de esa serie.",
+    ],
   },
   {
     id: "daredevil-born-again-s1",
@@ -2559,6 +2701,14 @@ export const timeline: TimelineEntry[] = [
       "Foggy entra en protección de testigos en el otoño de 2025; un salto de un año lleva a otoño/invierno de 2026, con Fisk ganando la elección a alcalde. La temporada termina a inicios de abril de 2027.",
     tmdbSearchTitle: "Daredevil: Born Again",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Marvel Studios scrapped and substantially reshot much of the season after it was originally conceived as a more episodic, case-of-the-week show, shifting to a darker tone closer to the original Netflix series.",
+      "Vincent D'Onofrio's Wilson Fisk runs for, and wins, the office of Mayor of New York City over the course of the season.",
+    ],
+    triviaEs: [
+      "Marvel Studios descartó y regrabó buena parte de la temporada, concebida originalmente como un programa más episódico centrado en casos individuales, y viró hacia un tono más oscuro cercano a la serie original de Netflix.",
+      "El Wilson Fisk de Vincent D'Onofrio se postula y gana la alcaldía de la ciudad de Nueva York a lo largo de la temporada.",
+    ],
   },
   {
     id: "captain-america-brave-new-world",
@@ -2575,6 +2725,18 @@ export const timeline: TimelineEntry[] = [
       "Transcurre tres años después de The Falcon and the Winter Soldier, según la fecha de abril en el itinerario de la Cumbre Mundial de Celestial Island.",
     tmdbSearchTitle: "Captain America: Brave New World",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Harrison Ford makes his MCU debut as Thaddeus Ross, taking over the role after William Hurt's death in 2022.",
+      "Tim Blake Nelson reprises Samuel Sterns, alias The Leader, marking one of the longest gaps between an actor's appearances as the same MCU character, following his first appearance in The Incredible Hulk back in 2008.",
+    ],
+    triviaEs: [
+      "Harrison Ford debuta en el UCM como Thaddeus Ross, asumiendo el papel tras la muerte de William Hurt en 2022.",
+      "Tim Blake Nelson retoma a Samuel Sterns, alias The Leader, en uno de los lapsos más largos registrados entre apariciones de un actor como el mismo personaje del UCM, tras su primera aparición en The Incredible Hulk en 2008.",
+    ],
+    postCreditsEn:
+      "Sam Wilson visits Samuel Sterns, imprisoned at the Raft, who warns him that other worlds exist across the multiverse and that Earth's heroes are not ready for what is coming.",
+    postCreditsEs:
+      "Sam Wilson visita a Samuel Sterns, preso en el Raft, quien le advierte que existen otros mundos a través del multiverso y que los héroes de la Tierra no están preparados para lo que se avecina.",
   },
   {
     id: "thunderbolts",
@@ -2591,6 +2753,18 @@ export const timeline: TimelineEntry[] = [
       "Secuela de doble función de Brave New World; aproximadamente cinco o seis meses después, con árboles y follaje que sugieren fines de septiembre o inicio de octubre.",
     tmdbSearchTitle: "Thunderbolts*",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "The asterisk in the title is explained within the film itself: the team's full legal name turns out to be \"The New Avengers\".",
+      "Lewis Pullman plays Bob, whose powers make him both the Sentry and his destructive alter ego, the Void.",
+    ],
+    triviaEs: [
+      "El asterisco del título se explica en la propia película: el nombre legal completo del equipo resulta ser \"The New Avengers\".",
+      "Lewis Pullman interpreta a Bob, cuyos poderes lo convierten tanto en Sentry como en su alter ego destructivo, el Void.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, the New Avengers are settled into the old Avengers headquarters and clashing with Captain America over rights to the Avengers name; in the post-credits scene, the team detects the Fantastic Four's ship, marked with their logo, entering Earth's orbit from another dimension.",
+    postCreditsEs:
+      "En la escena de mitad de créditos, los New Avengers ya están instalados en el antiguo cuartel de los Avengers y discuten con Captain America por los derechos del nombre Avengers; en la escena post-créditos, el equipo detecta la nave de los Fantastic Four, marcada con su logo, entrando a la órbita terrestre desde otra dimensión.",
   },
   {
     id: "daredevil-born-again-s2",
@@ -2607,6 +2781,14 @@ export const timeline: TimelineEntry[] = [
       "El showrunner Dario Scardapane declaró que la Temporada 2 transcurre unos seis meses después de la Temporada 1; seis meses después de abril es octubre, y el final ocurre en Halloween.",
     tmdbSearchTitle: "Daredevil: Born Again",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Neither the season's premiere nor its finale include a post-credits scene, continuing the pattern set by Season 1.",
+      "Jon Bernthal's Frank Castle is largely absent this season because of scheduling overlap with filming The Punisher: One Last Kill and Spider-Man: Brand New Day.",
+    ],
+    triviaEs: [
+      "Ni el estreno ni el final de la temporada incluyen escena post-créditos, siguiendo el patrón que ya había marcado la Temporada 1.",
+      "El Frank Castle de Jon Bernthal está mayormente ausente esta temporada por superposición de agenda con el rodaje de The Punisher: One Last Kill y Spider-Man: Brand New Day.",
+    ],
   },
   {
     id: "punisher-one-shot-special",
@@ -2623,6 +2805,16 @@ export const timeline: TimelineEntry[] = [
       "Secuela de Punisher Temporada 2 y Born Again Temporadas 1 y 2, que lleva a Spider-Man: Brand New Day.",
     tmdbSearchTitle: "The Punisher: One Last Kill",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "It is the third Marvel Television Special Presentation, following Werewolf by Night and The Guardians of the Galaxy Holiday Special.",
+      "The special has no post-credits scene; the credits instead carry a mental health support message, a deliberate choice given the story's themes.",
+      "Jon Bernthal co-wrote the script alongside director Reinaldo Marcus Green.",
+    ],
+    triviaEs: [
+      "Es la tercera Marvel Television Special Presentation, después de Werewolf by Night y The Guardians of the Galaxy Holiday Special.",
+      "El especial no tiene escena post-créditos; en su lugar, los créditos incluyen un mensaje de apoyo sobre salud mental, una decisión deliberada dado el tema de la historia.",
+      "Jon Bernthal coescribió el guion junto al director Reinaldo Marcus Green.",
+    ],
   },
   {
     id: "spider-man-brand-new-day",
@@ -2637,6 +2829,18 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre cuatro años después de No Way Home.",
     tmdbSearchTitle: "Spider-Man: Brand New Day",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Sadie Sink plays Jean Grey, her identity kept hidden for roughly half the film; her casting soft-launches the X-Men into the MCU proper.",
+      "At a runtime of about 145 minutes, some critics singled out the post-credits scene as unnecessary given how long the film already runs.",
+    ],
+    triviaEs: [
+      "Sadie Sink interpreta a Jean Grey, cuya identidad se mantiene oculta durante buena parte de la película; su casting lanza suavemente a los X-Men dentro del UCM propiamente dicho.",
+      "Con una duración de unos 145 minutos, algunos críticos señalaron que la escena post-créditos resultaba innecesaria dado lo larga que ya es la película.",
+    ],
+    postCreditsEn:
+      "The scene shows no characters, only Ned's Spider-Man tracking app pulling back from Earth into deep space, ending on a lone Spider-Man icon floating in the blackness.",
+    postCreditsEs:
+      "La escena no muestra personajes, solo la aplicación de rastreo de Spider-Man de Ned alejándose de la Tierra hacia el espacio profundo, hasta terminar en un solo ícono de Spider-Man flotando en la oscuridad.",
   },
 
   // ===================== FASE 6: DOOM =====================
