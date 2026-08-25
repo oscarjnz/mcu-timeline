@@ -2000,12 +2000,12 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "The Falcon and the Winter Soldier",
     tmdbMediaType: "tv",
     triviaEn: [
-      "The series marks the live-action debut of John Walker as the government-appointed Captain America, and Wyatt Russell's casting drew comparisons to a mix of his mother Goldie Hawn and father Kurt Russell's looks.",
+      "The series marks the live-action debut of John Walker as the government-appointed Captain America, played by Wyatt Russell, son of actors Kurt Russell and Goldie Hawn.",
       "Daniel Brühl reprises Baron Zemo from Captain America: Civil War, and the show gave him his comics-accurate purple mask for the first time.",
       "The finale sees Sam Wilson formally take up the shield and the Captain America mantle, the first time in the MCU that a legacy hero fully replaces the original.",
     ],
     triviaEs: [
-      "La serie marca el debut en acción real de John Walker como el Captain America designado por el gobierno, y el casting de Wyatt Russell generó comparaciones con la mezcla de los rasgos de su madre Goldie Hawn y su padre Kurt Russell.",
+      "La serie marca el debut en acción real de John Walker como el Captain America designado por el gobierno, interpretado por Wyatt Russell, hijo de los actores Kurt Russell y Goldie Hawn.",
       "Daniel Brühl retoma a Baron Zemo de Captain America: Civil War, y la serie le dio por primera vez su máscara púrpura fiel a los cómics.",
       "En el final, Sam Wilson toma formalmente el escudo y el manto de Captain America, la primera vez en el UCM que un héroe heredero reemplaza por completo al original.",
     ],
@@ -2028,12 +2028,12 @@ export const timeline: TimelineEntry[] = [
     triviaEn: [
       "Christian Bale's Gorr the God Butcher was inspired by his own children's fear of the dark, which he channeled into the character's design and voice.",
       "Natalie Portman trained extensively to portray a physically transformed Jane Foster as the Mighty Thor, a role adapted from Jason Aaron's comic run.",
-      "Russell Crowe plays Zeus with a Greek accent he has said was inspired partly by his own family history.",
+      "Russell Crowe plays Zeus with a deliberately exaggerated Greek accent, a choice he pitched to director Taika Waititi as fitting a Greek mythological figure rather than a generic English-speaking god.",
     ],
     triviaEs: [
       "El Gorr the God Butcher de Christian Bale se inspiró en el propio miedo a la oscuridad de los hijos del actor, que canalizó en el diseño y la voz del personaje.",
       "Natalie Portman entrenó intensamente para interpretar a una Jane Foster físicamente transformada en Mighty Thor, un rol adaptado de la etapa de cómics de Jason Aaron.",
-      "Russell Crowe interpreta a Zeus con un acento griego que, según ha dicho, se inspiró en parte en su propia historia familiar.",
+      "Russell Crowe interpreta a Zeus con un acento griego deliberadamente exagerado, una decisión que le propuso al director Taika Waititi por ajustarse a una figura de la mitología griega en vez de a un dios angloparlante genérico.",
     ],
     postCreditsEn:
       "In the mid-credits scene, a wounded Zeus sends his son Hercules to hunt down Thor for revenge. In the post-credits scene, Jane Foster, having sacrificed herself, arrives in Valhalla and is welcomed by Heimdall.",
@@ -2218,12 +2218,12 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "She-Hulk: Attorney at Law",
     tmdbMediaType: "tv",
     triviaEn: [
-      "Tatiana Maslany required extensive body-double and CGI work to play both the human Jennifer Walters and her fully computer-generated She-Hulk form, a technical challenge Marvel Studios later acknowledged led to some of the show's uneven visual effects.",
+      "Tatiana Maslany required extensive body-double and CGI work to play both the human Jennifer Walters and her fully computer-generated She-Hulk form. Early trailers drew online criticism over the visual effects, and Marvel quietly reworked some shots before the finale, though the cast and crew publicly defended the artists involved.",
       "The series is the MCU's first legal comedy and breaks the fourth wall repeatedly, with Jennifer addressing the audience directly, a device borrowed from John Byrne's celebrated 1980s comic run on The Sensational She-Hulk.",
       "Mark Ruffalo reprises Bruce Banner/Hulk as Jennifer's cousin and mentor, marking his first major TV appearance as the character.",
     ],
     triviaEs: [
-      "Tatiana Maslany requirió mucho trabajo de dobles de cuerpo y CGI para interpretar tanto a la humana Jennifer Walters como a su forma de She-Hulk totalmente generada por computadora, un desafío técnico que Marvel Studios luego reconoció que causó parte de los efectos visuales irregulares de la serie.",
+      "Tatiana Maslany requirió mucho trabajo de dobles de cuerpo y CGI para interpretar tanto a la humana Jennifer Walters como a su forma de She-Hulk totalmente generada por computadora. Los primeros adelantos generaron críticas en línea por los efectos visuales, y Marvel retocó en silencio algunas tomas antes del final, aunque el elenco y el equipo defendieron públicamente a los artistas involucrados.",
       "La serie es la primera comedia legal del UCM y rompe la cuarta pared repetidamente, con Jennifer dirigiéndose directamente a la audiencia, un recurso tomado de la aclamada etapa de cómics de John Byrne en The Sensational She-Hulk en los años 80.",
       "Mark Ruffalo retoma a Bruce Banner/Hulk como primo y mentor de Jennifer, en su primera aparición importante en TV como el personaje.",
     ],
@@ -2276,12 +2276,12 @@ export const timeline: TimelineEntry[] = [
     triviaEn: [
       "Alaqua Cox, who is deaf, Indigenous and a below-the-knee amputee, first played Maya Lopez in Hawkeye before headlining her own series here, in her first-ever acting role.",
       "Echo is Marvel Studios' first project to carry a TV-MA rating, more explicit than any prior series or film in the franchise.",
-      "Because Vincent D'Onofrio's Kingpin doesn't know sign language in the story, the show gives Maya a contact lens that translates his speech into sign for the audience.",
+      "The show gives Maya a fantastical contact lens and earpiece pair that translates spoken words into sign for her and her sign language back into speech for whoever she's talking to, letting her communicate directly with hearing characters like Vincent D'Onofrio's Kingpin.",
     ],
     triviaEs: [
       "Alaqua Cox, quien es sorda, indígena y amputada bajo la rodilla, interpretó por primera vez a Maya Lopez en Hawkeye antes de protagonizar esta serie, en su primer papel actoral.",
       "Echo es el primer proyecto de Marvel Studios con clasificación TV-MA, más explícito que cualquier serie o película anterior de la franquicia.",
-      "Como el Kingpin de Vincent D'Onofrio no sabe lenguaje de señas en la historia, la serie le da a Maya un lente de contacto que traduce lo que él dice a señas para el público.",
+      "La serie le da a Maya un lente de contacto y un audífono fantásticos que traducen las palabras habladas a señas para ella y su lenguaje de señas de vuelta a voz para quien le habla, permitiéndole comunicarse directamente con personajes oyentes como el Kingpin de Vincent D'Onofrio.",
     ],
   },
   {
