@@ -45,15 +45,15 @@ export function TimelineEntryCard({ entry, onOpen }: TimelineEntryCardProps) {
           onOpen(entry.id);
         }
       }}
-      className={`flex cursor-pointer gap-4 rounded-lg border-l-4 bg-zinc-50 p-4 transition-shadow duration-200 hover:shadow-md dark:bg-zinc-900 ${colors.accentBorder}`}
+      className={`flex cursor-pointer gap-4 rounded-lg border-l-4 bg-zinc-50 p-4 transition-shadow duration-200 hover:shadow-md lg:gap-5 lg:p-5 dark:bg-zinc-900 ${colors.accentBorder}`}
     >
-      <div className="relative h-36 w-24 shrink-0 overflow-hidden rounded bg-zinc-200 dark:bg-zinc-800">
+      <div className="relative h-36 w-24 shrink-0 overflow-hidden rounded bg-zinc-200 lg:h-44 lg:w-28 dark:bg-zinc-800">
         {posterUrl ? (
           <Image
             src={posterUrl}
             alt={title}
             fill
-            sizes="96px"
+            sizes="(min-width: 1024px) 112px, 96px"
             className="object-cover"
           />
         ) : (
@@ -65,7 +65,7 @@ export function TimelineEntryCard({ entry, onOpen }: TimelineEntryCardProps) {
 
       <div className="flex flex-1 flex-col gap-1.5">
         <div className="flex flex-wrap items-center gap-2">
-          <h3 className="text-base font-semibold text-zinc-900 dark:text-zinc-50">{title}</h3>
+          <h3 className="text-base font-semibold text-zinc-900 lg:text-lg dark:text-zinc-50">{title}</h3>
           <span
             className={`rounded-full px-2 py-0.5 text-xs font-medium ${colors.badgeBg} ${colors.badgeText}`}
           >

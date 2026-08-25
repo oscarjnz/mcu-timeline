@@ -9,6 +9,7 @@ import { SpoilerProvider } from "@/lib/spoiler-context";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { SpoilerToggle } from "@/components/SpoilerToggle";
 import { PhaseNav } from "@/components/PhaseNav";
+import { DesktopSidebar } from "@/components/DesktopSidebar";
 import { TypeFilters } from "@/components/TypeFilters";
 import { MoviesOnlyToggle } from "@/components/MoviesOnlyToggle";
 import { ViewModeToggle, type ViewMode } from "@/components/ViewModeToggle";
@@ -151,62 +152,78 @@ function TimelineContent() {
     : null;
 
   return (
-    <div className="mx-auto flex w-full max-w-3xl flex-1 flex-col px-4">
-      <header className="flex items-center justify-between gap-2 py-6">
-        <div>
-          <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
-            {language === "es" ? "Timeline del UCM" : "MCU Timeline"}
-          </h1>
-          <p className="text-sm text-zinc-500 dark:text-zinc-400">
-            {language === "es"
-              ? "Orden cronológico narrativo completo, con X-Men (Earth-10005) intercalado"
-              : "Complete narrative chronological order, with X-Men (Earth-10005) interleaved"}
-          </p>
+    <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 lg:flex-row lg:items-start lg:gap-10 lg:px-8 lg:py-8">
+      {/* Cabecera y controles para mobile/tablet: apilados arriba del contenido, ocultos desde lg. */}
+      <div className="flex flex-col lg:hidden">
+        <header className="flex items-center justify-between gap-2 py-6">
+          <div>
+            <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
+              {language === "es" ? "Timeline del UCM" : "MCU Timeline"}
+            </h1>
+            <p className="text-sm text-zinc-500 dark:text-zinc-400">
+              {language === "es"
+                ? "Orden cronológico narrativo completo, con X-Men (Earth-10005) intercalado"
+                : "Complete narrative chronological order, with X-Men (Earth-10005) interleaved"}
+            </p>
+          </div>
+          <div className="flex items-center gap-2">
+            <SpoilerToggle />
+            <LanguageToggle />
+          </div>
+        </header>
+
+        <ViewModeToggle viewMode={viewMode} onChange={setViewMode} />
+
+        {viewMode === "chronological" && <PhaseNav activePhase={activePhase} />}
+
+        <div className="flex flex-wrap items-center gap-2 py-3">
+          <TypeFilters activeTypes={activeTypes} onToggleType={toggleType} />
+          <MoviesOnlyToggle moviesOnly={moviesOnly} onToggle={() => setMoviesOnly((prev) => !prev)} />
         </div>
-        <div className="flex items-center gap-2">
-          <SpoilerToggle />
-          <LanguageToggle />
-        </div>
-      </header>
-
-      <ViewModeToggle viewMode={viewMode} onChange={setViewMode} />
-
-      {viewMode === "chronological" && <PhaseNav activePhase={activePhase} />}
-
-      <div className="flex flex-wrap items-center gap-2 py-3">
-        <TypeFilters activeTypes={activeTypes} onToggleType={toggleType} />
-        <MoviesOnlyToggle moviesOnly={moviesOnly} onToggle={() => setMoviesOnly((prev) => !prev)} />
       </div>
 
-      {viewMode === "chronological" && (
-        <main className="divide-y divide-zinc-200 dark:divide-zinc-800">
-          {runs.map((run) => {
-            const phase = phases.find((p) => p.number === run.phaseNumber);
-            if (!phase) return null;
-            return (
-              <PhaseSection
-                key={run.key}
-                sectionId={run.sectionId}
-                phase={phase}
-                entries={run.entries}
-                onOpenEntry={openEntry}
-              />
-            );
-          })}
-        </main>
-      )}
+      {/* Sidebar fija para laptop/desktop: mismos controles, en columna, ocultos hasta lg. */}
+      <DesktopSidebar
+        viewMode={viewMode}
+        onChangeViewMode={setViewMode}
+        activePhase={activePhase}
+        activeTypes={activeTypes}
+        onToggleType={toggleType}
+        moviesOnly={moviesOnly}
+        onToggleMoviesOnly={() => setMoviesOnly((prev) => !prev)}
+      />
 
-      {viewMode === "release" && (
-        <main>
-          <ReleaseOrderList entries={filteredEntries} onOpenEntry={openEntry} />
-        </main>
-      )}
+      <div className="min-w-0 flex-1 pb-8 lg:max-w-3xl lg:pb-16">
+        {viewMode === "chronological" && (
+          <main className="divide-y divide-zinc-200 dark:divide-zinc-800">
+            {runs.map((run) => {
+              const phase = phases.find((p) => p.number === run.phaseNumber);
+              if (!phase) return null;
+              return (
+                <PhaseSection
+                  key={run.key}
+                  sectionId={run.sectionId}
+                  phase={phase}
+                  entries={run.entries}
+                  onOpenEntry={openEntry}
+                />
+              );
+            })}
+          </main>
+        )}
 
-      {viewMode === "doomsday" && (
-        <main>
-          <DoomsdayCountdownView entries={doomsdayEntries} onOpenEntry={openEntry} />
-        </main>
-      )}
+        {viewMode === "release" && (
+          <main>
+            <ReleaseOrderList entries={filteredEntries} onOpenEntry={openEntry} />
+          </main>
+        )}
+
+        {viewMode === "doomsday" && (
+          <main>
+            <DoomsdayCountdownView entries={doomsdayEntries} onOpenEntry={openEntry} />
+          </main>
+        )}
+      </div>
 
       {selectedEntry && <EntryDetailModal entry={selectedEntry} onClose={closeEntry} />}
     </div>
