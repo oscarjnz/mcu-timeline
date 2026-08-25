@@ -17,6 +17,16 @@ export const timeline: TimelineEntry[] = [
       "La serie sigue a guerreros de Wakanda a lo largo de varios siglos, por lo que abre el timeline antes que cualquier otra historia del UCM.",
     tmdbSearchTitle: "Eyes of Wakanda",
     tmdbMediaType: "tv",
+    triviaEn: [
+      "Eyes of Wakanda is an anthology series: its four episodes, all released simultaneously on Disney+ on August 1, 2025, follow different Wakandan War Dogs across centuries hunting down vibranium relics that left the kingdom's borders.",
+      "Cress Williams, known for playing the DC hero Black Lightning, voices the villain known as the Lion.",
+      "Anika Noni Rose voices a character called \"The Last Panther\" in the final episode, a nod to her long history voicing Disney animated heroines.",
+    ],
+    triviaEs: [
+      "Eyes of Wakanda es una serie antológica: sus cuatro episodios, estrenados todos al mismo tiempo en Disney+ el 1 de agosto de 2025, siguen a distintos War Dogs de Wakanda a lo largo de varios siglos, cazando reliquias de vibranium que salieron de las fronteras del reino.",
+      "Cress Williams, conocido por interpretar al héroe de DC Black Lightning, pone la voz al villano conocido como el León.",
+      "Anika Noni Rose da voz a un personaje llamado \"The Last Panther\" en el episodio final, un guiño a su larga trayectoria como voz de heroínas animadas de Disney.",
+    ],
   },
   {
     id: "captain-america-first-avenger",
@@ -33,6 +43,20 @@ export const timeline: TimelineEntry[] = [
       "Transcurre durante la Segunda Guerra Mundial, y Steve Rogers despierta en el presente al final de la película.",
     tmdbSearchTitle: "Captain America: The First Avenger",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Chris Evans turned down the role of Steve Rogers several times, worried about being locked into a long multi-picture contract, before finally accepting.",
+      "The pre-serum, scrawny Steve Rogers was created by digitally shrinking Chris Evans and blending his performance with a body double, actor Leander Deeny; some scenes were shot up to three different ways to make the effect work.",
+      "In Russia, Ukraine and South Korea the film was released simply as \"The First Avenger\", dropping \"Captain America\" from the title over concerns about anti-American sentiment.",
+    ],
+    triviaEs: [
+      "Chris Evans rechazó el papel de Steve Rogers varias veces, preocupado por quedar atado a un contrato largo de varias películas, antes de aceptar finalmente.",
+      "El Steve Rogers flaco, previo al suero, se logró achicando digitalmente a Chris Evans y combinando su actuación con la de un doble de cuerpo, el actor Leander Deeny; algunas escenas se filmaron hasta de tres formas distintas para lograr el efecto.",
+      "En Rusia, Ucrania y Corea del Sur la película se estrenó simplemente como \"The First Avenger\", sin la palabra \"Captain America\" en el título, por dudas sobre el sentimiento antiestadounidense.",
+    ],
+    postCreditsEn:
+      "Nick Fury visits a newly awakened Steve Rogers at a gym in present-day New York and tells him he has a mission for him; the scene is followed by an extended teaser trailer for The Avengers, directed by Joss Whedon.",
+    postCreditsEs:
+      "Nick Fury visita a un Steve Rogers recién despertado en un gimnasio de la Nueva York actual y le dice que tiene una misión para él; a la escena le sigue un adelanto extendido de The Avengers, dirigido por Joss Whedon.",
   },
   {
     id: "one-shot-agent-carter",
@@ -49,6 +73,16 @@ export const timeline: TimelineEntry[] = [
       "Pasó un año desde que Steve entró en el hielo en 1945. Peggy es invitada a ayudar a fundar S.H.I.E.L.D.",
     tmdbSearchTitle: "Marvel One-Shot: Agent Carter",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "At 15 minutes, this was the first Marvel Studios production built around a female lead, released on the Iron Man 3 Blu-ray in September 2013.",
+      "It was directed by Louis D'Esposito and written by Eric Pearson, who would go on to write several other Marvel One-Shots and later MCU features.",
+      "Dominic Cooper reprises Howard Stark from Captain America: The First Avenger, and Chris Evans appears as Steve Rogers through archive footage.",
+    ],
+    triviaEs: [
+      "Con apenas 15 minutos, fue la primera producción de Marvel Studios centrada en una protagonista femenina, incluida en el Blu-ray de Iron Man 3 en septiembre de 2013.",
+      "Fue dirigido por Louis D'Esposito y escrito por Eric Pearson, quien luego escribiría varios otros Marvel One-Shots y películas posteriores del UCM.",
+      "Dominic Cooper repite como Howard Stark de Captain America: The First Avenger, y Chris Evans aparece como Steve Rogers mediante metraje de archivo.",
+    ],
   },
   {
     id: "agent-carter-s1",
@@ -66,6 +100,16 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Agent Carter",
     tmdbMediaType: "tv",
     tmdbYear: 2015,
+    triviaEn: [
+      "Agent Carter aired as a mid-season event series on ABC in early 2015, filling the winter break between the two halves of Agents of S.H.I.E.L.D. season 2.",
+      "Hayley Atwell had to get her real driver's license photo taken during production, so her ID shows her in full 1940s Peggy Carter hair and makeup.",
+      "James D'Arcy plays Edwin Jarvis, Howard Stark's butler; his surname is the origin of J.A.R.V.I.S., the AI Tony Stark later names after him.",
+    ],
+    triviaEs: [
+      "Agent Carter se emitió como una miniserie de temporada intermedia en ABC a principios de 2015, ocupando el receso invernal entre las dos mitades de la segunda temporada de Agents of S.H.I.E.L.D.",
+      "A Hayley Atwell le tomaron la foto real de su licencia de conducir durante el rodaje, así que su identificación la muestra con el peinado y maquillaje de Peggy Carter de los años cuarenta.",
+      "James D'Arcy interpreta a Edwin Jarvis, el mayordomo de Howard Stark; su apellido es el origen de J.A.R.V.I.S., la inteligencia artificial que Tony Stark bautiza en su honor.",
+    ],
   },
   {
     id: "agent-carter-s2",
@@ -81,6 +125,16 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "Agent Carter",
     tmdbMediaType: "tv",
     tmdbYear: 2016,
+    triviaEn: [
+      "Season 2 moves the action from New York to 1947 Los Angeles, with Peggy teaming up with the newly formed West Coast branch of the SSR under Chief Daniel Sousa.",
+      "It introduces Whitney Frost, a movie star secretly working as a scientist after being exposed to a mysterious black substance called Zero Matter, known in the comics as Madame Masque.",
+      "The season premiered on January 19, 2016, and turned out to be the show's last: ABC canceled Agent Carter a few months later due to low ratings.",
+    ],
+    triviaEs: [
+      "La segunda temporada traslada la acción de Nueva York a Los Ángeles en 1947, con Peggy uniéndose a la recién formada sede oeste de la SSR bajo el jefe Daniel Sousa.",
+      "Presenta a Whitney Frost, una estrella de cine que en secreto es científica tras exponerse a una misteriosa sustancia negra llamada Zero Matter, conocida en los cómics como Madame Masque.",
+      "La temporada se estrenó el 19 de enero de 2016 y terminó siendo la última del programa: ABC canceló Agent Carter meses después por su bajo rating.",
+    ],
   },
   {
     id: "fantastic-four-first-steps",
@@ -98,6 +152,24 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "The Fantastic Four: First Steps",
     tmdbMediaType: "movie",
     earthVariant: "Tierra-828",
+    universeEn:
+      "Earth-828, a parallel Earth with a retro-futuristic 1960s aesthetic, separate from the MCU's main timeline (Earth-616).",
+    universeEs:
+      "Tierra-828, una Tierra paralela con una estética retrofuturista de los años sesenta, separada de la línea temporal principal del UCM (Tierra-616).",
+    triviaEn: [
+      "Unlike most MCU films, the entire story is set on Earth-828 rather than the main timeline, giving the movie a distinct retro-futuristic 1960s look.",
+      "The mid-credits scene, set four years later, shows a cloaked figure holding Doctor Doom's mask in front of young Franklin Richards, setting up Robert Downey Jr.'s return as Victor von Doom in Avengers: Doomsday.",
+      "A separate scene after the final credits is a hand-drawn, retro-style animated tribute to the classic 1967 Fantastic Four cartoon.",
+    ],
+    triviaEs: [
+      "A diferencia de la mayoría de las películas del UCM, toda la historia transcurre en la Tierra-828 en lugar de la línea temporal principal, lo que le da a la película una estética retrofuturista propia de los años sesenta.",
+      "La escena a mitad de los créditos, ambientada cuatro años después, muestra a una figura encapuchada sosteniendo la máscara del Doctor Doom frente a un pequeño Franklin Richards, preparando el regreso de Robert Downey Jr. como Victor von Doom en Avengers: Doomsday.",
+      "Tras los créditos finales hay otra escena aparte, un homenaje animado con estilo retro dibujado a mano a la clásica serie animada de Fantastic Four de 1967.",
+    ],
+    postCreditsEn:
+      "In a mid-credits scene set four years later, a cloaked figure carrying Victor von Doom's mask appears before young Franklin Richards, foreshadowing Doctor Doom's arrival in Avengers: Doomsday. A separate scene after the final credits offers a retro, hand-drawn animated tribute to the classic 1960s Fantastic Four cartoon.",
+    postCreditsEs:
+      "En una escena a mitad de los créditos, ambientada cuatro años después, una figura encapuchada que lleva la máscara de Victor von Doom aparece frente a un pequeño Franklin Richards, anticipando la llegada del Doctor Doom en Avengers: Doomsday. Tras los créditos finales hay otra escena, un homenaje animado con estilo retro dibujado a mano a la clásica serie de Fantastic Four de los años sesenta.",
   },
   {
     id: "captain-marvel",
@@ -112,6 +184,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Transcurre en 1995, con la referencia a \"The Bud\" en el Glen.",
     tmdbSearchTitle: "Captain Marvel",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Set in 1995, the film uses digital de-aging effects on Samuel L. Jackson's Nick Fury and Clark Gregg's Phil Coulson to make them look decades younger throughout.",
+      "Four different cats, led by one named Reggie, played Goose, the ship's cat later revealed to be an alien Flerken that can store objects, including the Tesseract, inside pocket dimensions in its body.",
+      "Stan Lee has a cameo on a train, reading the script for Kevin Smith's 1995 film Mallrats and muttering \"trust me, true believer\"; it was one of his final cameos before his death in November 2018.",
+    ],
+    triviaEs: [
+      "Ambientada en 1995, la película usa efectos digitales de rejuvenecimiento en Samuel L. Jackson (Nick Fury) y Clark Gregg (Phil Coulson) para que se vean décadas más jóvenes durante toda la cinta.",
+      "Cuatro gatos distintos, encabezados por uno llamado Reggie, interpretaron a Goose, la gata de la nave que luego se revela como un Flerken alienígena capaz de guardar objetos, incluido el Teseracto, en bolsillos dimensionales dentro de su cuerpo.",
+      "Stan Lee tiene un cameo en un tren, leyendo el guion de la película de Kevin Smith de 1995 Mallrats y murmurando \"trust me, true believer\"; fue uno de sus últimos cameos antes de morir en noviembre de 2018.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Nick Fury, Maria Hill and the Avengers examine Fury's damaged pager, still transmitting its distress signal, moments before Carol Danvers walks in through the wall behind them. In the final post-credits scene, Goose climbs onto Fury's desk and coughs up the Tesseract.",
+    postCreditsEs:
+      "En la escena a mitad de los créditos, Nick Fury, Maria Hill y los Avengers examinan el buscapersonas dañado de Fury, que todavía transmite su señal de auxilio, justo antes de que Carol Danvers entre atravesando la pared detrás de ellos. En la escena final tras los créditos, Goose sube al escritorio de Fury y escupe el Teseracto.",
   },
   {
     id: "iron-man",
@@ -128,6 +214,20 @@ export const timeline: TimelineEntry[] = [
       "En Civil War, Visión dice que pasaron 8 años desde que Stark anunció que era Iron Man. Iron Man se estrenó en 2008.",
     tmdbSearchTitle: "Iron Man",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Robert Downey Jr. largely improvised the line \"I am Iron Man\" at the end of the film, breaking from the genre convention of secret identities.",
+      "Much of Tony Stark's dialogue in the workshop scenes was improvised; Jon Favreau let Downey riff off a loose script.",
+      "The film's mid-credits scene, Nick Fury proposing the Avenger Initiative, was the first time the MCU signaled it was building a shared universe.",
+    ],
+    triviaEs: [
+      "Robert Downey Jr. improvisó en gran parte la frase \"Soy Iron Man\" al final de la película, rompiendo con la convención del género de mantener la identidad secreta.",
+      "Buena parte de los diálogos de Tony Stark en las escenas del taller fueron improvisados; Jon Favreau dejó que Downey trabajara sobre un guion suelto.",
+      "La escena post-créditos, con Nick Fury proponiendo el Avenger Initiative, fue la primera señal de que el UCM iba a ser un universo compartido.",
+    ],
+    postCreditsEn:
+      "Nick Fury visits Tony Stark at his mansion to tell him he is not the only superhero in the world, and proposes the \"Avenger Initiative\".",
+    postCreditsEs:
+      "Nick Fury visita a Tony Stark en su mansión para decirle que no es el único superhéroe del mundo, y le propone el \"Avenger Initiative\".",
   },
   {
     id: "iron-man-2",
@@ -144,6 +244,21 @@ export const timeline: TimelineEntry[] = [
       "A mitad de la película, Coulson se va a atender la llegada de Thor y su martillo a Nevada. Al final se muestra metraje de la batalla de Hulk en Culver University, que enlaza con el final de The Incredible Hulk, con Stark como \"El Consultor\" de S.H.I.E.L.D.",
     tmdbSearchTitle: "Iron Man 2",
     tmdbMediaType: "movie",
+    hasFutureSpoilers: true,
+    triviaEn: [
+      "Mickey Rourke personally paid for and brought his own pet cockatoo to set to use as a prop for Ivan Vanko, and insisted on delivering some of his lines in Russian.",
+      "Don Cheadle replaced Terrence Howard as James \"Rhodey\" Rhodes after a salary dispute; Cheadle went on to play War Machine in every MCU appearance since.",
+      "Sam Rockwell largely improvised his dance moves before unveiling the Hammer drones at the Stark Expo, using them to get into character as Justin Hammer.",
+    ],
+    triviaEs: [
+      "Mickey Rourke pagó de su propio bolsillo y llevó a su cacatúa personal al set para usarla como accesorio de Ivan Vanko, y pidió decir algunas de sus líneas en ruso.",
+      "Don Cheadle reemplazó a Terrence Howard como James \"Rhodey\" Rhodes tras una disputa salarial; Cheadle interpretó a War Machine en todas las apariciones del UCM desde entonces.",
+      "Sam Rockwell improvisó buena parte de sus pasos de baile antes de presentar los drones de Hammer en la Stark Expo, y los usó para meterse en el personaje de Justin Hammer.",
+    ],
+    postCreditsEn:
+      "S.H.I.E.L.D. agent Phil Coulson arrives at a crater in the New Mexico desert and finds Mjolnir, Thor's hammer, half buried in the ground, radioing in that they have found it.",
+    postCreditsEs:
+      "El agente de S.H.I.E.L.D. Phil Coulson llega a un cráter en el desierto de Nuevo México y encuentra el Mjolnir, el martillo de Thor, medio enterrado, y avisa por radio que lo encontraron.",
   },
   {
     id: "one-shot-thors-hammer",
@@ -158,6 +273,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Parte de la gran semana de Fury, ligado a la llegada del martillo de Thor a Nevada.",
     tmdbSearchTitle: "A Funny Thing Happened on the Way to Thor's Hammer",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Despite the title, this short was released as a bonus feature on the Captain America: The First Avenger Blu-ray in October 2011, not on Thor's own release.",
+      "It is set during \"Fury's Big Week\", the same eventful week as Iron Man 2, Thor and The Incredible Hulk, and follows Agent Coulson foiling a robbery on his way to secure Thor's hammer.",
+      "According to Marvel, this short's budget used up roughly 80 percent of the money set aside for the first two Marvel One-Shots, leaving very little for the one that followed, The Consultant.",
+    ],
+    triviaEs: [
+      "A pesar del título, este corto se incluyó como extra en el Blu-ray de Captain America: The First Avenger en octubre de 2011, no en el lanzamiento de Thor.",
+      "Transcurre durante la \"gran semana de Fury\", la misma semana agitada de Iron Man 2, Thor y The Incredible Hulk, y sigue al agente Coulson frustrando un robo en su camino a asegurar el martillo de Thor.",
+      "Según Marvel, el presupuesto de este corto consumió cerca del 80 por ciento del dinero reservado para los primeros dos Marvel One-Shots, dejando muy poco para el siguiente, The Consultant.",
+    ],
   },
   {
     id: "thor",
@@ -172,6 +297,20 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "En The Avengers, Fury menciona que lo de Thor pasó el año anterior, o sea 2011.",
     tmdbSearchTitle: "Thor",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Tom Hiddleston originally auditioned for the title role of Thor; director Kenneth Branagh felt he was a better fit for Loki and cast him as the villain instead, while Chris Hemsworth won the lead.",
+      "Stan Lee has a cameo as a local who tries to tow Mjolnir out of its crater with a truck and a chain; the hammer doesn't move, and the truck's bed tears off instead.",
+      "Kenneth Branagh, a director best known for Shakespeare adaptations, was brought on specifically to give the Asgard scenes an operatic, mythological weight.",
+    ],
+    triviaEs: [
+      "Tom Hiddleston originalmente hizo la audición para el papel de Thor; el director Kenneth Branagh sintió que encajaba mejor como Loki y lo eligió como villano, mientras que Chris Hemsworth se quedó con el protagónico.",
+      "Stan Lee tiene un cameo como un lugareño que intenta remolcar el Mjolnir fuera de su cráter con una camioneta y una cadena; el martillo no se mueve y lo que se arranca es la caja de la camioneta.",
+      "Kenneth Branagh, un director conocido sobre todo por sus adaptaciones de Shakespeare, fue contratado justamente para darle a las escenas de Asgard un peso operístico y mitológico.",
+    ],
+    postCreditsEn:
+      "Nick Fury visits Dr. Erik Selvig in an underground S.H.I.E.L.D. facility and shows him the Tesseract, asking him to study it; in the background, Loki, secretly alive, is seen influencing Selvig to agree.",
+    postCreditsEs:
+      "Nick Fury visita al Dr. Erik Selvig en una instalación subterránea de S.H.I.E.L.D. y le muestra el Teseracto, pidiéndole que lo estudie; al fondo se ve a Loki, en secreto con vida, influyendo a Selvig para que acepte.",
   },
   {
     id: "incredible-hulk",
@@ -187,6 +326,20 @@ export const timeline: TimelineEntry[] = [
       "Reubicada en 2011 mediante un retcon (cuando una historia posterior reescribe o corrige retroactivamente un dato de una historia anterior, en este caso su fecha); What If...? confirma la línea de tiempo de la gran semana de Fury.",
     tmdbSearchTitle: "The Incredible Hulk",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Edward Norton did an extensive, uncredited rewrite of the screenplay as part of his contract, but Marvel replaced him with Mark Ruffalo starting with The Avengers, citing a wish for a more collaborative cast.",
+      "Lou Ferrigno, who played the Hulk on the 1978 TV series, has a cameo as a security guard bribed with a pizza, and also provides the Hulk's voice and roars.",
+      "Robert Downey Jr. appears uncredited as Tony Stark in the final scene, the first time an MCU post-credits scene connected two different franchises within the shared universe.",
+    ],
+    triviaEs: [
+      "Edward Norton hizo una reescritura extensa y sin crédito del guion como parte de su contrato, pero Marvel lo reemplazó por Mark Ruffalo a partir de The Avengers, alegando que buscaban un elenco más colaborativo.",
+      "Lou Ferrigno, quien interpretó a Hulk en la serie de TV de 1978, tiene un cameo como guardia de seguridad al que sobornan con una pizza, y también pone la voz y los rugidos de Hulk.",
+      "Robert Downey Jr. aparece sin créditos como Tony Stark en la escena final, la primera vez que una escena post-créditos del UCM conectó dos franquicias distintas dentro del universo compartido.",
+    ],
+    postCreditsEn:
+      "Tony Stark approaches General Thaddeus Ross, who is drinking at a bar, and tells him he's putting a team together, planting the first seed of the Avenger Initiative.",
+    postCreditsEs:
+      "Tony Stark se acerca al General Thaddeus Ross, que está bebiendo en un bar, y le dice que está armando un equipo, la primera semilla del Avenger Initiative.",
   },
   {
     id: "one-shot-the-consultant",
@@ -203,6 +356,16 @@ export const timeline: TimelineEntry[] = [
       "Trata las secuelas de Iron Man 2 y The Incredible Hulk, con Coulson enviando a Stark a hablar con el General Ross como consultor de S.H.I.E.L.D.",
     tmdbSearchTitle: "Marvel One-Shot: The Consultant",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "Released on the Thor Blu-ray in September 2011, this was the very first Marvel One-Shot ever produced.",
+      "Jasper Sitwell, a S.H.I.E.L.D. agent introduced in Thor, was written into the short specifically because it shared that film's Blu-ray release.",
+      "The short retroactively reveals that Tony Stark's \"I'm putting a team together\" line at the end of The Incredible Hulk wasn't a real recruitment pitch: Coulson sent him as a \"consultant\" to sabotage the meeting and keep Emil Blonsky out of the Avenger Initiative.",
+    ],
+    triviaEs: [
+      "Lanzado en el Blu-ray de Thor en septiembre de 2011, este fue el primer Marvel One-Shot producido.",
+      "Jasper Sitwell, un agente de S.H.I.E.L.D. presentado en Thor, fue incluido en el corto justamente porque compartía el lanzamiento en Blu-ray de esa película.",
+      "El corto revela retroactivamente que la frase de Tony Stark \"estoy armando un equipo\" al final de The Incredible Hulk no era un reclutamiento real: Coulson lo envió como \"consultor\" para sabotear la reunión y mantener a Emil Blonsky fuera del Avenger Initiative.",
+    ],
   },
   {
     id: "the-avengers",
@@ -218,6 +381,20 @@ export const timeline: TimelineEntry[] = [
     tmdbSearchTitle: "The Avengers",
     tmdbMediaType: "movie",
     tmdbYear: 2012,
+    triviaEn: [
+      "The Avengers broke the record for the biggest domestic opening weekend ever at the time, earning $207.4 million in the US and Canada in its first three days.",
+      "Mark Ruffalo was the first actor to play the Hulk himself through motion capture rather than a separate CGI creation, using a rig with four cameras to record his body and facial performance.",
+      "The famous shawarma scene was Robert Downey Jr.'s idea; it was filmed weeks after the rest of the movie had wrapped, even after the film's world premiere.",
+    ],
+    triviaEs: [
+      "The Avengers rompió el récord del mejor fin de semana de estreno en Estados Unidos hasta ese momento, con 207.4 millones de dólares en sus primeros tres días en Estados Unidos y Canadá.",
+      "Mark Ruffalo fue el primer actor en interpretar a Hulk mediante captura de movimiento en lugar de una creación puramente digital separada, usando un equipo con cuatro cámaras para registrar su cuerpo y su rostro.",
+      "La famosa escena del shawarma fue idea de Robert Downey Jr.; se filmó semanas después de terminar el resto del rodaje, incluso después del estreno mundial de la película.",
+    ],
+    postCreditsEn:
+      "In the mid-credits scene, Thanos smiles for the first time on screen after learning that pursuing the Tesseract on Earth means facing the Avengers directly. In the final scene, the exhausted team eats shawarma together in silence at a damaged restaurant in New York.",
+    postCreditsEs:
+      "En la escena a mitad de los créditos, Thanos sonríe por primera vez en pantalla al enterarse de que ir tras el Teseracto en la Tierra significa enfrentarse directamente a los Avengers. En la escena final, el equipo, agotado, come shawarma en silencio en un restaurante dañado de Nueva York.",
   },
   {
     id: "one-shot-item-47",
@@ -232,6 +409,16 @@ export const timeline: TimelineEntry[] = [
     justificationEs: "Trata las secuelas de The Avengers.",
     tmdbSearchTitle: "Item 47",
     tmdbMediaType: "movie",
+    triviaEn: [
+      "According to Marvel co-president Louis D'Esposito, Disney CEO Bob Iger watched this short and said it would make a great TV show, an idea that grew into Agents of S.H.I.E.L.D., the MCU's first live-action television series.",
+      "Maximiliano Hernández reprises Agent Jasper Sitwell, a role he had already played in Thor and the one-shot A Funny Thing Happened on the Way to Thor's Hammer.",
+      "Lizzy Caplan and Jesse Bradford play a down-on-their-luck couple who use a Chitauri weapon left behind after the Battle of New York to rob banks.",
+    ],
+    triviaEs: [
+      "Según el copresidente de Marvel Louis D'Esposito, el CEO de Disney Bob Iger vio este corto y dijo que sería un buen programa de TV, una idea que se convirtió en Agents of S.H.I.E.L.D., la primera serie de televisión de acción real del UCM.",
+      "Maximiliano Hernández repite como el agente Jasper Sitwell, un papel que ya había interpretado en Thor y en el one-shot A Funny Thing Happened on the Way to Thor's Hammer.",
+      "Lizzy Caplan y Jesse Bradford interpretan a una pareja venida a menos que usa un arma chitauri abandonada tras la Batalla de Nueva York para robar bancos.",
+    ],
   },
 
   // ===================== FASE 2: THE DEFENDERS =====================
