@@ -11,13 +11,22 @@ interface PhaseNavProps {
 
 export function PhaseNav({ activePhase }: PhaseNavProps) {
   const { language } = useLanguage();
+  const navRef = useRef<HTMLElement>(null);
   const activeRef = useRef<HTMLAnchorElement>(null);
 
   useEffect(() => {
-    activeRef.current?.scrollIntoView({
+    // No usar scrollIntoView: dentro de un ancestro `sticky`, Safari/iOS lo
+    // calcula sobre la posicion de flujo sin "stickear", no la posicion
+    // real en pantalla, y termina arrastrando el scroll de toda la pagina
+    // hacia arriba en vez de mover solo este nav horizontal. Se centra el
+    // pill activo scrolleando directamente el contenedor del nav.
+    const nav = navRef.current;
+    const pill = activeRef.current;
+    if (!nav || !pill) return;
+    const target = pill.offsetLeft - (nav.clientWidth - pill.clientWidth) / 2;
+    nav.scrollTo({
+      left: Math.max(0, Math.min(target, nav.scrollWidth - nav.clientWidth)),
       behavior: "smooth",
-      inline: "center",
-      block: "nearest",
     });
   }, [activePhase]);
 
@@ -25,8 +34,9 @@ export function PhaseNav({ activePhase }: PhaseNavProps) {
     <div className="sticky top-0 z-20 -mx-4 border-b border-zinc-200/80 bg-white/85 backdrop-blur-md sm:mx-0 dark:border-zinc-800/80 dark:bg-zinc-950/85">
       <div className="relative">
         <nav
+          ref={navRef}
           aria-label={language === "es" ? "Navegación por fase" : "Phase navigation"}
-          className="no-scrollbar flex snap-x snap-proximity scroll-smooth gap-2 overflow-x-auto scroll-px-4 px-4 py-3 sm:px-0"
+          className="no-scrollbar flex snap-x snap-proximity gap-2 overflow-x-auto scroll-px-4 px-4 py-3 sm:px-0"
         >
           {phases.map((phase) => {
             const colors = phaseColors[phase.number];
