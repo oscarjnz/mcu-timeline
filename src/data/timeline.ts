@@ -1811,16 +1811,18 @@ export const timeline: TimelineEntry[] = [
       "Endgame overtook Avatar to become the highest grossing film of all time in July 2019, helped by a theatrical re-release in June that added a deleted scene and a tribute to Stan Lee to push its total past Avatar's record; Avatar reclaimed the record with its own 2021 re-release.",
       "Stan Lee's cameo, shot before his death in November 2018, shows him driving a car and shouting \"Make love, not war\" past a young Tony Stark in a 1970 flashback, his final Marvel cameo appearance.",
       "The Russo brothers coordinated cameos and callbacks from across the prior 21 films, including a shot near the final battle where every hero who had appeared up to that point assembles on screen at once.",
+      "On September 25, 2026 the film returned to theaters as Avengers Endgame: Encore, with new footage shot by the Russos during Avengers: Doomsday's production as a narrative bridge to that film: an extended ending where a Loki variant visits Steve and Peggy offering to help them, two new mid-credits scenes and a reworked final tag. The re-release grossed $142.9 million and made Endgame the highest-grossing film of all time again ($2.942 billion).",
     ],
     triviaEs: [
       "Endgame superó a Avatar como la película más taquillera de la historia en julio de 2019, ayudada por un reestreno en cines en junio que añadió una escena eliminada y un homenaje a Stan Lee para superar el récord de Avatar; Avatar recuperó el récord con su propio reestreno de 2021.",
       "El cameo de Stan Lee, filmado antes de su muerte en noviembre de 2018, lo muestra manejando un auto y gritando \"Make love, not war\" junto a un joven Tony Stark en un flashback de 1970, su última aparición cameo en Marvel.",
       "Los hermanos Russo coordinaron cameos y referencias de las 21 películas anteriores, incluyendo un plano cerca de la batalla final donde todos los héroes que habían aparecido hasta entonces se reúnen en pantalla a la vez.",
+      "El 25 de septiembre de 2026 la película volvió a los cines como Avengers Endgame: Encore, con escenas nuevas filmadas por los Russo durante la producción de Avengers: Doomsday como puente narrativo hacia esa película: un final extendido en el que una variante de Loki visita a Steve y Peggy ofreciéndoles ayuda, dos escenas nuevas a mitad de créditos y un cierre final rehecho. El reestreno recaudó 142,9 millones de dólares y volvió a convertir a Endgame en la película más taquillera de la historia (2942 millones).",
     ],
     postCreditsEn:
-      "Unlike most Marvel films, Endgame has no scene after the credits; directors Anthony and Joe Russo deliberately left one out to underline the story's sense of finality, but as the credits end the sound design cuts to the clang of metal on metal, the same sound of Tony Stark building his first Iron Man suit back in 2008, a deliberate bookend that closes his arc as a quiet tribute to the character.",
+      "Unlike most Marvel films, Endgame has no scene after the credits; directors Anthony and Joe Russo deliberately left one out to underline the story's sense of finality, but as the credits end the sound design cuts to the clang of metal on metal, the same sound of Tony Stark building his first Iron Man suit back in 2008, a deliberate bookend that closes his arc as a quiet tribute to the character. The 2026 re-release Avengers Endgame: Encore changes this: in a first mid-credits scene, Victor von Doom teleports Bruce Banner out of an underground military cell, saying he is being \"collected\"; in a second, Ouroboros, Casey and Mobius at the TVA detect an incursion between Earth-10005 and Earth-1127 and realize the multiverse is collapsing; and the hammering heard at the very end is revealed to be Doom forging his mask.",
     postCreditsEs:
-      "A diferencia de la mayoría de las películas de Marvel, Endgame no tiene ninguna escena después de los créditos; los directores Anthony y Joe Russo dejaron deliberadamente afuera una escena para subrayar la sensación de cierre de la historia, pero al terminar los créditos el sonido corta al golpeteo de metal contra metal, el mismo sonido de Tony Stark construyendo su primer traje de Iron Man allá por 2008, un cierre deliberado que redondea su arco como un homenaje silencioso al personaje.",
+      "A diferencia de la mayoría de las películas de Marvel, Endgame no tiene ninguna escena después de los créditos; los directores Anthony y Joe Russo dejaron deliberadamente afuera una escena para subrayar la sensación de cierre de la historia, pero al terminar los créditos el sonido corta al golpeteo de metal contra metal, el mismo sonido de Tony Stark construyendo su primer traje de Iron Man allá por 2008, un cierre deliberado que redondea su arco como un homenaje silencioso al personaje. El reestreno de 2026, Avengers Endgame: Encore, cambia esto: en una primera escena a mitad de créditos, Victor von Doom teletransporta a Bruce Banner fuera de una celda militar subterránea, diciéndole que está siendo \"recolectado\"; en una segunda, Ouroboros, Casey y Mobius en la TVA detectan una incursión entre Earth-10005 y Earth-1127 y se dan cuenta de que el multiverso está colapsando; y el martilleo que se oye al final resulta ser Doom forjando su máscara.",
   },
 
   // ===================== FASE 4: AFTERMATH =====================
@@ -2859,23 +2861,72 @@ export const timeline: TimelineEntry[] = [
 
   // ===================== FASE 6: DOOM =====================
   {
+    id: "visionquest",
+    titleEn: "VisionQuest",
+    titleEs: "VisionQuest",
+    type: "tv",
+    phase: 6,
+    order: 112.5,
+    dateLabelEn: "c. 2028",
+    dateLabelEs: "c. 2028",
+    justificationEn:
+      "Set around 2028, 18 months after Agatha All Along and years after WandaVision, where the white Vision got his memories back and flew off. Rebooted and in hiding, Vision consults the AI personas embedded in his programming (F.R.I.D.A.Y., E.D.I.T.H., J.A.R.V.I.S. and Ultron) until a bounty on his head sends him on the run with Tommy Shepherd, who may be his reincarnated son. Its finale leads directly into Avengers: Doomsday.",
+    justificationEs:
+      "Transcurre alrededor de 2028, 18 meses después de Agatha All Along y años después de WandaVision, donde el Vision blanco recuperó sus recuerdos y se fue volando. Reiniciado y escondido, Vision consulta a las personalidades de IA integradas en su programación (F.R.I.D.A.Y., E.D.I.T.H., J.A.R.V.I.S. y Ultron) hasta que una recompensa por su cabeza lo obliga a huir junto a Tommy Shepherd, que podría ser su hijo reencarnado. Su final conecta directamente con Avengers: Doomsday.",
+    tmdbSearchTitle: "VisionQuest",
+    tmdbMediaType: "tv",
+    tmdbYear: 2026,
+    hasFutureSpoilers: true,
+    universeEn: "Earth-616, the main MCU timeline.",
+    universeEs: "Earth-616, la línea temporal principal del UCM.",
+    triviaEn: [
+      "It closes the trilogy that began with WandaVision (2021) and continued with Agatha All Along (2024); showrunner Terry Matalas (Star Trek: Picard) said Kevin Feige's one request was that Vision be reunited with his son Tommy.",
+      "James Spader returns as Ultron for the first time since Avengers: Age of Ultron (2015), now as a human-looking avatar living inside Vision's mind, which Vision has built as a gleaming white mansion called the Mindspace.",
+      "Premiered on Disney+ on October 13, 2026 (one day earlier than first announced, after the first two episodes screened at the BFI London Film Festival) and ran for eight episodes until November 10, 2026.",
+      "The finale finally brings back Billy Maximoff (Wiccan), reuniting Vision with both of his sons.",
+    ],
+    triviaEs: [
+      "Cierra la trilogía que empezó con WandaVision (2021) y siguió con Agatha All Along (2024); el showrunner Terry Matalas (Star Trek: Picard) contó que el único pedido de Kevin Feige fue que Vision se reencontrara con su hijo Tommy.",
+      "James Spader regresa como Ultron por primera vez desde Avengers: Age of Ultron (2015), ahora como un avatar de aspecto humano que vive dentro de la mente de Vision, construida por él como una brillante mansión blanca llamada el Mindspace.",
+      "Se estrenó en Disney+ el 13 de octubre de 2026 (un día antes de lo anunciado, tras proyectar los dos primeros episodios en el BFI London Film Festival) y duró ocho episodios, hasta el 10 de noviembre de 2026.",
+      "El final por fin trae de vuelta a Billy Maximoff (Wiccan), reuniendo a Vision con sus dos hijos.",
+    ],
+    postCreditsEn:
+      "The finale (\"Forever\") has two mid-credits scenes. In the first, Ultron, who survived thanks to a significant number of unaccounted-for nanobots, is living as his human avatar in the mansion that once belonged to Virgil and Phineas Horton, holding the drive with Jocasta's source code, hinting he plans to bring her back. In the second, Wanda Maximoff lies seemingly dead under the rubble of Mount Wundagore, where she buried herself at the end of Doctor Strange in the Multiverse of Madness; Doctor Doom appears over her and says \"Scarlet Witch, awaken. Your power will be mine,\" and her eyes open glowing Doom-green.",
+    postCreditsEs:
+      "El final (\"Forever\") tiene dos escenas a mitad de créditos. En la primera, Ultron, que sobrevivió gracias a una cantidad importante de nanobots que nadie tenía contabilizados, vive como su avatar humano en la mansión que perteneció a Virgil y Phineas Horton y sostiene la memoria con el código fuente de Jocasta, insinuando que planea revivirla. En la segunda, Wanda Maximoff yace aparentemente muerta bajo los escombros del Monte Wundagore, donde se sepultó al final de Doctor Strange in the Multiverse of Madness; el Doctor Doom aparece sobre ella y le dice \"Scarlet Witch, awaken. Your power will be mine\" (\"Bruja Escarlata, despierta. Tu poder será mío\"), y ella abre los ojos con un brillo verde, el color de Doom.",
+  },
+  {
     id: "avengers-doomsday",
     titleEn: "Avengers: Doomsday",
     titleEs: "Avengers: Doomsday",
     type: "movie",
     phase: 6,
     order: 113,
-    dateLabelEn: "2026",
-    dateLabelEs: "2026",
+    dateLabelEn: "2028+ (TBC)",
+    dateLabelEs: "2028+ (por confirmar)",
     justificationEn:
-      "Scheduled for theatrical release on December 18, 2026. Heroes from multiple universes, including MCU characters and actors from 20th Century Fox's X-Men films, collide against Doctor Doom, played by Robert Downey Jr. Its exact in-universe placement had not been officially confirmed at the time this timeline was compiled.",
+      "In theaters December 18, 2026. Heroes from multiple universes, including the Avengers, the Fantastic Four, the Thunderbolts and actors from 20th Century Fox's X-Men films, collide against Doctor Doom, played by Robert Downey Jr. Its exact in-universe date is not officially confirmed, but it follows directly from VisionQuest's second mid-credits scene (set around 2028), where Doom awakens Wanda, and from the new scenes added to Avengers Endgame: Encore (2026), where Doom \"collects\" Bruce Banner and the TVA detects that the multiverse is collapsing through incursions.",
     justificationEs:
-      "Programada para estrenarse en cines el 18 de diciembre de 2026. Héroes de múltiples universos, incluyendo personajes del UCM y actores de las películas de X-Men de 20th Century Fox, chocan contra el Doctor Doom, interpretado por Robert Downey Jr. Su ubicación exacta dentro del universo no estaba oficialmente confirmada al momento de compilar este timeline.",
+      "En cines el 18 de diciembre de 2026. Héroes de múltiples universos, incluyendo a los Avengers, los Fantastic Four, los Thunderbolts y actores de las películas de X-Men de 20th Century Fox, chocan contra el Doctor Doom, interpretado por Robert Downey Jr. Su fecha exacta dentro del universo no está confirmada oficialmente, pero continúa directamente la segunda escena a mitad de créditos de VisionQuest (alrededor de 2028), donde Doom despierta a Wanda, y las escenas nuevas agregadas a Avengers Endgame: Encore (2026), donde Doom \"recolecta\" a Bruce Banner y la TVA detecta que el multiverso está colapsando por incursiones.",
     tmdbSearchTitle: "Avengers: Doomsday",
     tmdbMediaType: "movie",
     tmdbYear: 2026,
+    hasFutureSpoilers: true,
     universeEn: "Multiple Earths of the multiverse converging, including variants from the Fox X-Men universe.",
     universeEs: "Convergencia de múltiples Earths del multiverso, incluidas variantes del universo de X-Men de Fox.",
+    triviaEn: [
+      "The first full trailer debuted at CinemaCon in April 2026 and was released online in July to mixed reactions; a \"special look\" focused on Doom, shown at San Diego Comic-Con and D23, was much better received when it was released in August. A clock counting down to the release date is a recurring element of all its teasers and trailers.",
+      "Tickets went on sale in July 2026 with a planned runtime of about 165 minutes; by early September it became the first film to reach $50 million in presales 100 days before release, and by the end of October presales had reached $125 million.",
+      "Chris Evans returns as Steve Rogers, reportedly taking on the Nomad mantle; Florence Pugh's Yelena Belova anchors the story according to Kevin Feige, and the Fox X-Men cast returns with Patrick Stewart, Ian McKellen, James Marsden, Kelsey Grammer, Alan Cumming, Rebecca Romijn and Channing Tatum as Gambit.",
+      "Marvel promoted it with an official podcast, Countdown to Avengers: Doomsday, hosted by Iman Vellani (Ms. Marvel) and Frank Alvarez, and announced a Doomsday Global Tour on November 5, 2026, with stops in cities such as Las Vegas, São Paulo, London, Seoul and Los Angeles.",
+    ],
+    triviaEs: [
+      "El primer tráiler completo se presentó en CinemaCon en abril de 2026 y se publicó en internet en julio con reacciones mixtas; un \"avance especial\" centrado en Doom, mostrado en San Diego Comic-Con y D23, fue mucho mejor recibido al publicarse en agosto. Un reloj con la cuenta regresiva al estreno es un elemento recurrente de todos sus teasers y tráileres.",
+      "Las entradas salieron a la venta en julio de 2026 con una duración prevista de unos 165 minutos; a inicios de septiembre se convirtió en la primera película en llegar a 50 millones de dólares en preventa a 100 días del estreno, y a fines de octubre la preventa ya sumaba 125 millones.",
+      "Chris Evans regresa como Steve Rogers, que según lo indicado asumiría el manto de Nomad; Kevin Feige dijo que la historia está \"anclada\" en la Yelena Belova de Florence Pugh, y vuelve el elenco de X-Men de Fox con Patrick Stewart, Ian McKellen, James Marsden, Kelsey Grammer, Alan Cumming, Rebecca Romijn y Channing Tatum como Gambit.",
+      "Marvel la promocionó con un podcast oficial, Countdown to Avengers: Doomsday, conducido por Iman Vellani (Ms. Marvel) y Frank Alvarez, y anunció el 5 de noviembre de 2026 un Doomsday Global Tour con paradas en ciudades como Las Vegas, São Paulo, Londres, Seúl y Los Ángeles.",
+    ],
   },
   {
     id: "avengers-secret-wars",
@@ -2884,8 +2935,8 @@ export const timeline: TimelineEntry[] = [
     type: "movie",
     phase: 6,
     order: 114,
-    dateLabelEn: "2027",
-    dateLabelEs: "2027",
+    dateLabelEn: "After Doomsday (TBC)",
+    dateLabelEs: "Después de Doomsday (por confirmar)",
     justificationEn:
       "Scheduled for theatrical release on December 17, 2027, closing out Phase 6 and the Multiverse Saga. Directors Joe and Anthony Russo have described it as a \"new beginning\" for the MCU, drawing from both the 1984 and 2015 Secret Wars comic storylines and reportedly resetting the multiverse into a singular timeline.",
     justificationEs:

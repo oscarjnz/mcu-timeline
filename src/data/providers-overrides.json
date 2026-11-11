@@ -1,0 +1,7 @@
+{
+  "_comment": "Correcciones manuales sobre providers-cache.json, para cuando TMDB/JustWatch todavia no refleja un cambio de plataforma que ya se verifico a mano. Se aplican en src/lib/providers.ts (agregan proveedores, sin duplicar) y sobreviven a cada corrida de scripts/fetch-providers.ts. Quitar una entrada cuando TMDB ya la muestre.",
+  "spider-man-no-way-home": {
+    "_verified": "2026-11-11: el usuario confirmo con captura de la app de Disney+ que la pelicula ya esta disponible ahi (Republica Dominicana).",
+    "DO": [{ "name": "Disney Plus", "logoPath": "/97yvRBw1GzX7fXprcF80er19ot.jpg" }]
+  }
+}

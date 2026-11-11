@@ -3,7 +3,7 @@
 import { useEffect, useMemo, useState } from "react";
 import { phases } from "@/data/phases";
 import { timeline } from "@/data/timeline";
-import type { EntryType, TimelineEntry } from "@/types/timeline";
+import type { EntryType, PhaseNumber, TimelineEntry } from "@/types/timeline";
 import { LanguageProvider, useLanguage } from "@/lib/language-context";
 import { SpoilerProvider } from "@/lib/spoiler-context";
 import { LanguageToggle } from "@/components/LanguageToggle";
@@ -17,6 +17,7 @@ import { PhaseSection } from "@/components/PhaseSection";
 import { ReleaseOrderList } from "@/components/ReleaseOrderList";
 import { DoomsdayCountdownView } from "@/components/DoomsdayCountdownView";
 import { EntryDetailModal } from "@/components/EntryDetailModal";
+import { DoomsdayTimer } from "@/components/DoomsdayTimer";
 
 const allTypes: EntryType[] = ["movie", "tv", "one-shot", "special"];
 
@@ -114,6 +115,17 @@ function TimelineContent() {
     return groupIntoRuns(sorted);
   }, [filteredEntries, viewMode]);
 
+  const phaseCounts = useMemo(() => {
+    const counts = { 0: 0, 1: 0, 2: 0, 3: 0, 4: 0, 5: 0, 6: 0 } as Record<PhaseNumber, number>;
+    for (const entry of filteredEntries) counts[entry.phase] += 1;
+    return counts;
+  }, [filteredEntries]);
+
+  function openDoomsdayView() {
+    setViewMode("doomsday");
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }
+
   const doomsdayEntries = useMemo(
     () => filteredEntries.filter((entry) => entry.inDoomsdayCountdown),
     [filteredEntries],
@@ -152,9 +164,15 @@ function TimelineContent() {
     : null;
 
   return (
-    <div className="mx-auto flex w-full max-w-6xl flex-1 flex-col px-4 lg:flex-row lg:items-start lg:gap-10 lg:px-8 lg:py-8">
+    <div id="top" className="flex w-full flex-1 flex-col px-4 lg:pr-8 lg:pl-[22rem] xl:pl-[24rem]">
+      {/* Timer de Doomsday: esquina superior derecha fija en desktop. */}
+      <DoomsdayTimer variant="floating" onOpen={openDoomsdayView} />
+
       {/* Cabecera y controles para mobile/tablet: apilados arriba del contenido, ocultos desde lg. */}
       <div className="flex flex-col lg:hidden">
+        <div className="pt-4">
+          <DoomsdayTimer variant="inline" onOpen={openDoomsdayView} />
+        </div>
         <header className="flex items-center justify-between gap-2 py-6">
           <div>
             <h1 className="text-xl font-bold text-zinc-900 dark:text-zinc-50">
@@ -191,9 +209,13 @@ function TimelineContent() {
         onToggleType={toggleType}
         moviesOnly={moviesOnly}
         onToggleMoviesOnly={() => setMoviesOnly((prev) => !prev)}
+        phaseCounts={phaseCounts}
+        totalVisible={filteredEntries.length}
       />
 
-      <div className="min-w-0 flex-1 pb-8 lg:max-w-3xl lg:pb-16">
+      {/* Columna de contenido: en desktop arranca junto al sidebar fijo y deja
+          aire arriba para que el timer flotante no tape el primer encabezado. */}
+      <div className="w-full min-w-0 flex-1 pb-8 lg:max-w-3xl lg:pt-24 lg:pb-16">
         {viewMode === "chronological" && (
           <main className="divide-y divide-zinc-200 dark:divide-zinc-800">
             {runs.map((run) => {
