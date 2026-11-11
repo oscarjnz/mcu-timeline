@@ -22,6 +22,8 @@ import { getRatings } from "@/lib/ratings";
 import { getProviders } from "@/lib/providers";
 import { RatingsRow, ProvidersBlock } from "@/components/RatingsAndProviders";
 import { SpoilerText } from "@/components/SpoilerText";
+import { synopses } from "@/data/synopses";
+import { comicReferences } from "@/data/comic-references";
 
 const typeLabels: Record<TimelineEntry["type"], { es: string; en: string }> = {
   movie: { es: "Película", en: "Movie" },
@@ -64,7 +66,10 @@ export function EntryDetailModal({ entry, onClose }: EntryDetailModalProps) {
   const releaseYear = getReleaseYear(entry.id);
   const posterUrl = getPosterUrl(entry.id, "w342");
   const backdropUrl = getBackdropUrl(entry.id, "w780");
-  const overview = getOverview(entry.id, language);
+  // Sinopsis oficial de Disney+ (EN tal cual, ES traducida a mano) cuando existe; si no, la de TMDB.
+  const curatedSynopsis = synopses[entry.id];
+  const overview = curatedSynopsis ? curatedSynopsis[language] : getOverview(entry.id, language);
+  const comics = comicReferences[entry.id] ?? [];
   const tagline = getTagline(entry.id);
   const runtimeLabel = getRuntimeLabel(entry.id, entry.type, language);
   const genres = getGenres(entry.id, language);
@@ -271,6 +276,44 @@ export function EntryDetailModal({ entry, onClose }: EntryDetailModalProps) {
               <ul className="list-disc space-y-1 pl-5 text-sm leading-relaxed text-zinc-700 dark:text-zinc-300">
                 {trivia.map((fact, index) => (
                   <li key={index}>{fact}</li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {comics.length > 0 && (
+            <section>
+              <h3 className="mb-2 text-sm font-semibold text-zinc-900 dark:text-zinc-50">
+                {language === "es" ? "Referencia en los cómics" : "Comic book references"}
+              </h3>
+              <ul className="space-y-2.5">
+                {comics.map((comic) => (
+                  <li
+                    key={`${comic.title}-${comic.issues ?? ""}`}
+                    className="rounded-lg border border-zinc-200 bg-zinc-50 p-3 text-sm dark:border-zinc-800 dark:bg-zinc-900/60"
+                  >
+                    <p className="font-semibold text-zinc-900 dark:text-zinc-50">
+                      <span className="italic">{comic.title}</span>
+                      {comic.issues && <span className="font-normal text-zinc-600 dark:text-zinc-400"> {comic.issues}</span>}
+                      {comic.years && <span className="font-normal text-zinc-500 dark:text-zinc-500"> ({comic.years})</span>}
+                    </p>
+                    {comic.creators && (
+                      <p className="text-xs text-zinc-500 dark:text-zinc-400">{comic.creators}</p>
+                    )}
+                    <p className="mt-1 leading-relaxed text-zinc-700 dark:text-zinc-300">
+                      {language === "es" ? comic.noteEs : comic.noteEn}
+                    </p>
+                    {comic.sourceUrl && (
+                      <a
+                        href={comic.sourceUrl}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="mt-1 inline-block text-xs font-medium text-red-600 hover:underline dark:text-red-400"
+                      >
+                        {language === "es" ? "Ver ficha" : "Source"}
+                      </a>
+                    )}
+                  </li>
                 ))}
               </ul>
             </section>
