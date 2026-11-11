@@ -9,7 +9,7 @@ import { SpoilerProvider } from "@/lib/spoiler-context";
 import { LanguageToggle } from "@/components/LanguageToggle";
 import { SpoilerToggle } from "@/components/SpoilerToggle";
 import { PhaseNav } from "@/components/PhaseNav";
-import { DesktopSidebar } from "@/components/DesktopSidebar";
+import { DesktopSidebar, viewOptions } from "@/components/DesktopSidebar";
 import { TypeFilters } from "@/components/TypeFilters";
 import { MoviesOnlyToggle } from "@/components/MoviesOnlyToggle";
 import { ViewModeToggle, type ViewMode } from "@/components/ViewModeToggle";
@@ -164,7 +164,7 @@ function TimelineContent() {
     : null;
 
   return (
-    <div id="top" className="flex w-full flex-1 flex-col px-4 lg:pr-8 lg:pl-[22rem] xl:pl-[24rem]">
+    <div id="top" className="flex w-full flex-1 flex-col px-4 lg:pr-10 lg:pl-[22.5rem]">
       {/* Timer de Doomsday: esquina superior derecha fija en desktop. */}
       <DoomsdayTimer variant="floating" onOpen={openDoomsdayView} />
 
@@ -213,9 +213,29 @@ function TimelineContent() {
         totalVisible={filteredEntries.length}
       />
 
-      {/* Columna de contenido: en desktop arranca junto al sidebar fijo y deja
-          aire arriba para que el timer flotante no tape el primer encabezado. */}
-      <div className="w-full min-w-0 flex-1 pb-8 lg:max-w-3xl lg:pt-24 lg:pb-16">
+      {/* Columna de contenido: en desktop arranca junto al sidebar fijo. Abre con
+          una fila de encabezado (vista actual + conteo) que en desktop angosto
+          también aloja el timer; así arriba no queda ningún espacio vacío. */}
+      <div className="mx-auto w-full min-w-0 flex-1 pb-8 lg:max-w-3xl lg:pb-16">
+        <div className="hidden items-center justify-between gap-6 border-b border-zinc-200 pt-8 pb-5 lg:flex dark:border-zinc-800">
+          <div className="min-w-0">
+            <h2 className="text-2xl font-bold text-zinc-900 dark:text-zinc-50">
+              {(() => {
+                const option = viewOptions.find((o) => o.mode === viewMode);
+                return option ? (language === "es" ? option.es : option.en) : null;
+              })()}
+            </h2>
+            <p className="mt-0.5 text-sm text-zinc-500 dark:text-zinc-400">
+              {(() => {
+                const option = viewOptions.find((o) => o.mode === viewMode);
+                const count = viewMode === "doomsday" ? doomsdayEntries.length : filteredEntries.length;
+                const hint = option ? (language === "es" ? option.hintEs : option.hintEn) : "";
+                return `${hint} · ${count} ${language === "es" ? "entradas" : "entries"}`;
+              })()}
+            </p>
+          </div>
+          <DoomsdayTimer variant="header" onOpen={openDoomsdayView} />
+        </div>
         {viewMode === "chronological" && (
           <main className="divide-y divide-zinc-200 dark:divide-zinc-800">
             {runs.map((run) => {

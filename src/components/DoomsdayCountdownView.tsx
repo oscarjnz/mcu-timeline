@@ -14,7 +14,7 @@ export function DoomsdayCountdownView({ entries, onOpenEntry }: DoomsdayCountdow
   const sorted = entries.slice().sort((a, b) => a.order - b.order);
 
   return (
-    <div className="py-8">
+    <div className="py-8 lg:pt-6">
       <div className="mb-6 rounded-lg border border-yellow-500 bg-yellow-50 p-4 text-sm text-yellow-900 dark:border-yellow-500 dark:bg-yellow-950 dark:text-yellow-200">
         {language === "es"
           ? "Esta es la lista esencial \"Countdown to Doomsday\" que Disney+ publicó para ponerse al día antes de Avengers: Doomsday (en cines el 18 de diciembre de 2026): las películas y series que preparan directamente el terreno del multiverso, en su orden cronológico narrativo. Incluye X-Men (2000) y X2, las dos entradas de Earth-10005 que Disney+ confirmó como parte de esta lista. Si ya la viste, suma Avengers Endgame: Encore (sus escenas nuevas) y el final de VisionQuest, que conectan directo con la película."

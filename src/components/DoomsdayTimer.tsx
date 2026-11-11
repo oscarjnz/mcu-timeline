@@ -32,8 +32,16 @@ const pad = (n: number) => String(n).padStart(2, "0");
 
 interface DoomsdayTimerProps {
   onOpen: () => void;
-  /** "floating": esquina superior derecha fija (desktop). "inline": dentro del flujo (mobile). */
-  variant: "floating" | "inline";
+  /**
+   * "floating": fijo en la esquina superior derecha, solo en pantallas anchas
+   *   (>= 1880px, breakpoint `3xl`) donde queda espacio libre a la derecha de la columna de contenido.
+   * "header": dentro de la fila de encabezado de la columna de contenido, para
+   *   desktop angosto (lg a 1879px), donde flotando taparia las tarjetas.
+   * "inline": arriba del header en mobile, a todo el ancho.
+   * Nunca reservar espacio vacio (padding fijo) para que el timer flotante no
+   * tape nada: eso dejaba un hueco grande arriba del contenido.
+   */
+  variant: "floating" | "header" | "inline";
 }
 
 export function DoomsdayTimer({ onOpen, variant }: DoomsdayTimerProps) {
@@ -67,8 +75,10 @@ export function DoomsdayTimer({ onOpen, variant }: DoomsdayTimerProps) {
 
   const wrapper =
     variant === "floating"
-      ? "fixed top-4 right-4 z-40 hidden lg:block"
-      : "lg:hidden";
+      ? "fixed top-4 right-4 z-40 hidden 3xl:block"
+      : variant === "header"
+        ? "hidden shrink-0 lg:block 3xl:hidden"
+        : "lg:hidden";
 
   return (
     <div className={wrapper}>
@@ -81,7 +91,7 @@ export function DoomsdayTimer({ onOpen, variant }: DoomsdayTimerProps) {
             : "Open the Countdown to Doomsday watchlist"
         }
         className={`group relative overflow-hidden rounded-xl border border-emerald-900/60 bg-zinc-950/90 text-left text-zinc-100 shadow-lg shadow-black/30 ring-1 ring-white/5 backdrop-blur-md transition-transform duration-200 hover:-translate-y-0.5 active:scale-[0.98] ${
-          variant === "floating" ? "px-3.5 py-2.5" : "w-full px-3 py-2"
+          variant === "inline" ? "w-full px-3 py-2" : "px-3.5 py-2.5"
         }`}
       >
         {/* Brillo verde tenue, guiño a la armadura de Doom. */}
@@ -106,7 +116,7 @@ export function DoomsdayTimer({ onOpen, variant }: DoomsdayTimerProps) {
               <div className="flex flex-col items-center">
                 <span
                   className={`font-mono text-xl leading-none font-bold tabular-nums ${
-                    variant === "floating" ? "lg:text-2xl" : ""
+                    variant === "inline" ? "" : "lg:text-2xl"
                   }`}
                 >
                   {unit.value === undefined

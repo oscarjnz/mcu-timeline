@@ -24,7 +24,7 @@ interface DesktopSidebarProps {
   totalVisible: number;
 }
 
-const viewOptions: { mode: ViewMode; es: string; en: string; hintEs: string; hintEn: string }[] = [
+export const viewOptions: { mode: ViewMode; es: string; en: string; hintEs: string; hintEn: string }[] = [
   {
     mode: "chronological",
     es: "Cronológico",
@@ -128,19 +128,30 @@ export function DesktopSidebar({
           </div>
         </div>
 
-        {viewMode === "chronological" && (
-          <div className="mt-6">
+        {/* Las fases se muestran en todas las vistas (si se ocultaran fuera de la
+            cronológica, el sidebar quedaría con un bloque vacío). Desde otra vista,
+            un clic cambia a la cronológica y salta a esa fase. */}
+        <div className="mt-6">
             <SectionLabel>{es ? "Fases" : "Phases"}</SectionLabel>
             <nav aria-label={es ? "Navegación por fase" : "Phase navigation"} className="flex flex-col gap-0.5">
               {phases.map((phase) => {
                 const colors = phaseColors[phase.number];
-                const active = phase.number === activePhase;
+                const active = viewMode === "chronological" && phase.number === activePhase;
                 const count = phaseCounts[phase.number] ?? 0;
                 return (
                   <a
                     key={phase.number}
                     href={`#phase-${phase.number}`}
                     aria-current={active ? "true" : undefined}
+                    onClick={(event) => {
+                      if (viewMode === "chronological") return;
+                      event.preventDefault();
+                      onChangeViewMode("chronological");
+                      // Esperar a que se renderice la vista cronológica antes de saltar.
+                      window.setTimeout(() => {
+                        document.getElementById(`phase-${phase.number}`)?.scrollIntoView({ behavior: "smooth" });
+                      }, 60);
+                    }}
                     className={`group relative flex items-center gap-3 rounded-lg px-3 py-2 transition-colors duration-150 ${
                       active ? "bg-white shadow-sm ring-1 ring-zinc-200 dark:bg-zinc-900 dark:ring-zinc-800" : "hover:bg-zinc-200/70 dark:hover:bg-zinc-800/70"
                     } ${count === 0 ? "opacity-40" : ""}`}
@@ -170,16 +181,13 @@ export function DesktopSidebar({
                 );
               })}
             </nav>
-          </div>
-        )}
+        </div>
 
         <div className="mt-6">
           <SectionLabel>{es ? "Filtros" : "Filters"}</SectionLabel>
-          <div className="flex flex-col gap-1 px-3 [&>div]:py-0">
-            <TypeFilters activeTypes={activeTypes} onToggleType={onToggleType} />
-            <div className="pt-2">
-              <MoviesOnlyToggle moviesOnly={moviesOnly} onToggle={onToggleMoviesOnly} />
-            </div>
+          <div className="flex flex-col gap-2 px-3">
+            <TypeFilters activeTypes={activeTypes} onToggleType={onToggleType} layout="grid" />
+            <MoviesOnlyToggle moviesOnly={moviesOnly} onToggle={onToggleMoviesOnly} fullWidth />
           </div>
         </div>
       </div>

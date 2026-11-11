@@ -10,6 +10,11 @@
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
+  /* 1880px: desde aquí el timer de Doomsday flota en la esquina sin tapar la
+     columna de contenido (centrada entre el sidebar y el borde derecho).
+     Breakpoint de tema (no arbitrario `min-[...]`) para que Tailwind lo ordene
+     después de `lg` y `3xl:hidden` le gane a `lg:block`. */
+  --breakpoint-3xl: 117.5rem;
 }
 
 @media (prefers-color-scheme: dark) {

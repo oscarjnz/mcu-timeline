@@ -15,13 +15,15 @@ const allTypes: EntryType[] = ["movie", "tv", "one-shot", "special"];
 interface TypeFiltersProps {
   activeTypes: Set<EntryType>;
   onToggleType: (type: EntryType) => void;
+  /** "wrap": fila que envuelve (mobile). "grid": cuadrícula pareja de 2 columnas (sidebar). */
+  layout?: "wrap" | "grid";
 }
 
-export function TypeFilters({ activeTypes, onToggleType }: TypeFiltersProps) {
+export function TypeFilters({ activeTypes, onToggleType, layout = "wrap" }: TypeFiltersProps) {
   const { language } = useLanguage();
 
   return (
-    <div className="flex flex-wrap gap-2 py-3">
+    <div className={layout === "grid" ? "grid grid-cols-2 gap-2" : "flex flex-wrap gap-2 py-3"}>
       {allTypes.map((type) => {
         const active = activeTypes.has(type);
         return (
